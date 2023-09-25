@@ -1,0 +1,10 @@
+{consumables.map((consumable, index) => (
+            <li key={index}>
+              <h2>{consumable.consumableName}</h2>
+              <p>Brand: {consumable.brand}</p>
+              <p>Life Yield: {consumable.lifeYield}</p>
+              <p>Toner Part Name: {consumable.TonerPartName}</p>
+              <p>Colour: {consumable.colour}</p>
+              <img src={consumable.image} alt={consumable.consumableName} />
+            </li>
+          ))}

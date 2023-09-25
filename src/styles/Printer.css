@@ -1,0 +1,84 @@
+.printer-title{
+    background-color: black;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+}
+
+.sort-section{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+ 
+.printer-parent{
+    display: flex;
+}
+
+.printer-filter{
+    width: 15%;
+}
+
+.category-brand{
+    display: flex;
+    flex-direction: column;
+    line-height: 36px;
+}
+
+.printer-filter{
+    border: 2px solid rgb(210, 206, 206);
+    border-bottom: none;
+    border-top: none;
+    height: 100vh;
+    padding-left: 8px;
+}
+
+.printer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    padding-top: 5px;
+    padding-left: 12px;
+}
+
+/* media query */
+@media (max-width: 991px) {
+    .printer-filter.collapsed {
+      display: none;
+    }
+
+    .printer-filter {
+        position: absolute;
+        width: 75%; 
+        background-color: white; 
+        z-index: 1; 
+      }
+  
+    .toggle-filter-button {
+      display: block;
+    }
+  }
+  
+  .toggle-filter-button {
+    display: none; 
+  }
+  
+  /* Show toggle button on screens with width less than 991px */
+  @media (max-width: 991px) {
+    .toggle-filter-button {
+      font-size: 12px;
+      margin-top: 20px !important;
+      height: 35px;  
+      display: block;
+      text-align: center;
+      margin: 10px;
+      cursor: pointer;
+      z-index: 2;
+    }
+
+    .filter-line{
+        margin-top: 40px;
+    }
+  }

@@ -1,0 +1,11 @@
+/* service contents */
+.service-page-title{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.service-page-contents{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}

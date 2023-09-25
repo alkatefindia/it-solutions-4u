@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.title-orange{
+    color: #f15c34;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.title-blue{
+    color: #2e3192;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.footer-section{
+    margin-top: 30px;
+}
+
+.page-titles{
+    font-size: 40px;
+}
+
+.link_none{
+    text-decoration: none;
+}

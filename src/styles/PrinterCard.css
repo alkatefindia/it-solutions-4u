@@ -1,0 +1,31 @@
+.printer-card{
+    margin-top: 10px;
+    width: 250px;
+    height: 280px;
+    border: solid 3px rgb(238, 231, 231);
+}
+
+.printer-card img{
+    width: 100%;
+}
+
+.printer-card-txt{
+    padding-top: 5px;
+    padding-left: 5px;
+    text-decoration: none;
+}
+
+.printer-card-txt h5{
+    color: black;
+}
+
+.printer-card-txt h5{
+    font-size: 18px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.printer-card-txt p{
+    font-size: 16px;
+    color: rgb(128, 126, 126);
+}

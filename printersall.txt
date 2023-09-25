@@ -1,0 +1,292 @@
+import React, { useState, useEffect } from 'react';
+import NavigationBar from '../components/Navbar';
+import '../styles/Printer.css';
+import ProductCard from '../components/ProductCard';
+import { images } from '../components/PrinterImage';
+import Footer from '../components/Footer';
+
+export const products = [
+  // Kyocera
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '5551ci', printerImage: images.TASKalfa551ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3554Ci', printerImage: images.KYOCERATASKalfa3554C },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '8353i', printerImage: images.KYOCERATASKalfa8353i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '2551ci', printerImage: images.TASKalfa2551ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '7353i', printerImage: images.KYOCERATASKalfa7353i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '6053i', printerImage: images.KYOCERATASKalfa6053i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '5053ci', printerImage: images.KYOCERATASKalfa5053ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '4053ci', printerImage: images.KyoceraTaskalfa4053ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3253i', printerImage: images.KYOCERATASKalfa3253i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '2553i', printerImage: images.KYOCERATASKalfa2553i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '9003i', printerImage: images.KYOCERATASKalfa9003i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '8003i', printerImage: images.KYOCERATASKalfa8003i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '7003i', printerImage: images.KYOCERATASKalfa7003i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '6003i', printerImage: images.KYOCERATASKalfa6003i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '5003i', printerImage: images.KYOCERATASKalfa5003i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '7052ci/8052ci', printerImage: images.KYOCERATASKalfa7052ci8052ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '4052ci/5052ci/6052ci', printerImage: images.KYOCERATASKalfa4052ci5052ci6052ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '2552ci/3252ci/3552ci', printerImage: images.KYOCERATASKalfa2552ci3252ci3552ci },
+  { printerName: 'Kyocera Ecosys', brandName: 'Kyocera', model: 'M-8124', printerImage: images.KYOCERAECOSYSM8124cidn },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '9002i', printerImage: images.KYOCERATASKalfa9002i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '8002i', printerImage: images.KYOCERATASKalfa8002i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '7002i', printerImage: images.KYOCERATASKALFA7002i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '5002i/6002i', printerImage: images.KYOCERATASKalfa5002i6002i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '4002i', printerImage: images.KYOCERATASKalfa4002i },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'M-4132i', printerImage: images.KYOCERAECOSYSM4132idn },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'M-4125i', printerImage: images.KYOCERAECOSYSM4125idn },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '4012i', printerImage: images.KYOCERATASKalfa4012i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3212i', printerImage: images.KYOCERATASKalfa3212i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3511i', printerImage: images.KYOCERATASKalfa3511i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3011i', printerImage: images.KYOCERATASKalfa3011i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '1800/2200', printerImage: images.KYOCERATASKalfa18002200 },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '250ci/300ci/400ci/500ci', printerImage: images.KYOCERATASKalfa250ci300ci400ci500ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '180/181/220/221', printerImage: images.KYOCERATASKALFA180181220221 },
+  { printerName: 'Kyocera', brandName: 'Kyocera', model: 'KM-1635/KM-2035/KM-2035', printerImage: images.KYOCERAKM1635KM2035KM2050KM2035 },
+  { printerName: 'Kyocera TASKALFA', brandName: 'Kyocera', model: '420i/520i', printerImage: images.KYOCERATASKALFA420i520i },
+  { printerName: 'Kyocera TASKALFA', brandName: 'Kyocera', model: '620i/820i', printerImage: images.KYOCERATASKalfa620i820i },
+  { printerName: 'Kyocera', brandName: 'Kyocera', model: 'KM-3050/KM-4050/KM-5050', printerImage: images.KyoceraKM3050KM4050KM5050 },
+  { printerName: 'Kyocera', brandName: 'Kyocera', model: 'KM-2560/KM-3040/KM-3060', printerImage: images.KYOCERAKM2540KM2560KM3040KM3060 },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'FS1120/1125MFP', printerImage: images.KYOCERAECOSYSFS11201125MFP },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: '3860i', printerImage: images.KYOCERAECOSYSM3860idn },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: '3655i', printerImage: images.KYOCERAECOSYSM3655idn },
+  { printerName: 'Kyocera', brandName: 'Kyocera', model: 'FS-12201/32013/25106/11041', printerImage: images.KYOCERAFS12201320132510611041 },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'M-3550/3560i', printerImage: images.KYOCERAECOSYSM35503560idn },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'M-3040/3540i', printerImage: images.KYOCERAECOSYSM30403540idn },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'M-2035/2535', printerImage: images.KYOCERAECOSYSM20352535dn },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'M-20302530', printerImage: images.KYOCERAECOSYSM20302530dn },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-354/03640', printerImage: images.KYOCERAFS35403640MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-103/51135', printerImage: images.KYOCERAFS10351135MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-3040/3140', printerImage: images.KYOCERAFS30403140MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-1035/1135', printerImage: images.KYOCERAFS10351135MFP },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: 'FS-1030/1130', printerImage: images.KYOCERAECOSYSFS10301130MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-1028/1128', printerImage: images.KYOCERAFS10281128MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-1025', printerImage: images.KYOCERAFS1025MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-1024/1124', printerImage: images.KYOCERAFS10241124MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-1018', printerImage: images.KYOCERAFS1018MFP },
+  { printerName: 'Kyocera ', brandName: 'Kyocera', model: 'FS-1016', printerImage: images.KYOCERAFS1016MFP },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3010i/3510i', printerImage: images.TASKalfa3010i3510i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3501i/4501i/5501i', printerImage: images.TASKalfa3501i4501i5501i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '6501i/8001i', printerImage: images.TASKalfa6501i8001i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '8000i/6500i', printerImage: images.TASKalfa8000i6500i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3500i/4500i/5500i', printerImage: images.TASKalfa3500i4500i5500i },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '8520/8525', printerImage: images.FSC8520MFPFSC8525MFP },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '6025/6030', printerImage: images.FS6025MFPFS6030MFP },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '8020/8025/205c/255c', printerImage: images.FSC8020FSC8025205c255c },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '6551ci/7551ci', printerImage: images.TASKalfa6551ci7551ci },
+  { printerName: 'Kyocera ECOSYS', brandName: 'Kyocera', model: '5526cdn/5526cdw', printerImage: images.ECOSYSM5526cdnM5526cdw },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '4551ci', printerImage: images.TASKalfa4551ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3551ci', printerImage: images.TASKalfa3551ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '3051ci', printerImage: images.KyoceraTASKalfa3051ci },
+  { printerName: 'Kyocera TASKalfa', brandName: 'Kyocera', model: '1801/2201', printerImage: images.TASKalfa18012201 },
+  { printerName: 'Kyocera ECOSYSM', brandName: 'Kyocera', model: '2040dn/2540dn', printerImage: images.ECOSYSM2040dnM2540dn },
+  { printerName: 'Kyocera ECOSYSM', brandName: 'Kyocera', model: '3145dn/3645dn', printerImage: images.ECOSYSM3145dnM3645dn },
+  { printerName: 'Kyocera ECOSYSM', brandName: 'Kyocera', model: '5521cdn/5521cdw', printerImage: images.ECOSYSM5521cdnM5521cdw },
+  { printerName: 'Kyocera ECOSYSM', brandName: 'Kyocera', model: '6230cidn/6630cidn', printerImage: images.ECOSYSM6230cidnM6630cidn },
+  { printerName: 'Kyocera ECOSYSM', brandName: 'Kyocera', model: '352ci', printerImage: images.TASKalfa352ci },
+  { printerName: 'Kyocera ECOSYSM', brandName: 'Kyocera', model: '5026cdn', printerImage: images.ECOSYSP5026cdn },
+
+  // Triumph-Adler
+  { printerName: 'TriumphAdler', brandName: 'Triumph-Adler', model: '5007ci', printerImage: images.TriumphAdler5007ci },
+  { printerName: 'TriumphAdler', brandName: 'Triumph-Adler', model: '4007ci', printerImage: images.TriumphAdler4007ci },
+  { printerName: 'TriumphAdler', brandName: 'Triumph-Adler', model: '3207ci', printerImage: images.TriumphAdler3207ci },
+  { printerName: 'TriumphAdler', brandName: 'Triumph-Adler', model: '3005ci', printerImage: images.TriumphAdler3005ci },
+  { printerName: 'TriumphAdler', brandName: 'Triumph-Adler', model: '2506ci', printerImage: images.TriumphAdler2506ci },
+
+  // Sharp
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'AR-B351T/AR-B353P', printerImage: images.SHARPARB351TARB353P },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-M364N/MX-M464N/MX-M564N', printerImage: images.SHARPMXM364NMXM464NMXM564N },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-M354N/MX-M314N/MX-M264N', printerImage: images.SHARPMXM354NMXM314NMXM264N },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-M356/NV-M315/NV-M265/NVM-XM356/UV-M315/UV-M265UV', printerImage: images.SHARPMXM356NVM315NVM265NVMXM356UVM315UVM265UV },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'AR-5516/AR-5618/AR-5620/AR-5516/AR-5520', printerImage: images.SHARPAR5516AR5618AR5620AR5516AR5520 },
+  { printerName: 'Sharp', brandName: 'Sharp', model: '2500N/2000U', printerImage: images.SHARPDX2500N2000U },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-2310U/MX-3111U', printerImage: images.SHARPMX2310UMX3111U },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-2314N/MX-2614N/MX-3114N', printerImage: images.SHARPMX2314NMX2614NMX3114N },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-1810U/MX-2010U', printerImage: images.SHARPMX1810UMX2010U },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-2651N/MX-3051N/MX-3551N/MX-4051N/MX-5051N/MX-6051N', printerImage: images.SHARPMX2651NMX3051NMX3551NMX4051NMX5051NMX6051N },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'MX-3050N/MX-3550N/MX-4050N', printerImage: images.SHARPMX3050NMX3550NMX4050N },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'BP-30C25', printerImage: images.SHARPBP30C25 },
+  { printerName: 'Sharp', brandName: 'Sharp', model: 'BP-20C25', printerImage: images.SHARPBP20C25 },
+  { printerName: 'Sharp', brandName: 'Sharp', model: '6031NV', printerImage: images.SHARPAR6031NV },
+  { printerName: 'Sharp', brandName: 'Sharp', model: '6026NV', printerImage: images.SHARPAR6026NV },
+  { printerName: 'Sharp', brandName: 'Sharp', model: '6023NV', printerImage: images.SHARPAR6023NV },
+  { printerName: 'Sharp', brandName: 'Sharp', model: '6020NV', printerImage: images.SHARPAR6020NV },
+
+
+  // Canon
+  { printerName: 'Canon imageRUNNER', brandName: 'Canon', model: '2600', printerImage: images.CanonimageRUNNER2600 },
+  { printerName: 'Canon imageRUNNER ADVANCE', brandName: 'Canon', model: 'DX4700', printerImage: images.CanonimageRUNNERADVANCEDX4700 },
+  { printerName: 'Canon imageRUNNER ADVANCE', brandName: 'Canon', model: 'DX6700i', printerImage: images.CanonimageRUNNERADVANCEDX6700i },
+  { printerName: 'Canon imageRUNNER', brandName: 'Canon', model: '2425', printerImage: images.imageRUNNER2425 },
+  { printerName: 'Canon imageRUNNER ADVANCE', brandName: 'Canon', model: 'DXC357i', printerImage: images.CanonimageRUNNERADVANCEDXC357i },
+  { printerName: 'Canon imageRUNNER ADVANCE', brandName: 'Canon', model: 'DX717iZ/617i', printerImage: images.imageRUNNERADVANCEDX717iZ617i },
+  { printerName: 'Canon imageRUNNER ADVANCE', brandName: 'Canon', model: 'DXC3800', printerImage: images.imageRUNNERADVANCEDXC3800 },
+  { printerName: 'Canon imageRUNNER', brandName: 'Canon', model: '1643i II/1643iF II', printerImage: images.imageRUNNER1643iII1643iFII },
+  { printerName: 'Canon', brandName: 'Canon', model: 'C3226', printerImage: images.CanonimageRUNNERC3226 },
+  { printerName: 'Canon', brandName: 'Canon', model: '2206N/2006N/2206', printerImage: images.CanonimageRUNNER2206N2006N2206 },
+  { printerName: 'Canon', brandName: 'Canon', model: '3120', printerImage: images.CanonimageRUNNERC3120 },
+  { printerName: 'Canon', brandName: 'Canon', model: '5500i', printerImage: images.CanonimageRUNNERADVANCEC5500iIII },
+  { printerName: 'Canon', brandName: 'Canon', model: '1643i/1643iF', printerImage: images.CanonimageRUNNER1643i1643iF },
+  { printerName: 'Canon', brandName: 'Canon', model: '3700', printerImage: images.CanonimageRUNNERADVANCEDXC3700 },
+  { printerName: 'Canon', brandName: 'Canon', model: '5535i', printerImage: images.CanonimageRUNNERADVANCEC5535i },
+  { printerName: 'Canon', brandName: 'Canon', model: '3530i III', printerImage: images.CanonRUNNERADVANCEC3530iIII },
+  { printerName: 'Canon', brandName: 'Canon', model: '3520i III', printerImage: images.CanonADVANCEC3520iIII },
+  { printerName: 'Canon', brandName: 'Canon', model: '2520/2530', printerImage: images.CanonRUNNER25202530 },
+  { printerName: 'Canon', brandName: 'Canon', model: '5235/5240/5250/5255', printerImage: images.CANONIRADVC5235524052505255 },
+  { printerName: 'Canon', brandName: 'Canon', model: '5030/5035/5045/5051', printerImage: images.CanonIRADVC5030503550455051 },
+
+  // Konica-Minolta
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '360i', printerImage: images.KONICAMINOLTAbizhubC658C558C458KONICAMINOLTAbizhubC360i },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '450i', printerImage: images.KONICAMINOLTAbizhubC450i },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '300i', printerImage: images.KONICAMINOLTAbizhubC300i },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '266', printerImage: images.KonicaMinoltaBizhubC266 },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '458e/558e/658e/758e', printerImage: images.KONICAMINOLTAbizhub458e558e658e758e },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '367', printerImage: images.KONICAMINOLTAbizhub367 },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '306i/266i/226i', printerImage: images.KONICAMINOLTAbizhub306i266i226i },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: '225i/205i', printerImage: images.KONICAMINOLTAbizhub225i205i },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: 'C554e/C454e', printerImage: images.KonicaMinoltabizhubC554eC454e },
+  { printerName: 'KONICAMINOLTA', brandName: 'KONICAMINOLTA', model: 'C364e/C284e/C224e', printerImage: images.KonicaMinoltabizhubC364eC284eC224e },
+
+
+
+  // HP
+  { printerName: 'HP Colour Laserjet Enterprise', brandName: 'HP', model: '750', printerImage: images.HPColorLaserJetEnterpriseM750 },
+  { printerName: 'HPColorLaserjet Pro', brandName: 'HP', model: '477', printerImage: images.HPColorLaserJetProMFPM477 },
+
+  // Ricoh
+  { printerName: 'RicohIMC', brandName: 'Ricoh', model: '4500', printerImage: images.RicohIMC4500 },
+  { printerName: 'RicohIMC', brandName: 'Ricoh', model: '3000', printerImage: images.RicohIMC3000 },
+  { printerName: 'RicohIMC', brandName: 'Ricoh', model: '2000', printerImage: images.RicohIMC2000 },
+  { printerName: 'RicohIM', brandName: 'Ricoh', model: '2702', printerImage: images.RicohIM2702 },
+  { printerName: 'RicohSPC', brandName: 'Ricoh', model: '360SNW', printerImage: images.RicohSPC360SNW },
+  { printerName: 'RicohSP', brandName: 'Ricoh', model: '230FNW', printerImage: images.RicohSP230FNW },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '6503SP', printerImage: images.RicohMPC6503SP },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '6004exSP', printerImage: images.RicohMPC6004exSP },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '5504exSP', printerImage: images.RicohMPC5504exSP },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '4504exSP', printerImage: images.RicohMPC4504exSP },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '307SP/307SPF', printerImage: images.RicohMPC307SP307SPF },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '3004exSP', printerImage: images.RicohMPC3004exSP },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '2011SP', printerImage: images.RicohMPC2011SP },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '2004exSP', printerImage: images.RicohMPC2004exSP },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: 'MP501SPF/MP601SPF', printerImage: images.RicohMP501SPFMP601SPF },
+  { printerName: 'RicohMPC', brandName: 'Ricoh', model: '401SP', printerImage: images.RicohMPC401SP },
+
+
+  // UTAX
+  { printerName: 'UTAX', brandName: 'UTAX', model: '8307ci', printerImage: images.UTAX8307ci },
+  { printerName: 'UTAX', brandName: 'UTAX', model: 'C7307ci', printerImage: images.UTAXC7307ci },
+  { printerName: 'UTAX', brandName: 'UTAX', model: '6007ci/5007ci/4007ci', printerImage: images.UTAX6007ci },
+  { printerName: 'UTAX', brandName: 'UTAX', model: ' 3207ci', printerImage: images.UTAX3207ci },
+  { printerName: 'UTAX', brandName: 'UTAX', model: '2507ci', printerImage: images.UTAX2507ci },
+  { printerName: 'UTAX', brandName: 'UTAX', model: '2480i', printerImage: images.UTAXPC2480i },
+
+  // Brother
+  { printerName: 'BrotherMFCL', brandName: 'Brother', model: '6900DW', printerImage: images.BrotherMFCL6900DW },
+  { printerName: 'BrotherMFCL', brandName: 'Brother', model: '5900dw', printerImage: images.BrotherMFCL5900dw },
+  { printerName: 'BrotherMFCL', brandName: 'Brother', model: '5755DW', printerImage: images.BrotherMFCL5755DW },
+
+  // Epson
+  { printerName: 'EpsonWFC', brandName: 'Epson', model: 'WFC-21000/WFC-20750/WFC-20600/WFM-21000', printerImage: images.EpsonWFC21000WFC20750WFC20600WFM21000 },
+  { printerName: 'EpsonPro', brandName: 'Epson', model: '878RC/879RC/869R', printerImage: images.EpsonProWFC878RC879RC869R },
+  { printerName: 'EpsonPro', brandName: 'Epson', model: '579R', printerImage: images.EpsonProWFC579R },
+  { printerName: 'EpsonPro', brandName: 'Epson', model: '5790', printerImage: images.EpsonProWFC5790 },
+  { printerName: 'EpsonWFC', brandName: 'Epson', model: '20750', printerImage: images.EpsonWFC20750 },
+  { printerName: 'EpsonWFC', brandName: 'Epson', model: '20600', printerImage: images.EpsonWFC20600 },
+
+];
+
+function Printer() {
+  const [sortBy, setSortBy] = useState('recommended');
+  const [selectedBrand, setSelectedBrand] = useState('');
+  const [sortedProducts, setSortedProducts] = useState([]);
+  const [filterCollapsed, setFilterCollapsed] = useState(true);
+
+  // Function to toggle the filter section
+  const toggleFilter = () => {
+    setFilterCollapsed(!filterCollapsed);
+  };
+
+  const brands = ['Kyocera', 'Triumph-Adler', 'Sharp', 'Canon', 'KONICAMINOLTA', 'HP', 'Ricoh', 'UTAX', 'Brother', 'Epson'];
+
+  const handleSortChange = (event) => {
+    const selectedSort = event.target.value;
+    setSortBy(selectedSort);
+  };
+
+  useEffect(() => {
+    let productsToDisplay = [...products]; // Start with all products
+
+    if (selectedBrand) {
+      // Filter products based on selected brand
+      productsToDisplay = productsToDisplay.filter(product => product.brandName === selectedBrand);
+    }
+
+    if (sortBy === 'latest') {
+      productsToDisplay.sort((a, b) => b.model.localeCompare(a.model));
+    }
+
+    setSortedProducts([...productsToDisplay]);
+  }, [sortBy, selectedBrand]);
+
+  const handleBrandChange = (event) => {
+    setSelectedBrand(event.target.value);
+  };
+
+  return (
+    <div>
+      <NavigationBar />
+      <div className='printer-section'>
+        <div className='printer-title'>
+          <h3>Our Printers</h3>
+          <p>If you got any questions, please do not hesitate to send us a message. We reply within 24 hours !</p>
+        </div>
+        <div className='sort-section'>
+          <label htmlFor="sort-by">Sort by:</label>
+          <select id="sort-by" value={sortBy} onChange={handleSortChange}>
+            <option value="recommended">Default</option>
+            <option value="latest">Series</option>
+          </select>
+        </div>
+        <div className='printer-parent'>
+          <div className={`printer-filter ${filterCollapsed ? 'collapsed' : ''}`}>
+            <h6>FILTERS</h6>
+            <hr className='filter-line'/>
+            <div className='category-brand-parent'>
+              <p>Categories:</p>
+              <div className='category-brand'>
+                {brands.map(brand => (
+                  <label key={brand}>
+                    <input
+                      type='radio'
+                      value={brand}
+                      checked={selectedBrand === brand}
+                      onChange={handleBrandChange}
+                    />
+                    {brand}
+                  </label>
+                ))}
+              </div>
+            </div>
+          </div>
+          <div className='toggle-filter-button' onClick={toggleFilter}>
+            {filterCollapsed ? 'Show Filters' : 'Hide Filters'}
+          </div>
+          <div className='printer-container'>
+            {sortedProducts.map(product => (
+              <ProductCard
+                key={product.model}
+                printerName={product.printerName}
+                brandName={product.brandName}
+                model={product.model}
+                printerImage={product.printerImage}
+              />
+            ))}
+          </div>
+        </div>
+      </div>
+      <section className='footer-section'>
+        <Footer />
+      </section>
+    </div>
+  );
+}
+
+export default Printer;

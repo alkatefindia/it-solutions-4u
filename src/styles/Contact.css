@@ -1,0 +1,31 @@
+.contact-contents{
+    margin-top: 30px;
+}
+
+.contact-form {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .form-control {
+    background-color: #fafafa;
+    border: none;
+  }
+
+  .form-group {
+    margin-bottom: 25px;
+  }
+  
+  .form-group label {
+    margin-bottom: 25px; 
+  }
+  
+  .btn-dark {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  .send-button {
+    margin-top: 20px;
+  }
