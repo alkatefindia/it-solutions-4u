@@ -19,6 +19,10 @@
 .digi-mrkt-bottom-card p{
     font-size: 14px;
 }
+.digi-mrkt-bottom-card-container a{
+    text-decoration: none;
+    color: inherit;
+}
 
 /* media queries */
 @media (max-width: 1160px){

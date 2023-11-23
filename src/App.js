@@ -20,6 +20,10 @@ import { products } from './products/productData';
 import Consumables from './products/Consumables';
 import ConsumableDetail from './products/ConsumableDetail';
 import { consumables } from './products/ConsumableData';
+import SearchEngine from './pages/SearchEngine';
+import SocialMedia from './pages/SocialMedia';
+import Ppc from './pages/Ppc';
+import Contentmrkt from './pages/Content_mrkt';
 
 function App() {
   return (
@@ -33,6 +37,10 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/website-solution" element={<Websoln />} />
         <Route path="/digital-marketing" element={<Digimrkt />} />
+        <Route path="/digital-marketing/search-engine" element={<SearchEngine />} />
+        <Route path="/digital-marketing/social-media" element={<SocialMedia />} />
+        <Route path="/digital-marketing/ppc" element={<Ppc />} />
+        <Route path="/digital-marketing/content-marketing" element={<Contentmrkt />} />
         <Route path="/leasing" element={<Leasing />} />
         <Route path="/terms-and-conditions" element={<Terms />} />
         <Route path="/privacy-and-policy" element={<Privacy />} />
