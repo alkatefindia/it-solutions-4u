@@ -7,6 +7,11 @@ import '../styles/Navbar.css';
 function NavigationBar() {
     const [expanded, setExpanded] = useState(false);
     const [showModal, setShowModal] = useState(false);
+    const [isProductsDropdownOpen, setProductsDropdownOpen] = useState(false);
+
+    const handleProductsDropdown = (isOpen) => {
+        setProductsDropdownOpen(isOpen);
+      };
 
     const handleModalShow = () => {
         setShowModal(true);
@@ -40,7 +45,7 @@ function NavigationBar() {
                         <Nav.Link className='navbar-link' as={Link} to="/services" activeClassName="active">
                             Services
                         </Nav.Link>
-                        <Nav.Link className='navbar-link' as={Link} to="/products" activeClassName="active">
+                        <Nav.Link className='navbar-link' as={Link} to="/products" activeClassName="active" >
                             Products
                         </Nav.Link>
                         <Nav.Link className='navbar-link' as={Link} to="/blogs" activeClassName="active">
@@ -65,7 +70,7 @@ function NavigationBar() {
                         <Nav.Link as={Link} to="/services" className='modal-link' activeClassName="active">
                             Services
                         </Nav.Link>
-                        <Nav.Link as={Link} to="/products" className='modal-link' activeClassName="active">
+                        <Nav.Link as={Link} to="/products" className='modal-link' activeClassName="active" onMouseEnter={() => handleProductsDropdown(true)} onMouseLeave={() => handleProductsDropdown(false)}>
                             Products
                         </Nav.Link>
                         <Nav.Link as={Link} to="/blogs" className='modal-link' activeClassName="active">

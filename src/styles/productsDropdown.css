@@ -1,0 +1,13 @@
+.products-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 23%;
+    display: none;
+    background-color: rgba(68, 68, 68, 0.74);
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding-inline-end: 1.5rem;
+    z-index: 0;
+    height: 920px;
+    width: 250px;
+    overflow-y: auto;
+  }

@@ -12,13 +12,7 @@ export default function Contact() {
     e.preventDefault();
 
     emailjs.sendForm('service_p6fl8op', 'template_7qk9jig', form.current, 'CCdujmNOOWWR1EEcX')
-      .then((result) => {
-        console.log('EmailJS Success:', result.text);
-        e.target.reset();
-      })
-      .catch((error) => {
-        console.log('EmailJS Error:', error.text);
-      });
+   
   };
 
   return (
@@ -32,13 +26,13 @@ export default function Contact() {
               <Col md={6}>
                 <Form.Group controlId='name'>
                   <Form.Label>Name</Form.Label>
-                  <Form.Control type='text' placeholder='Your Name' name="user_name" required />
+                  <Form.Control type='text' placeholder='Your Name' name="name" required />
                 </Form.Group>
               </Col>
               <Col md={6}>
                 <Form.Group controlId='email'>
                   <Form.Label>Email Address</Form.Label>
-                  <Form.Control type='email' placeholder='Your Email' name="user_email" required />
+                  <Form.Control type='email' placeholder='Your Email' name="email" required />
                 </Form.Group>
               </Col>
             </Row>
