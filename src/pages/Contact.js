@@ -11,10 +11,16 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_p6fl8op', 'template_7qk9jig', form.current, 'CCdujmNOOWWR1EEcX')
+    emailjs.sendForm('service_ii2tt4d', 'template_15qcyuv', form.current, 'iNEeKpL_mzTpIjCOh')
+    form.current.reset();
+
    
   };
 
+  const handleSubmit=()=>{
+    // form.current.reset();
+
+  }
   return (
     <div>
       <NavigationBar />
@@ -38,13 +44,13 @@ export default function Contact() {
             </Row>
             <Form.Group controlId='phone'>
               <Form.Label>Contact Number</Form.Label>
-              <Form.Control type='tel' placeholder='Your Contact Number' name="user-mobile" required />
+              <Form.Control type='number' placeholder='Your Contact Number' name="mobile" required />
             </Form.Group>
             <Form.Group controlId='message'>
               <Form.Label>Message</Form.Label>
-              <Form.Control as='textarea' rows={6} placeholder='Your Message' required />
+              <Form.Control as='textarea' rows={6} placeholder='Your Message'name="message" required  />
             </Form.Group>
-            <Button variant='dark' type='submit' value="Send" className='send-button'>
+            <Button variant='dark' type='submit' value="Send" onClick={handleSubmit} className='send-button'>
               Send Message
             </Button>
           </Form>
