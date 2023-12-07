@@ -1,7 +1,7 @@
 .modal-services{
     height: auto;
     width: auto;
-    background-color:rgb(147,84,255);
+    background-color:rgb(241,92,52);
     color: white;
     padding: 7px;
     border-radius: 5px;
@@ -10,6 +10,16 @@
     background-color: red;
     color: white;
     border-top-right-radius: 5px;
+}
+.modal-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modal-button Button{
+
+    height: 50px;
+    width: 200px;
 }
 .modal{
 

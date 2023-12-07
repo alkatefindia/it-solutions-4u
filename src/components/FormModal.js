@@ -56,6 +56,7 @@ const FormModal = ({handleClose,show}) => {
             <div class="container">
               <main>
                 <form
+                className="d-flex flex-column justify-content-center"
                   id="contactForm"
                   action="sendemail.php"
                   method="post"
@@ -86,8 +87,8 @@ const FormModal = ({handleClose,show}) => {
                   </div>
                   </div>
 
-                  <div className="d-flex justify-content-center">
-              <Button className="mt-3 " type="submit" value="Send" variant="success" onClick={handleSubmit}>
+                  <div className="modal-button">
+              <Button className="mt-5" type="submit" value="Send" variant="success" onClick={handleSubmit}>
                 submit
               </Button>
             </div>

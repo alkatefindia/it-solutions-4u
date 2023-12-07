@@ -47,8 +47,8 @@ function Printer() {
   return (
     <div>
       <Helmet>
-        <title>no#1 printer suppliers, rental, repair in abu dhabi, dubai, uae, sharjah and rak-itsolution4u,digital copier</title>
-        <meta name="description" content="Digital a leading suppliers of Photocopier | Printer | Scanner | Plotter in Abu Dhabi, UAE, Sharjah and Rak. All brand" />
+        <title>Best Printer Rental in UAE, Dubai, Abu Dhabi, - Rent Now!</title>
+        <meta name="description" content="Discover the UAE's most dependable printer lease and rental service. Enjoy budget-friendly monthly rates, with no maintenance expenses or upfront capital commitments. We also cover consumables for a hassle-free experience." />
       </Helmet>
       <NavigationBar />
       <div className='printer-section'>

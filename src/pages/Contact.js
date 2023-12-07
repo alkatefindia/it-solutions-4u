@@ -41,14 +41,22 @@ export default function Contact() {
                 </Form.Group>
               </Col>
             </Row>
+            <Row>
+            <Col md={6}>
             <Form.Group controlId='company'>
                   <Form.Label>Company Name</Form.Label>
-                  <Form.Control type='text' placeholder='Company Name' name="company" required />
+                  <Form.Control type='text' placeholder='Your Company Name' name="company" required />
                 </Form.Group>
+                </Col>
+
+            <Col md={6}>
             <Form.Group controlId='phone'>
               <Form.Label>Contact Number</Form.Label>
               <Form.Control type='number' placeholder='Your Contact Number' name="mobile" required />
             </Form.Group>
+            </Col>
+
+            </Row>
             <Form.Group controlId='message'>
               <Form.Label>Message</Form.Label>
               <Form.Control as='textarea' rows={6} placeholder='Your Message'name="message" required  />
