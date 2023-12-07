@@ -18,7 +18,6 @@ export default function Contact() {
   };
 
   const handleSubmit=()=>{
-    // form.current.reset();
 
   }
   return (
@@ -42,6 +41,10 @@ export default function Contact() {
                 </Form.Group>
               </Col>
             </Row>
+            <Form.Group controlId='company'>
+                  <Form.Label>Company Name</Form.Label>
+                  <Form.Control type='text' placeholder='Company Name' name="company" required />
+                </Form.Group>
             <Form.Group controlId='phone'>
               <Form.Label>Contact Number</Form.Label>
               <Form.Control type='number' placeholder='Your Contact Number' name="mobile" required />

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../styles/Home.css';
 import { Link } from 'react-router-dom';
 import Logo from '../images/logo_white.png';
@@ -25,9 +25,26 @@ import StaffImg from '../images/why-choose-us-staffs.svg';
 import ReliableImg from '../images/why-choose-us-reliable.svg';
 import AwardImg from '../images/why-choose-us-award.svg';
 import Footer from '../components/Footer';
+import FormModal from '../components/FormModal';
+import { useEffect } from 'react';
 
 
 const Home = () => {
+
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  
+  useEffect(() => {
+    const modalShownBefore = localStorage.getItem('modalShown');
+
+    if (!modalShownBefore) {
+      handleShow();
+
+      localStorage.setItem('modalShown', 'true');
+    }
+  }, []);
 
   return (
     <div className="home-container">
@@ -172,6 +189,8 @@ const Home = () => {
           <WhychooseBox whychooseimg={AwardImg} whychoosetitle='AWARD WINNING' whychoosedesc=' Gold Partner Award from SHARP ( New Smart Office Automation ), Best Seller Mono For The Year Award at the NSOA Channel Meet from SHARP, Best Award from Al Hayat Printing Press LLC' />
         </div>
       </section>
+
+      <FormModal handleClose={handleClose} handleShow={handleShow} show={show}/>
 
       <section className='footer-section'>
         <Footer />

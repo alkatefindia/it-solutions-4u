@@ -1,0 +1,102 @@
+.modal-services{
+    height: auto;
+    width: auto;
+    background-color:rgb(147,84,255);
+    color: white;
+    padding: 7px;
+    border-radius: 5px;
+}
+.modal-close:hover{
+    background-color: red;
+    color: white;
+    border-top-right-radius: 5px;
+}
+.modal{
+
+    border-radius: 0!important;
+}
+.custom-modal{
+    max-width: 50%;
+}
+@media screen and (max-width:991px) {
+    .custom-modal{
+        max-width: 100%;
+    }
+}
+
+
+h2, h3, label, button {
+  font-family: 'Lato', sans-serif;
+}
+form {
+  padding:20px 0 0 0;
+}
+label {
+  display: block;
+  font-size: 13px;
+  letter-spacing: 1px;
+  color: #000000;
+}
+
+/* .input {
+  position: relative;
+  width: 100%;
+  margin-bottom: 35px;
+  &:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #1e83ec;
+    z-index:5;
+    transition: width .45s cubic-bezier(.694,.048,.335,1);
+    transition-delay: .1s;
+  }
+  &:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #ff561e;
+    z-index:4;
+    transition: width .45s cubic-bezier(.694,.048,.335,1);
+  }
+  &:hover:after, :focus:after, :active:after {
+    width:100%;
+  }
+  &:hover:before, :focus:before, :active:after {
+    width: 100%;
+  }
+} */
+input {
+  display: block;
+  padding: 5px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #EDEDED;
+  outline: none;
+  background: transparent;
+  &:focus {
+    transition: border-color .25s;
+    border-color:#1e83ec;
+  }
+}
+textarea {
+  display: block;
+  padding: 5px 0;
+  margin-bottom: 35px;
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #EDEDED;
+  outline: none;
+  background: transparent;
+  resize: none;
+  &:focus {
+    transition: border-color .25s;
+    border-color:#1e83ec;
+  }
+}
