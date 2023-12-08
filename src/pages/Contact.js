@@ -52,7 +52,7 @@ export default function Contact() {
             <Col md={6}>
             <Form.Group controlId='phone'>
               <Form.Label>Contact Number</Form.Label>
-              <Form.Control type='number' placeholder='Your Contact Number' name="mobile" required />
+              <Form.Control type='text' placeholder='Your Contact Number'  pattern='^\+(?:[0-9] ?){6,14}[0-9]$' title='Please enter your country code' name="mobile" required />
             </Form.Group>
             </Col>
 

@@ -47,7 +47,9 @@ const Home = () => {
   }, []);
 
   return (
+    
     <div className="home-container">
+      <FormModal handleClose={handleClose} handleShow={handleShow} show={show}/>
       <section className="banner-section">
         <nav class="navbar navbar-expand-lg navbar-home">
           <div class="nav-item-parent">
@@ -71,6 +73,9 @@ const Home = () => {
                 <li class="nav-item">
                   <Link class="nav-link nav-link-home" to='/products'>Products</Link>
                 </li>
+                {/* <li class="nav-item">
+                  <Link class="nav-link nav-link-home" to='/Portfolio'>Portfolio</Link>
+                </li> */}
                 <li class="nav-item">
                   <Link class="nav-link nav-link-home" to='/blogs'>Blog</Link>
                 </li>
@@ -190,7 +195,6 @@ const Home = () => {
         </div>
       </section>
 
-      <FormModal handleClose={handleClose} handleShow={handleShow} show={show}/>
 
       <section className='footer-section'>
         <Footer />

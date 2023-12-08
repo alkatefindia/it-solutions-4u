@@ -44,6 +44,9 @@ function NavigationBar() {
                         <Nav.Link className='navbar-link' as={Link} to="/products" activeClassName="active" >
                             Products
                         </Nav.Link>
+                        {/* <Nav.Link className='navbar-link' as={Link} to="/Portfolio" activeClassName="active" >
+                            Portfolio
+                        </Nav.Link> */}
                         <Nav.Link className='navbar-link' as={Link} to="/blogs" activeClassName="active">
                             Blogs
                         </Nav.Link>

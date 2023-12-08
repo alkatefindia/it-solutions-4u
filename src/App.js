@@ -24,6 +24,7 @@ import SearchEngine from './pages/SearchEngine';
 import SocialMedia from './pages/SocialMedia';
 import Ppc from './pages/Ppc';
 import Contentmrkt from './pages/Content_mrkt';
+import Portfolio from './pages/Portfolio';
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/products" element={<Products />} />
+        <Route path="/Portfolio" element={<Portfolio />} />
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/website-solution" element={<Websoln />} />
