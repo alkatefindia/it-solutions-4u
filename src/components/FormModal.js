@@ -35,14 +35,13 @@ const FormModal = ({handleClose,show}) => {
         <Modal.Body>
           <div className="d-flex flex-wrap  justify-content-center gap-2 mt-3">
             <div className="modal-services">Digital Marketing</div>
-            <div className="modal-services">
-              Digital Marketing Strategy Creation
-            </div>
             <div className="modal-services">Website Design & Development</div>
-            <div className="modal-services">Social Media</div>
-            <div className="modal-services">Lead Generation & Campaigns</div>
+            <div className="modal-services">Printer Rental</div>
             <div className="modal-services">SEO</div>
-            <div className="modal-services">Video Production</div>
+            <div className="modal-services">Printer Sales</div>
+            <div className="modal-services">IT AMC Services</div>
+            <div className="modal-services">CCTV</div>
+            <div className="modal-services">Mobile App Development</div>
           </div>
         </Modal.Body>
 

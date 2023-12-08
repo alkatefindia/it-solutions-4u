@@ -1,0 +1,49 @@
+.agency-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.agency-content a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+}
+.agency-content-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row-box{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    max-width: 100%;
+}
+.row-box-content{
+    width:50%
+}
+@media screen and (max-width:991px) {
+    .agency-content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .row-box h2{
+        text-align: center;
+    }
+    .row-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+
+    }
+    .row-box-content{
+        width:100%
+    }
+    
+}

@@ -25,6 +25,7 @@ import SocialMedia from './pages/SocialMedia';
 import Ppc from './pages/Ppc';
 import Contentmrkt from './pages/Content_mrkt';
 import Portfolio from './pages/Portfolio';
+import DigiMrktAgency from './pages/Digi_mrkt_agency';
 
 function App() {
   return (
@@ -39,6 +40,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/website-solution" element={<Websoln />} />
         <Route path="/digital-marketing" element={<Digimrkt />} />
+        <Route path="/digital-marketing-agency" element={<DigiMrktAgency />} />
         <Route path="/digital-marketing/search-engine" element={<SearchEngine />} />
         <Route path="/digital-marketing/social-media" element={<SocialMedia />} />
         <Route path="/digital-marketing/ppc" element={<Ppc />} />
