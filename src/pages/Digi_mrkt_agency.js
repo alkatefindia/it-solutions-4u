@@ -30,7 +30,8 @@ const Digi_mrkt_agency = () => {
           </h1>
 
           <div className="agency-content-img">
-            <img src={questionImg} width={"65%"} height={"auto"} alt="" />
+            <img src={questionImg} width={"65%"} height={"auto"} alt="digital marketing agency
+            in Dubai" />
           </div>
 
           <p className="mt-4">
@@ -76,7 +77,8 @@ const Digi_mrkt_agency = () => {
             </span>
           </h2>
           <div className="agency-content-img">
-            <img src={graph} width={"50%"} height={"auto"} alt="" />
+            <img src={graph} width={"50%"} height={"auto"} alt="digital marketing agency
+            in sharjah" />
           </div>
 
           <p>
@@ -103,7 +105,8 @@ const Digi_mrkt_agency = () => {
           </h2>
 
           <div className="agency-content-img">
-            <img src={profit} width={"50%"} height={"auto"} alt="" />
+            <img src={profit} width={"50%"} height={"auto"} alt="digital marketing agency
+            in Abu Dhabi" />
           </div>
 
           <p>
@@ -135,7 +138,7 @@ const Digi_mrkt_agency = () => {
           </h2>
 
           <div className="agency-content-img">
-            <img src={quality} width={"50%"} height={"auto"} alt="" />
+            <img src={quality} width={"50%"} height={"auto"} alt="digital marketing agency" />
           </div>
 
           <p>
@@ -162,7 +165,7 @@ const Digi_mrkt_agency = () => {
           </h2>
 
           <div className="agency-content-img">
-            <img src={service} width={"50%"} height={"250px"} alt="" />
+            <img src={service} width={"50%"} height={"250px"} alt="digital marketing agency" />
           </div>
 
           <p>
@@ -198,7 +201,7 @@ const Digi_mrkt_agency = () => {
           </h2>
 
           <div className="agency-content-img">
-            <img src={success} width={"50%"} height={"auto"} alt="" />
+            <img src={success} width={"50%"} height={"auto"} alt="digital marketing agency" />
           </div>
 
           <p>
@@ -227,7 +230,7 @@ const Digi_mrkt_agency = () => {
           </h2>
 
           <div className="agency-content-img">
-            <img src={choose} width={"50%"} height={"250px"} alt="" />
+            <img src={choose} width={"50%"} height={"250px"} alt="digital marketing agency" />
           </div>
 
           <p>
@@ -261,7 +264,7 @@ const Digi_mrkt_agency = () => {
           </h2>
 
           <div className="agency-content-img">
-            <img src={hiring} width={"50%"} height={"auto"} alt="" />
+            <img src={hiring} width={"50%"} height={"auto"} alt="digital marketing agency" />
           </div>
 
           <p>
@@ -288,7 +291,7 @@ const Digi_mrkt_agency = () => {
           </h2>
 
           <div className="agency-content-img">
-            <img src={cost} width={"50%"} height={"250px"} alt="" />
+            <img src={cost} width={"50%"} height={"250px"} alt="digital marketing agency" />
           </div>
 
           <p>

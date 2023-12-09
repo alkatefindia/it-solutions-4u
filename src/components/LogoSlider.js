@@ -14,16 +14,30 @@ import Logo10 from '../images/company-10.png'
 const LogoSection = () => {
   return (
     <div className="logo-section">
-      <div><img className="logo" src={Logo1} alt="Logo 1" /></div>
-      <div><img className="logo" src={Logo2} alt="Logo 2" /></div>
-      <div><img className="logo" src={Logo3} alt="Logo 3" /></div>
-      <div><img className="logo" src={Logo4} alt="Logo 4" /></div>
-      <div><img className="logo" src={Logo5} alt="Logo 5" /></div>
-      <div><img className="logo" src={Logo6} alt="Logo 6" /></div>
-      <div><img className="logo" src={Logo7} alt="Logo 7" /></div>
-      <div><img className="logo" src={Logo8} alt="Logo 8" /></div>
-      <div><img className="logo" src={Logo9} alt="Logo 9" /></div>
-      <div><img className="logo" src={Logo10} alt="Logo 10" /></div>
+      <div className='logo-slider'>
+      <img className="logo" src={Logo1} alt="Logo 1" />
+      <img className="logo" src={Logo2} alt="Logo 2" />
+      <img className="logo" src={Logo3} alt="Logo 3" />
+      <img className="logo" src={Logo4} alt="Logo 4" />
+      <img className="logo" src={Logo5} alt="Logo 5" />
+      <img className="logo" src={Logo6} alt="Logo 6" />
+      <img className="logo" src={Logo7} alt="Logo 7" />
+      <img className="logo" src={Logo8} alt="Logo 8" />
+      <img className="logo" src={Logo9} alt="Logo 9" />
+      <img className="logo" src={Logo10} alt="Logo 10" />
+      </div>
+      <div className='logo-slider'>
+      <img className="logo" src={Logo1} alt="Logo 1" />
+      <img className="logo" src={Logo2} alt="Logo 2" />
+      <img className="logo" src={Logo3} alt="Logo 3" />
+      <img className="logo" src={Logo4} alt="Logo 4" />
+      <img className="logo" src={Logo5} alt="Logo 5" />
+      <img className="logo" src={Logo6} alt="Logo 6" />
+      <img className="logo" src={Logo7} alt="Logo 7" />
+      <img className="logo" src={Logo8} alt="Logo 8" />
+      <img className="logo" src={Logo9} alt="Logo 9" />
+      <img className="logo" src={Logo10} alt="Logo 10" />
+      </div>
     </div>
   );
 };

@@ -62,8 +62,7 @@ const FormModal = ({handleClose,show}) => {
                   ref={form} 
                   onSubmit={sendEmail}
                 >
-                    <div className="d-flex flex-wrap gap-5"
-> 
+                    <div className="d-flex flex-wrap gap-5"> 
                   <div class="input">
                     <label for="name">First Name</label>
                     <input type="text" name="name" id="name" required />
