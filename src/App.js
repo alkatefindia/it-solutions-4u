@@ -26,6 +26,7 @@ import Ppc from './pages/Ppc';
 import Contentmrkt from './pages/Content_mrkt';
 import Portfolio from './pages/Portfolio';
 import DigiMrktAgency from './pages/Digi_mrkt_agency';
+import PrinterRental from './pages/PrinterRental';
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
         <Route path="/privacy-and-policy" element={<Privacy />} />
         <Route path="/printer" element={<Printers />} />
         <Route path="/rental" element={<Printers />} />
+        <Route path="/printer-rental" element={<PrinterRental />} />
         <Route path="/product/printer" element={<Printers />} />
         <Route path="/offer" element={<Offer />} />
         <Route path="/consumables" element={<Consumables />}/>
