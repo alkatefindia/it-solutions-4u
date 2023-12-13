@@ -11,6 +11,7 @@ import Digimrkt5 from '../images/Email_icon.svg';
 import Digimrkt6 from '../images/Content_icon.svg';
 import DigiBox from '../components/DigimrktBox';
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp';
 
 function Digi_mrkt() {
 
@@ -20,6 +21,7 @@ function Digi_mrkt() {
 
     return (
         <div>
+            <Whatsapp/>
             <NavigationBar />
             <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>

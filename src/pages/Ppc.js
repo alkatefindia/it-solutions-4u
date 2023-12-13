@@ -4,6 +4,7 @@ import NavigationBar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Button } from 'react-bootstrap'
 import ppc from '../images/ppc.png';
+import Whatsapp from '../components/Whatsapp'
 
 
 const Ppc = () => {
@@ -12,6 +13,7 @@ const Ppc = () => {
     }
   return (
     <div>
+            <Whatsapp/>
          <Helmet>
                 <title>Precision and Impact: Transform Reach with Google Ads | AL KATEF IT SOLUTIONS</title>
                 <meta name="description" content= "Maximize ROI and drive conversions with our Google Ads and Digital Advertising services. Our strategic campaigns and continuous optimization ensure your business stands out in the digital landscape. Discover the impact today." />

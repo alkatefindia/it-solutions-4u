@@ -3,10 +3,12 @@ import NavigationBar from '../components/Navbar';
 import '../styles/Blog.css';
 import Blog1 from '../images/blog_1.jpg'
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp';
 
 export default function Blogs() {
   return (
     <div>
+      <Whatsapp/>
       <NavigationBar />
       <div className='blog-page-conatiner'>
         <div className='blog-page-top'>

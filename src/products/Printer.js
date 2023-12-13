@@ -6,6 +6,7 @@ import { Helmet } from 'react-helmet';
 import ProductCard from '../components/ProductCard';
 import { products } from './productData';
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp';
 
 function Printer() {
   const [sortBy, setSortBy] = useState('recommended');
@@ -46,6 +47,8 @@ function Printer() {
 
   return (
     <div>
+            <Whatsapp/>
+
       <Helmet>
         <title>Best Printer Rental in UAE, Dubai, Abu Dhabi, - Rent Now!</title>
         <meta name="description" content="Discover the UAE's most dependable printer lease and rental service. Enjoy budget-friendly monthly rates, with no maintenance expenses or upfront capital commitments. We also cover consumables for a hassle-free experience." />

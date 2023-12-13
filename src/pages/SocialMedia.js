@@ -4,6 +4,7 @@ import SocialImg from '../images/socialmedia.png';
 import { Button } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet';
+import Whatsapp from '../components/Whatsapp';
 
 const SocialMedia = () => {
   const handlebtn=()=>{
@@ -11,6 +12,8 @@ const SocialMedia = () => {
 }
   return (
     <div>
+            <Whatsapp/>
+
          <Helmet>
                 <title>Connect and Thrive: Social Media Marketing Excellence AL KATEF IT SOLUTIONS</title>
                 <meta name="description" content= "Unlock the power of social media with our tailored Social Media Marketing services. From engaging content creation to targeted advertising, we build a community around your brand. Elevate your online presence today." />

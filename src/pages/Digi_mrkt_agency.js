@@ -12,10 +12,12 @@ import choose from "../images/choose.svg";
 import hiring from "../images/hiring.svg";
 import cost from "../images/cost.svg";
 import { Link } from "react-router-dom";
+import Whatsapp from "../components/Whatsapp";
 
 const Digi_mrkt_agency = () => {
   return (
     <div>
+            <Whatsapp/>
       <NavigationBar />
 
       <div className="container w-100">

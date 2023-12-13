@@ -4,6 +4,7 @@ import SerImg from '../images/search-engine.png';
 import { Button } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet';
+import Whatsapp from '../components/Whatsapp';
 
 
 const SearchEngine = () => {
@@ -12,6 +13,8 @@ const SearchEngine = () => {
 }
   return (
     <div>
+            <Whatsapp/>
+
          <Helmet>
                 <title>Optimize Your Online Presence with Expert SEO Services | AL KATEF IT SOLUTIONS</title>
                 <meta name="description" content= "Elevate your brand's visibility with our advanced SEO services. Our experts employ strategic techniques tailored for businesses in the UAE, ensuring your website ranks high in relevant searches. Contact us for customized solutions." />

@@ -6,10 +6,12 @@ import { Button } from 'react-bootstrap';
 import BFB from '../images/BFB_icon.svg';
 import '@fortawesome/fontawesome-free/css/all.min.css';
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp';
 
 function web_soln() {
     return (
         <div>
+            <Whatsapp/>
             <NavigationBar />
             <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>

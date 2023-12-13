@@ -8,11 +8,11 @@
 }
 
 .why-choose-box:hover .why-choose-img-box {
-    border-color: #f15c34; 
+    border-color: #1d3666; 
 }
 
 .why-choose-box:hover .why-choose-img-box img {
-    background-color: #29519a;
+    background-color:  #f15c34;
 }
 
 .why-choose-img-parent {

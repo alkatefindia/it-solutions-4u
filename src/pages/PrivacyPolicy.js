@@ -1,10 +1,13 @@
 import React from 'react'
 import NavigationBar from '../components/Navbar';
 import '../styles/terms.css'
+import Whatsapp from '../components/Whatsapp';
 
 function PrivacyPolicy() {
   return (
     <div>
+            <Whatsapp/>
+
       <NavigationBar />
       <div className='terms-container'>
       <h4>Privacy Policy</h4>

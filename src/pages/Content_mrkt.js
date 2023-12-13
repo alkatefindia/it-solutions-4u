@@ -4,6 +4,7 @@ import NavigationBar from '../components/Navbar'
 import { Button } from 'react-bootstrap'
 import Footer from '../components/Footer'
 import ppc from '../images/content-mrkt.png';
+import Whatsapp from '../components/Whatsapp'
 
 
 const Contentmrkt = () => {
@@ -13,6 +14,8 @@ const Contentmrkt = () => {
     }
   return (
     <div>
+            <Whatsapp/>
+
        <Helmet>
                 <title>Elevate Your Brand with Captivating Content Marketing | AL KATEF IT SOLUTIONS</title>
                 <meta name="description" content=  "Crafting compelling content that resonates with your audience. Our Content Marketing services enhance online authority, engage your audience, and contribute to improved search rankings. Connect with our content experts now."/>

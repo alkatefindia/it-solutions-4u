@@ -4,10 +4,13 @@ import Footer from "../components/Footer";
 import printer from "../images/printer.svg";
 import "../styles/PrinterRental.css";
 import { Helmet } from "react-helmet";
+import Whatsapp from "../components/Whatsapp";
 
 const PrinterRental = () => {
   return (
     <div>
+            <Whatsapp/>
+
             <Helmet>
                 <title>Printer Rental In ABU DHABI 100/300 AED Per Month</title>
                 <meta name="description" content= "Get a KONICA MINOLTA printer rental with zero upfront investment, free machine cost, free toners, free parts, and free service in all Emirates." />

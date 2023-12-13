@@ -13,10 +13,12 @@ import Laptop from '../images/Laptop.jpg';
 import Panel from '../images/flat panel.jpg';
 import Telecom from '../images/pabx.jpg';
 import Footer from '../components/Footer.js';
+import Whatsapp from '../components/Whatsapp.js';
 
 export default function Products() {
   return (
     <div>
+      <Whatsapp/>
       <NavigationBar />
       <div className='product-top-container'>
         <div className='product-top-img-container'>

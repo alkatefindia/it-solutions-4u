@@ -1,0 +1,162 @@
+.nav-contact-li{
+    display: none;
+}
+.nav-contact{
+    background-color: #f15c34;
+    margin-block-start: -8px;
+    margin-inline-start: 20px;
+    height: 50px;
+    width: 150px;
+    padding-left: 0!important;
+}
+.nav-contact a{
+    padding-left: 15px!important;
+
+}
+.home-section{
+    padding-inline: 100px;
+}
+.main-home{
+    height: 60vh;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.left-main , .right-main{
+    width: 50%;
+}
+.left-content h6{
+    padding: 10px;
+    width: 350px;
+}
+.left-content h1{
+    font-weight: 700;
+}
+.left-content button{
+    width: 150px;    
+    height: 40px;
+    margin-top: 20px;
+}
+.right-main-2{
+    display: none;
+}
+.service-content{
+    background-color: #FEF5F3;
+    height: auto;
+    margin-top: -100px;
+    padding-bottom: 200px;
+   
+}
+.company-section{
+    margin-top: -230px;
+}
+.all-services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+
+}
+.services-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    text-align: start;
+    border-radius: 10px;
+    width: 350px;
+    height: 350px;
+    border-radius: 20p;
+    margin-top: 50px;
+    background-color: white;
+}
+.why-choose-us{
+    background-color: #FEF5F3;
+}
+.company-title {
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+.service-logo{
+    position: relative;
+    z-index: 3;
+}
+.oval{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #f3deda80;
+    position: absolute;
+    top: 1600px;
+    left: -17%;
+    z-index: 0;
+}
+.oval2{
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: #f3deda80;
+    position: absolute;
+    top: 1000px;
+    right: -15%;
+    z-index: 0;
+}
+
+
+@media (max-width:991px) {
+    .nav-contact-li{
+        display: block;
+    }
+    .nav-contact{
+        display: none;
+    }
+    .home-section{
+        padding-inline:0px;
+    }
+    .main-home{
+        width:100%;
+        height: auto;
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items:center
+    }
+    .left-main{
+        margin-inline-start:5%;
+    }
+    .left-main , .right-main{
+        width: 90%;
+    }
+    .left-content h6{
+        padding: 10px;
+        width: 80%;
+    }
+    .right-main{
+        display: none;
+
+    }
+    .right-main-2{
+        display: block;
+    }
+    .service-content{
+        margin-top: 0;
+       padding-bottom: 50px;
+    }
+    .services-box{
+   
+        width: 300px;
+        height: 370px;
+    }
+    .company-section{
+        margin-top: -50px;
+    }
+    .company-title {
+        margin-top: 0px;
+    }
+    .oval{
+    display: none;
+    }
+}
+

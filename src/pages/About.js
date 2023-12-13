@@ -6,10 +6,12 @@ import Netwrkimg from '../images/ser_rot_network.jpg';
 import Photocpy from '../images/ser_rot_trouble_photocpy.jpg';
 import Telecom from '../images/ser_rot_telecom.jpg';
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp';
 
 export default function About() {
   return (
     <div>
+      <Whatsapp/>
       <NavigationBar />
       <div className='about-page-container'>
         <div className='about-page-top'>

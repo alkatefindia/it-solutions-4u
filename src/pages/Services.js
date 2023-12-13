@@ -16,10 +16,12 @@ import Graphicservice from '../images/designing_service_page.jpg';
 import ITservice from '../images/IT_support_service_page.jpg';
 import Amcservice from '../images/AMC_service_page.jpg';
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp';
 
 export default function Services() {
     return (
         <div className='service-page-container'>
+             <Whatsapp/>
             <NavigationBar />
             <div className='service-page-title'>
                 <h2 id='service-section'><span className='title-blue'>Our</span> <span className='title-orange'>Services</span></h2>

@@ -3,10 +3,13 @@ import NavigationBar from '../components/Navbar';
 import { Button } from 'react-bootstrap';
 import LeaseImg from '../images/Leasing_page.png'
 import Footer from '../components/Footer';
+import Whatsapp from '../components/Whatsapp';
 
 function Leasing() {
     return (
         <div>
+            <Whatsapp/>
+
             <NavigationBar />
             <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>

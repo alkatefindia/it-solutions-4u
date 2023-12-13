@@ -4,6 +4,7 @@ import { Container, Row, Col, Form, Button } from 'react-bootstrap';
 import '../styles/Contact.css';
 import Footer from '../components/Footer';
 import emailjs from '@emailjs/browser';
+import Whatsapp from '../components/Whatsapp';
 
 export default function Contact() {
   const form = useRef();
@@ -22,6 +23,7 @@ export default function Contact() {
   }
   return (
     <div>
+      <Whatsapp/>
       <NavigationBar />
       <div className='contact-contents'>
         <Container>

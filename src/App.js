@@ -27,12 +27,15 @@ import Contentmrkt from './pages/Content_mrkt';
 import Portfolio from './pages/Portfolio';
 import DigiMrktAgency from './pages/Digi_mrkt_agency';
 import PrinterRental from './pages/PrinterRental';
+import Home2 from './pages/Home2';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+
+        <Route path="/nothing" element={<Home />} />
+        <Route path="/" element={<Home2 />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
         <Route path="/products" element={<Products />} />
