@@ -14,20 +14,25 @@ import Panel from '../images/flat panel.jpg';
 import Telecom from '../images/pabx.jpg';
 import Footer from '../components/Footer.js';
 import Whatsapp from '../components/Whatsapp.js';
+import { Helmet } from 'react-helmet';
 
 export default function Products() {
   return (
     <div>
       <Whatsapp/>
+      <Helmet>
+                <title> Top-Rated Printer Providers in Dubai, UAE</title>
+                <meta name="description" content="Providing excellent printers to ensure the best possible printing experience each and every time, as well as outstanding output and high-quality printing. Select excellence"/>
+            </Helmet>
       <NavigationBar />
       <div className='product-top-container'>
         <div className='product-top-img-container'>
           <div className='product-top-grey'>
-            <img src={ImgTop} alt='err' />
+            <img src={ImgTop} alt='Top-Rated Printer Providers in Dubai, UAE' />
           </div>
         </div>
         <div className='product-top-txt'>
-          <h3><span className='title-blue'>OUR</span> <span className='title-orange'>PRODUCTS</span></h3>
+          <h1><span className='title-blue'>OUR</span> <span className='title-orange'>PRODUCTS</span></h1>
           <p>The proliferation of advanced devices are revolutionizing the way we approach productivity and streamline workflows</p>
           <p>The surge in advanced devices is reshaping productivity and workflow approaches. By seamlessly integrating technology, we're fostering collaboration, creativity, and efficiency, propelling customers to the forefront of this transformative revolution.</p>
           <Button variant="primary">Explore Now</Button>

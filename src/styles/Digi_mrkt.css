@@ -6,8 +6,9 @@
 .digi-mrkt-bottom-card-container{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    padding: 0 130px;
+    justify-content:center;
+    gap: 30px;
+    padding: 0 110px;
 }
 
 /* media queries */

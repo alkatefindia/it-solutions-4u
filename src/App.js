@@ -28,6 +28,9 @@ import Portfolio from './pages/Portfolio';
 import DigiMrktAgency from './pages/Digi_mrkt_agency';
 import PrinterRental from './pages/PrinterRental';
 import Home2 from './pages/Home2';
+import ItService from './pages/ItService';
+import Cctv from './pages/Cctv';
+import RentalService from './pages/RentalService';
 
 function App() {
   return (
@@ -43,6 +46,9 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/website-solution" element={<Websoln />} />
+        <Route path="/it-service" element={<ItService />} />
+        <Route path="/cctv" element={<Cctv />} />
+        <Route path="/rental-service" element={<RentalService />} />
         <Route path="/digital-marketing" element={<Digimrkt />} />
         <Route path="/digital-marketing-agency-dubai" element={<DigiMrktAgency />} />
         <Route path="/digital-marketing/search-engine" element={<SearchEngine />} />

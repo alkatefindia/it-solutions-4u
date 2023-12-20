@@ -15,8 +15,8 @@ const Ppc = () => {
     <div>
             <Whatsapp/>
          <Helmet>
-                <title>Precision and Impact: Transform Reach with Google Ads | AL KATEF IT SOLUTIONS</title>
-                <meta name="description" content= "Maximize ROI and drive conversions with our Google Ads and Digital Advertising services. Our strategic campaigns and continuous optimization ensure your business stands out in the digital landscape. Discover the impact today." />
+                <title>PPC agency in Dubai, google ads services in UAE.</title>
+                <meta name="description" content= "Deliver targeted results and maximize online visibility with our expert PPC services. Drive quality traffic and achieve your business goals effectively." />
             </Helmet>
              <NavigationBar />
         <div className='web-soln-top'>

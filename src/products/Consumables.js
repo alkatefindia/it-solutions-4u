@@ -16,7 +16,7 @@ function Consumables() {
             </Helmet>
             <NavigationBar />
             <div className='printer-title'>
-                <h3>CONSUMABLES</h3>
+                <h1>CONSUMABLES</h1>
                 <p>If you got any questions, please do not hesitate to send us a message. We reply within 24 hours !</p>
             </div>
             <div className="consumables-list">

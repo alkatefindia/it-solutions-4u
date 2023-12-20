@@ -56,7 +56,7 @@ function Printer() {
       <NavigationBar />
       <div className='printer-section'>
         <div className='printer-title'>
-          <h3>Our Printers</h3>
+          <h1> Types of Printers</h1>
           <p>If you got any questions, please do not hesitate to send us a message. We reply within 24 hours !</p>
         </div>
         <div className='sort-section'>

@@ -16,8 +16,8 @@ const SearchEngine = () => {
             <Whatsapp/>
 
          <Helmet>
-                <title>Optimize Your Online Presence with Expert SEO Services | AL KATEF IT SOLUTIONS</title>
-                <meta name="description" content= "Elevate your brand's visibility with our advanced SEO services. Our experts employ strategic techniques tailored for businesses in the UAE, ensuring your website ranks high in relevant searches. Contact us for customized solutions." />
+                <title>Abu Dhabi's Top SEO Agency - Drive Results with Digital Marketing</title>
+                <meta name="description" content= "Increase online presence and search engine ranks with professional SEO services. Our techniques improve a website's organic traffic and digital visibility by making it more search-engine friendly." />
             </Helmet>
         <NavigationBar />
         <div className='web-soln-top'>

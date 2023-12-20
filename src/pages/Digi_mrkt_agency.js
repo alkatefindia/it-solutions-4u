@@ -13,10 +13,15 @@ import hiring from "../images/hiring.svg";
 import cost from "../images/cost.svg";
 import { Link } from "react-router-dom";
 import Whatsapp from "../components/Whatsapp";
+import { Helmet } from "react-helmet";
 
 const Digi_mrkt_agency = () => {
   return (
     <div>
+       <Helmet>
+                <title>Top digital marketing agency in Dubai</title>
+                <meta name="description" content=  "Increase your brand's visibility by working with Dubai's top digital marketing agency. Our expert methods create excellent results by maximizing online visibility with the power of creative solutions. Reimagine your digital journey by working with us today."/>
+            </Helmet>
             <Whatsapp/>
       <NavigationBar />
 

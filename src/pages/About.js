@@ -7,11 +7,16 @@ import Photocpy from '../images/ser_rot_trouble_photocpy.jpg';
 import Telecom from '../images/ser_rot_telecom.jpg';
 import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
+import { Helmet } from 'react-helmet';
 
 export default function About() {
   return (
     <div>
       <Whatsapp/>
+      <Helmet>
+                <title> Digital Marketing Agency in UAE | IT Solutions</title>
+                <meta name="description" content=  "With the help of our Abu Dhabi-based digital marketing agency, you may achieve outstanding results online. Boost your online visibility with professional methods and creative ideas made for the success of your brand"/>
+            </Helmet>
       <NavigationBar />
       <div className='about-page-container'>
         <div className='about-page-top'>
@@ -22,7 +27,7 @@ export default function About() {
             <img className='about-page-top-img-edit abt-top-4' src={Telecom} alt='err' />
           </div>
           <div className='about-page-top-txt'>
-            <h3><span className='title-blue page-titles'>ABOUT</span> <span className='title-orange page-titles'>US</span></h3>
+            <h1><span className='title-blue page-titles'>ABOUT</span> <span className='title-orange page-titles'>US</span></h1>
             <p>Custom IT Solutions for Your Successful Business</p>
             <p>AlKatef IT solutions is a newly developed innovative solution that was introduced to better merge with the advancing 21st century technology.</p>
             <p>We have put together a number of strategies to evolve and provide dynamic formulas to our esteemed customers in order to help them work in ease and with assurance.</p>

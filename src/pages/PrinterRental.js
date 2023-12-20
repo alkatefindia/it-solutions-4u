@@ -9,13 +9,16 @@ import Whatsapp from "../components/Whatsapp";
 const PrinterRental = () => {
   return (
     <div>
-            <Whatsapp/>
+      <Whatsapp />
 
-            <Helmet>
-                <title>Printer Rental In ABU DHABI 100/300 AED Per Month</title>
-                <meta name="description" content= "Get a KONICA MINOLTA printer rental with zero upfront investment, free machine cost, free toners, free parts, and free service in all Emirates." />
-            </Helmet>
-            
+      <Helmet>
+        <title>Printer Rental In ABU DHABI 100/300 AED Per Month</title>
+        <meta
+          name="description"
+          content="Get a KONICA MINOLTA printer rental with zero upfront investment, free machine cost, free toners, free parts, and free service in all Emirates."
+        />
+      </Helmet>
+
       <NavigationBar />
 
       <div className="container w-100">
@@ -69,17 +72,17 @@ const PrinterRental = () => {
           <div>
             <h2 className="mt-4">
               <span className="title-blue">
-                Benefits of renting a printer in Abu Dhabi
+                Benefits of renting a printer in UAE
               </span>
             </h2>
 
             <p>
-              Renting a printer in Abu Dhabi offers several benefits that make
-              it a cost-effective and convenient option for individuals and
-              businesses alike. Whether you need a printer for a short-term
-              project or want to avoid the upfront cost of purchasing a printer,
-              printer rental provides a flexible solution. Here are some key
-              benefits of renting a printer in Abu Dhabi:
+              Renting a printer in UAE offers several benefits that make it a
+              cost-effective and convenient option for individuals and business
+              alike. Whether you need a printer for a short-term project or want
+              to avoid the upfront cost of purchasing a printer, printer rental
+              provides a flexible solution. Here are some key benefits of
+              renting a printer in Abu Dhabi:
             </p>
           </div>
           {/* /////////////////////////////////////////////////// */}
@@ -220,17 +223,17 @@ const PrinterRental = () => {
           <div>
             <h2 className="mt-4">
               <span className="title-blue">
-                Types of printers available for rent in Abu Dhabi
+                Types of printers available for rent in UAE
               </span>
             </h2>
 
             <p>
-              Printer rental services in Abu Dhabi offer a wide range of
-              printers to cater to different printing needs. Whether you need a
-              printer for basic document printing or require a high-performance
-              printer for professional graphics and images, there's a printer
-              rental option for you. Here are some common types of printers
-              available for rent in Abu Dhabi:
+              Printer rental services in UAE offer a wide range of printers to
+              cater to different printing needs. Whether you need a printer for
+              basic document printing or require a high-performance printer for
+              professional graphics and images, there's a printer rental option
+              for you. Here are some common types of printers available for rent
+              in Abu Dhabi:
             </p>
           </div>
           {/* ///////////////////////////////////////////////////// */}
@@ -288,7 +291,7 @@ const PrinterRental = () => {
                 handle paper sizes larger than the standard A4 or letter size,
                 allowing you to print oversized materials. Wide format printers
                 are commonly used in industries like advertising, architecture,
-                and engineering.
+                and Technology.
               </p>
             </div>
           </div>
@@ -409,11 +412,11 @@ const PrinterRental = () => {
             </h2>
 
             <p>
-              Printer rental companies in Abu Dhabi often provide additional
-              services to complement their printer rental offerings. These
-              services can enhance your printing experience and provide added
-              convenience. Here are some common additional services offered by
-              printer rental companies:
+              Printer Leasing company in UAE often provide additional services
+              to complement their printer rental offerings. These services can
+              enhance your printing experience and provide added convenience.
+              Here are some common additional services offered by printer rental
+              companies:
             </p>
           </div>
           {/* ///////////////////////////////////////////////////////// */}
@@ -423,12 +426,11 @@ const PrinterRental = () => {
               <h3 className="mt-4"> 1. Printer Setup and Installation</h3>
 
               <p>
-                Printer rental companies can assist you with the setup and
-                installation of the rented printer. They can ensure that the
-                printer is properly connected to your computer or network and
-                configure the necessary settings. This saves you time and
-                effort, especially if you're not familiar with printer setup
-                procedures.
+                AL KATEF assist you with the setup and installation of the
+                rented printer. They can ensure that the printer is properly
+                connected to your computer or network and configure the
+                necessary settings. This saves you time and effort, especially
+                if you're not familiar with printer setup procedures.
               </p>
             </div>
             <div className="border-end"></div>
@@ -450,8 +452,8 @@ const PrinterRental = () => {
               <h3 className="mt-4">3. Supplies and Consumables</h3>
 
               <p>
-                Printer rental companies may offer supplies and consumables like
-                ink cartridges, toner, and paper. Having these supplies readily
+                Leasing venture may offer supplies and consumables like ink
+                cartridges, toner, and paper. Having these supplies readily
                 available ensures that you can continue printing without
                 interruption. Some rental companies may include these supplies
                 as part of the rental package, while others may charge

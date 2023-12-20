@@ -15,8 +15,8 @@ const SocialMedia = () => {
             <Whatsapp/>
 
          <Helmet>
-                <title>Connect and Thrive: Social Media Marketing Excellence AL KATEF IT SOLUTIONS</title>
-                <meta name="description" content= "Unlock the power of social media with our tailored Social Media Marketing services. From engaging content creation to targeted advertising, we build a community around your brand. Elevate your online presence today." />
+                <title>best social media marketing services in Abu Dhabi.</title>
+                <meta name="description" content= "Get the best social media marketing services in Abu Dhabi to grow your brand. Professional techniques designed to achieve success. Boost your internet visibility right now!" />
             </Helmet>
              <NavigationBar />
         <div className='web-soln-top'>
