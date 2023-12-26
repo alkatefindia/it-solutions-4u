@@ -13,64 +13,8 @@
 .it-service-img img{
     width: 100%;
 }
-.all-service-points{
-    padding-inline:100px
-}
-.services-points{
-    width: 300px;
-    height: 300px;
-    border: 1px  solid black;
-    border-radius: 10px;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
 
-}
-.services-points button{
-    background-color: white;
-    width: 150px;
-    display: none;
-}
-.services-points button:hover{
-    color: white;
-}
-.services-points:hover h4{
-    display: none;
-}
-.services-points:hover button{
-    display: block;
-}
- .i1:hover{
-    background-image: url('../images/Cloud-computing.webp');
-    background-size: cover;
-}
- .i2:hover{
-    background-image: url('../images/cyber-security.webp');
-    background-size: cover;
-}
- .i3:hover{
-    background-image: url('../images/network-infra.webp');
-    background-size: cover;
-}
- .i4:hover{
-    background-image: url('../images/software-dev.webp');
-    background-size: cover;
-}
- .i5:hover{
-    background-image: url('../images/data-management.webp');
-    background-size: cover;
-}
- .i6:hover{
-    background-image: url('../images/business-intelligence.webp');
-    background-size: cover;
-}
- .i7:hover{
-    background-image: url('../images/it-consulting.webp');
-    background-size: cover;
-}
+
 @media (max-width:991px) {
     .it-service-top{
         display: flex;
@@ -78,7 +22,5 @@
         justify-content: center;
         padding: 0px 0px;
     }
-    .all-service-points{
-        padding-inline:0px
-    }
+
 }

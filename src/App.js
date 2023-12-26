@@ -31,6 +31,9 @@ import Home2 from './pages/Home2';
 import ItService from './pages/ItService';
 import Cctv from './pages/Cctv';
 import RentalService from './pages/RentalService';
+import Telecom from './pages/Telecom';
+import Amc from './pages/Amc';
+import CloudComputing from './pages/CloudComputing';
 
 function App() {
   return (
@@ -50,6 +53,9 @@ function App() {
         <Route path="/cctv" element={<Cctv />} />
         <Route path="/rental-service" element={<RentalService />} />
         <Route path="/digital-marketing" element={<Digimrkt />} />
+        <Route path="/telecom-solutions" element={<Telecom />} />
+        <Route path="/amc" element={<Amc />} />
+        <Route path="/cloud-computing" element={<CloudComputing />} />
         <Route path="/digital-marketing-agency-dubai" element={<DigiMrktAgency />} />
         <Route path="/digital-marketing/search-engine" element={<SearchEngine />} />
         <Route path="/digital-marketing/social-media" element={<SocialMedia />} />

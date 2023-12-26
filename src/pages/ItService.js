@@ -8,6 +8,7 @@ import IT from "../images/it-service.svg"
 
 import { useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
+import ItServiceBox from './ItServiceBox'
 
 const ItService = () => {
     const navigate=useNavigate()
@@ -49,14 +50,17 @@ const ItService = () => {
             </div>
 
             <div className='all-service-points d-flex justify-content-center flex-wrap gap-3 mt-5'>
-                <div className='services-points i1'> <h4>Cloud Computing</h4> <button className='btn'>view</button></div>
-                <div className='services-points i2'><h4>Cybersecurity</h4> <button className='btn'>view</button></div>
-                <div className='services-points i3'><h4>Network Infrastructure </h4><button className='btn'>view</button></div>
-                <div className='services-points i4'><h4>Software Development </h4><button className='btn'>view</button></div>
-                <div className='services-points i5'><h4>Data Management </h4><button className='btn'>view</button></div>
-                <div className='services-points i6'><h4>Business Intelligence </h4> <button className='btn'>view</button></div>
-                <div className='services-points i7'><h4>IT Consulting </h4><button className='btn'>view</button></div>
+            <ItServiceBox cname="i1"  title='Cloud Computing' btn='View' redirect={'/cloud-computing'}/>
+            <ItServiceBox cname="i2" title='Cybersecurity' btn='View'/>
+            <ItServiceBox cname="i3" title='Network Infrastructure' btn='View'/>
+            <ItServiceBox cname="i4" title='Software Development' btn='View'/>
+            <ItServiceBox cname="i5" title='Data Management' btn='View'/>
+            <ItServiceBox cname="i6" title='Business Intelligence ' btn='View'/>
+            <ItServiceBox cname="i7"title='IT Consulting' btn='View'/>
+      
             </div>
+      
+
 
 
 

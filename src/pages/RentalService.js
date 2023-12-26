@@ -10,7 +10,7 @@ const RentalService = () => {
 
         <div className='container'>
 
-        <h1><span className='title-blue'>Efficiency and Cost-Effectiveness Unlocked:</span> <span className="title-orange"> Printer Rental Services in Abu Dhabi</span></h1>
+        <h1 className='mt-5'><span className='title-blue'>Efficiency and Cost-Effectiveness Unlocked:</span> <span className="title-orange"> Printer Rental Services in Abu Dhabi</span></h1>
         <div className='d-flex  justify-content-center align-items-center'><img src={rental} width={'40%'} alt="" /></div>
         <p>In today's bustling business environment, the focus on efficiency and cost-effectiveness drives companies in Abu Dhabi to seek out printer rental services. With these services, access to the latest printing technology is facilitated without the burden of hefty upfront costs. Tailored options, including Toshiba Services Dubai and Konica Minolta printers in UAE, provide businesses with versatile solutions to meet their specific needs.</p>
         <h2 className='fs-3'><span className='title-blue'>Key Advantages Offered by Printer Rental Services in Abu Dhabi:</span></h2>

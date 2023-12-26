@@ -17,6 +17,7 @@ import Telecom from '../images/telecom.svg';
 // import design from '../images/design.svg';
 import IT from '../images/IT.svg';
 // import App from '../images/App.svg';
+// import front from "../images/DM.png";
 import front from "../images/front.png";
 // import front1 from "../images/P.png";
 // import front2 from "../images/front3.jpg";
@@ -31,6 +32,7 @@ import AwardImg from '../images/why-choose-us-award.svg';
 import Whatsapp from '../components/Whatsapp';
 import { useNavigate } from 'react-router-dom';
 import FormModal from '../components/FormModal';
+// import FrontSlider from '../components/FrontSlider';
 
 
 
@@ -68,12 +70,12 @@ const Home2 = () => {
     <div>
             <FormModal handleClose={handleClose} handleShow={handleShow} show={show}/>
 
-      <Whatsapp/>
+      <Whatsapp premsg='Hello, What service are you providing!'/>
       <Helmet>
-      <title>Web Design Company In Abu Dhabi. Top Rated for Website Design & Development In The UAE</title>
+      <title>UAE's Trusted IT Partner: Comprehensive Solutions for Every Business | Al Katef</title>
       <meta
       name="description"
-      content="A leading Web Design Company in Abu Dhabi, we are also a Digital Marketing Agency that provides Social Media Services and Management, SEO  and Mobile App Development"
+      content="Elevate your business with Al Katef IT Solutions, the leading IT solutions provider in UAE. We offer customized IT solutions like Telecom Solutions, AMC, Digital Marketing, Rental Service etc. to empower your digital journey. Contact us today for a free consultation!"
     />
         </Helmet>
 
@@ -139,17 +141,18 @@ const Home2 = () => {
         {/* <div className='d-flex flex-column justify-content-center align-items-center'>
         <span className="title-blue mt-5 fs-1 text-center "><h1 className='mb-3' >WE SERVE YOU  THE BEST SERVICE </h1></span>
         <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-3 mb-3 p-2'style={{width:'340px'}} >Digital Startegy With Digital Peak </h6></span>
-        </div>
+        </div> */}
 
 
-        <div className='d-flex justify-content-center align-items-center gap-3 w-100'>
-        <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" />
+        {/* <div className='d-flex justify-content-center align-items-center gap-3 w-100'> */}
+        {/* <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" />
               <img className='mt-5' src={front} width={"55%"} height={"auto"} alt="digital marketing agency in Dubai" />
-        <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" />
+        <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" /> */}
+        {/* </div>
+        <FrontSlider/>
 
-        </div>
               <div className='d-flex justify-content-center align-items-center flex-column'>
-                  <span className=" mt-5"><p className='mt-3' >Elevate your expectations with our commitment to  delivering the finest service. </p></span>
+                  <span className=" mt-5"><p className='mt-3 p-3' >Elevate your expectations with our commitment to  delivering the finest service. </p></span>
                     <span><button onClick={handleContact} className=' btn btn-primary  rounded-5'>Contact Us</button>&nbsp;&nbsp;&nbsp;&nbsp; <button onClick={handleServices} className='btn  btn-success  rounded-5'>View Services</button></span>
               </div> */}
 
@@ -167,8 +170,8 @@ const Home2 = () => {
             <ServicesBox img={q} title='Rental Service' alttxt='Rental Service' redirect="/rental-service" desc="Streamline your life with our effortless rental service, providing access to premium products without the long-term commitment" />
             <ServicesBox img={questionImg} title='Digital Marketing' alttxt='Digital Marketing' redirect="/digital-marketing" desc="Digital marketing is an essential part of many businesses marketing strategies, as it allows them to reach a larger audience" />
             {/* <ServicesBox img={Lease} title='Leasing' alttxt='Leasing'  desc="Leasing is our most popular and our most flexible services that involves renting of a product" /> */}
-            <ServicesBox img={Telecom} title='Telecom Solutions' desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
-            <ServicesBox img={Maintenance} title='AMC' alttxt='AMC' desc="We provide a yearly contract for printer /photocopier maintenance and repairs to streamline client operations." />
+            <ServicesBox img={Telecom} title='Telecom Solutions' redirect="/telecom-solutions" desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
+            <ServicesBox img={Maintenance} title='AMC' alttxt='AMC'  redirect="/amc" desc="We provide a yearly contract for printer /photocopier maintenance and repairs to streamline client operations." />
             <ServicesBox img={sales} title='SALES' alttxt='SALES' desc="Discover our diverse printers and copiers for your business needs, ensuring high-quality performance and reliability." />
             <ServicesBox img={network} title='NETWORK SOLUTIONS' alttxt='NETWORK SOLUTIONS' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
             <ServicesBox img={copying} title='PHOTOCOPYING' alttxt='PHOTOCOPYING' desc="Whether you need a copier for a day or a long-term, our expert team is here to provide you with personalized service and support." />

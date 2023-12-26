@@ -18,6 +18,7 @@ import Amcservice from '../images/AMC_service_page.jpg';
 import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
+import ToolsLogoSlider from '../components/ToolsLogoSlider';
 
 export default function Services() {
     return (
@@ -32,6 +33,88 @@ export default function Services() {
                 <h1 id='service-section'><span className='title-blue'>Our</span> <span className='title-orange'>Services</span></h1>
                 <p>Custom IT Solutions for Your Successful Business</p>
             </div>
+            {/* /////////////////////////////////////////////////////////// */}
+
+
+                <div className="form-services">
+
+                    <div className="form-card">
+                        <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
+                        <input type="text" placeholder='Email'/>
+                        <input type="tel" placeholder='Number'/>
+                        <button className='btn'>Submit</button>
+                    </div>
+
+                    <div className="services-link">
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3>Digital Marketing</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                           <h3> Sales</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3> Troubleshooting and Repair </h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3>Networking Solutions</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                           <h3> Telecom Solutions</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3> Photocopying</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3>Graphic Designing</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                           <h3> Website Development</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3>IT Support </h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3>App Development</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                           <h3> AMC</h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                        <div className='service-link-points border-bottom '>
+                          <h3> Rental Service </h3>
+                          <i class="fa-solid fa-arrow-right"></i>
+                        </div>
+                    </div>
+                    <div className="form-card2">
+                        <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
+                        <input type="text" placeholder='Email'/>
+                        <input type="tel" placeholder='Number'/>
+                        <button className='btn'>Submit</button>
+                    </div>
+
+                </div>
+
+
+
+
+            {/* /////////////////////////////////////////////////////////// */}
+
+            <ToolsLogoSlider/>
+
+            {/* /////////////////////////////////////////////////////////// */}
+
+
+
             <div className='service-page-contents'>
 
                 <ServiceRight ServiceImg={Digimrktservice} ServiceTitle='DIGITAL MARKETING' alttxt='DIGITAL MARKETING' ServiceDesc='A website is simply a platform to showcase the potential of your business. Without it being given an opportunity to play with variables that are directly in contact with the outside market conditions, it’s beyond difficult to survive in the market with numerous competitors emerging rapidly.

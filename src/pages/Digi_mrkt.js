@@ -22,7 +22,7 @@ function Digi_mrkt() {
 
     return (
         <div>
-            <Whatsapp/>
+            <Whatsapp premsg="Hi there! 👋 I'm interested in learning more about your digital marketing services"/>
             <NavigationBar />
             <Helmet>
                 <title>Maximize ROI: Effective Digital Marketing Strategies" / "Maximize ROI: Elevate Your Digital Marketing Impact</title>

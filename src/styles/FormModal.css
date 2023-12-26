@@ -47,8 +47,7 @@ label {
   letter-spacing: 1px;
   color: #000000;
 }
-
-input {
+.form-modal input {
   display: block;
   padding: 5px 0;
   width: 100%;
@@ -61,7 +60,7 @@ input {
     border-color:#1e83ec;
   }
 }
-textarea {
+.form-modal textarea {
   display: block;
   padding: 5px 0;
   margin-bottom: 35px;
