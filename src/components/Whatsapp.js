@@ -12,7 +12,7 @@ const Whatsapp = ({premsg}) => {
   return (
     <a href={whatsappLink} className='whatsapp' target="_blank" rel="noopener noreferrer">
         
-        <img src={whatsapp} alt="" />
+        <img src={whatsapp} alt="whatsapp connect" />
     </a>
   )
 }

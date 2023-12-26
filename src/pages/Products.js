@@ -19,7 +19,7 @@ import { Helmet } from 'react-helmet';
 export default function Products() {
   return (
     <div>
-      <Whatsapp/>
+      <Whatsapp premsg="Hi, I'm interested in your products. Can you provide more details about the available products"/>
       <Helmet>
                 <title> Top-Rated Printer Providers in Dubai, UAE</title>
                 <meta name="description" content="Providing excellent printers to ensure the best possible printing experience each and every time, as well as outstanding output and high-quality printing. Select excellence"/>

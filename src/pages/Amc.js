@@ -50,7 +50,7 @@ const Amc = () => {
         <h2 className="mt-5">
           <span className="title-blue">Ready to Experience the AMC Advantage?</span>
         </h2>
-        <p>Contact [Your Company Name] today and let us take the worry out of your tech life. We'll assess your needs, recommend the perfect AMC plan for your location, and ensure your devices stay happy and healthy, always.</p>
+        <p>Contact Al Katef today and let us take the worry out of your tech life. We'll assess your needs, recommend the perfect AMC plan for your location, and ensure your devices stay happy and healthy, always.</p>
         
     <CTA/>
     </div>
