@@ -9,7 +9,7 @@ import Whatsapp from "../components/Whatsapp";
 const PrinterRental = () => {
   return (
     <div>
-      <Whatsapp />
+      <Whatsapp  />
 
       <Helmet>
         <title>Printer Rental In ABU DHABI 100/300 AED Per Month</title>

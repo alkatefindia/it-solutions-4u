@@ -1,20 +1,20 @@
 import React from 'react'
 import NavigationBar from '../components/Navbar';
 import '../styles/Services.css';
-import ServiceLeft from '../components/ServicepageBoxleft';
-import ServiceRight from '../components/ServicepageBoxright';
-import Digimrktservice from '../images/digital_marketing_service_page.jpg';
-import Netwrkservice from '../images/networking_service_page.jpg';
-import Photoservice from '../images/Photocopying_service_page.jpg';
-import Webservice from '../images/website_service_page.jpg';
-import Appservice from '../images/app_development_service_page.jpg';
-import Leaseservice from '../images/Leasing_service_page.jpg';
-import Salesservice from '../images/sales_service_page.jpg';
-import Troubleservice from '../images/troubleshooting_service_page.jpg';
-import Telecomservice from '../images/Telecom_service_page.jpg';
-import Graphicservice from '../images/designing_service_page.jpg';
-import ITservice from '../images/IT_support_service_page.jpg';
-import Amcservice from '../images/AMC_service_page.jpg';
+// import ServiceLeft from '../components/ServicepageBoxleft';
+// import ServiceRight from '../components/ServicepageBoxright';
+// import Digimrktservice from '../images/digital_marketing_service_page.jpg';
+// import Netwrkservice from '../images/networking_service_page.jpg';
+// import Photoservice from '../images/Photocopying_service_page.jpg';
+// import Webservice from '../images/website_service_page.jpg';
+// import Appservice from '../images/app_development_service_page.jpg';
+// import Leaseservice from '../images/Leasing_service_page.jpg';
+// import Salesservice from '../images/sales_service_page.jpg';
+// import Troubleservice from '../images/troubleshooting_service_page.jpg';
+// import Telecomservice from '../images/Telecom_service_page.jpg';
+// import Graphicservice from '../images/designing_service_page.jpg';
+// import ITservice from '../images/IT_support_service_page.jpg';
+// import Amcservice from '../images/AMC_service_page.jpg';
 import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
@@ -115,7 +115,7 @@ export default function Services() {
 
 
 
-            <div className='service-page-contents'>
+            {/* <div className='service-page-contents'>
 
                 <ServiceRight ServiceImg={Digimrktservice} ServiceTitle='DIGITAL MARKETING' alttxt='DIGITAL MARKETING' ServiceDesc='A website is simply a platform to showcase the potential of your business. Without it being given an opportunity to play with variables that are directly in contact with the outside market conditions, it’s beyond difficult to survive in the market with numerous competitors emerging rapidly.
 
@@ -153,7 +153,9 @@ export default function Services() {
 
                 <ServiceLeft ServiceImg={Leaseservice} ServiceTitle='LEASING' alttxt='LEASING'  ServiceDesc='Leasing is our most popular and our most flexible services that involves renting of a product, mainly printers. To read more, we request you to visit our website. (Digitalcopier.ae)' />
 
-            </div>
+            </div> */}
+
+
             <section className='footer-section'>
                 <Footer />
             </section>

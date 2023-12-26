@@ -47,7 +47,7 @@ function Printer() {
 
   return (
     <div>
-            <Whatsapp/>
+            <Whatsapp premsg="Hi, I'm interested in renting a printer. Can you provide information on the available printer models, rental terms, and pricing?"/>
 
       <Helmet>
         <title>Best Printer Rental in UAE, Dubai, Abu Dhabi, - Rent Now!</title>

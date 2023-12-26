@@ -31,9 +31,9 @@
     top: 5%;
 }
 .form-card input ,.form-card2 input{
-    background-color:#f15d3475;
+    background-color:#ffffff;
     border-color: rgba(255, 255, 255, 0.315);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 5%;
     margin-bottom: 30px;
     border-radius: 10px;
@@ -41,15 +41,16 @@
     height: 60px;
 }
 .form-card input::placeholder , .form-card2 input::placeholder{
-    color:rgba(255, 255, 255, 0.523);
-
+    color:rgba(0, 0, 0, 0.523);
 }
 .form-card button , .form-card2 button{
     background-color: white;
     width: 300px;
     height: 60px;
-    border-radius: 100px;
-
+    border-radius: 50px;
+}
+.form-card button:hover , .form-card2 button:hover{
+    color: white;
 }
 .form-card2{
     display: none;
