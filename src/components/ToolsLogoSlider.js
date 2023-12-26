@@ -18,7 +18,7 @@ import Logo15 from '../images/Tools-Logo/mysql.png'
 import Logo16 from '../images/Tools-Logo/MongoDB.jpg'
 import Logo17 from '../images/Tools-Logo/Postgressql.png'
 import Logo18 from '../images/Tools-Logo/css3.png'
-import Logo19 from '../images/Tools-Logo/google analytics .webp'
+import Logo19 from '../images/Tools-Logo/google analytics .jpg'
 import Logo20 from '../images/Tools-Logo/Html5png.png'
 import Logo21 from '../images/Tools-Logo/JavaScript.png'
 import Logo22 from '../images/Tools-Logo/jquery.jpg'
@@ -30,6 +30,19 @@ import Logo27 from '../images/Tools-Logo/Figma.jpg'
 import Logo28 from '../images/Tools-Logo/Adobe_Premiere.png'
 import Logo29 from '../images/Tools-Logo/adobe-xd.jpg'
 import Logo30 from '../images/Tools-Logo/Illustrator.jpg'
+import Logo31 from '../images/Tools-Logo/ahrefs.jpg'
+import Logo32 from '../images/Tools-Logo/ubersuggest-review-logo.webp'
+import Logo33 from '../images/Tools-Logo/semrush.webp'
+import Logo34 from '../images/Tools-Logo/chatgpt.png'
+import Logo35 from '../images/Tools-Logo/Google search console.png'
+import Logo36 from '../images/Tools-Logo/Tagmanager.jpg'
+import Logo37 from '../images/Tools-Logo/meta.webp'
+import Logo38 from '../images/Tools-Logo/linked-in-ads.jpg'
+import Logo39 from '../images/Tools-Logo/tiktok-ads.jpg'
+import Logo40 from '../images/Tools-Logo/zoho.png'
+import Logo41 from '../images/Tools-Logo/Mail chimp.png'
+import Logo42 from '../images/Tools-Logo/Hubspot.jpg'
+
 
 const ToolsLogoSlider = () => {
   return (
@@ -47,6 +60,9 @@ const ToolsLogoSlider = () => {
       <img className="Tools-logo" src={Logo9} alt="Logo 9" />
       <img className="Tools-logo" src={Logo28} alt="Logo 5" />
       <img className="Tools-logo" src={Logo29} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo34} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo35} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo36} alt="Logo 4" />
 
 
       
@@ -63,6 +79,9 @@ const ToolsLogoSlider = () => {
       <img className="Tools-logo" src={Logo9} alt="Logo 9" />
       <img className="Tools-logo" src={Logo28} alt="Logo 5" />
       <img className="Tools-logo" src={Logo29} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo34} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo35} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo36} alt="Logo 4" />
 
       </div>
     </div>
@@ -79,7 +98,10 @@ const ToolsLogoSlider = () => {
       <img className="Tools-logo" src={Logo17} alt="Logo 8" />
       <img className="Tools-logo" src={Logo18} alt="Logo 9" />
       <img className="Tools-logo" src={Logo30} alt="Logo 5" />
-      <img className="Tools-logo" src={Logo13} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo31} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo37} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo38} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo39} alt="Logo 4" />
 
 
       </div>
@@ -94,7 +116,10 @@ const ToolsLogoSlider = () => {
       <img className="Tools-logo" src={Logo17} alt="Logo 8" />
       <img className="Tools-logo" src={Logo18} alt="Logo 9" />
       <img className="Tools-logo" src={Logo30} alt="Logo 5" />
-      <img className="Tools-logo" src={Logo13} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo31} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo37} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo38} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo39} alt="Logo 4" />
       </div>
     </div>
 
@@ -110,8 +135,11 @@ const ToolsLogoSlider = () => {
       <img className="Tools-logo" src={Logo25} alt="Logo 7" />
       <img className="Tools-logo" src={Logo26} alt="Logo 8" />
       <img className="Tools-logo" src={Logo27} alt="Logo 9" />
-      <img className="Tools-logo" src={Logo23} alt="Logo 5" />
-      <img className="Tools-logo" src={Logo22} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo32} alt="Logo 5" />
+      <img className="Tools-logo" src={Logo33} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo40} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo41} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo42} alt="Logo 4" />
 
 
       </div>
@@ -125,8 +153,11 @@ const ToolsLogoSlider = () => {
       <img className="Tools-logo" src={Logo25} alt="Logo 7" />
       <img className="Tools-logo" src={Logo26} alt="Logo 8" />
       <img className="Tools-logo" src={Logo27} alt="Logo 9" />
-      <img className="Tools-logo" src={Logo23} alt="Logo 5" />
-      <img className="Tools-logo" src={Logo22} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo32} alt="Logo 5" />
+      <img className="Tools-logo" src={Logo33} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo40} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo41} alt="Logo 4" />
+      <img className="Tools-logo" src={Logo42} alt="Logo 4" />
       </div>
     </div>
 
