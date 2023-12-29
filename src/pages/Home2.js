@@ -123,7 +123,7 @@ const Home2 = () => {
             <div className='left-main'>
             <div className='left-services '>
                     <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-2 mb-3 p-3' >It Solutions</h6></span>
-                    <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-2 mb-3 p-3' > Printer</h6></span>
+                    <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-2 mb-3 p-3' > Printer Service</h6></span>
                     <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-2 mb-3 p-3' >Digital Marketing </h6></span>
                     </div>
                 <div className='left-content  '>
