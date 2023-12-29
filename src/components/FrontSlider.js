@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import front from '../images/DM.png';
-import front1 from '../images/print.png';
+import front1 from '../images/P.png';
 import front2 from '../images/it-sol.png';
 import '../styles/FrontSlider.css';
 

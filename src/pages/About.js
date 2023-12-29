@@ -1,10 +1,10 @@
 import React from 'react';
 import '../styles/About.css';
 import NavigationBar from '../components/Navbar';
-import Trouble from '../images/ser_rot_trouble.jpg';
-import Netwrkimg from '../images/ser_rot_network.jpg';
-import Photocpy from '../images/ser_rot_trouble_photocpy.jpg';
-import Telecom from '../images/ser_rot_telecom.jpg';
+import Trouble from '../images/ser_rot_trouble.webp';
+import Netwrkimg from '../images/ser_rot_network.webp';
+import Photocpy from '../images/ser_rot_trouble_photocpy.webp';
+import Telecom from '../images/ser_rot_telecom.webp';
 import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';

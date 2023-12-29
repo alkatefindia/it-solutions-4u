@@ -34,6 +34,8 @@ import RentalService from './pages/RentalService';
 import Telecom from './pages/Telecom';
 import Amc from './pages/Amc';
 import CloudComputing from './pages/CloudComputing';
+import NetworkInfrstr from './pages/NetworkInfrstr';
+import ItConsulting from './pages/ItConsulting';
 
 function App() {
   return (
@@ -56,6 +58,8 @@ function App() {
         <Route path="/telecom-solutions" element={<Telecom />} />
         <Route path="/amc" element={<Amc />} />
         <Route path="/cloud-computing" element={<CloudComputing />} />
+        <Route path="/network-infrastructure" element={<NetworkInfrstr />} />
+        <Route path="/it-consulting" element={<ItConsulting />} />
         <Route path="/digital-marketing-agency-dubai" element={<DigiMrktAgency />} />
         <Route path="/digital-marketing/search-engine" element={<SearchEngine />} />
         <Route path="/digital-marketing/social-media" element={<SocialMedia />} />

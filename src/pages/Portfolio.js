@@ -1,8 +1,8 @@
 import React from 'react'
 import NavigationBar from '../components/Navbar'
 import Footer from '../components/Footer'
+import  "../styles/portfolio.css"
 import PortfolioBox from '../components/PortfolioBox'
-import website from '../images/website.webp';
 
 
 
@@ -10,17 +10,14 @@ const Portfolio = () => {
   return (
     <div>
       <NavigationBar />
-      
-      <div className='d-flex flex-wrap gap-1 row-gap-4 container justify-content-center'>
-      <PortfolioBox imageSrc={website} boxRottitle='Website'/>
-      <PortfolioBox imageSrc={website} boxRottitle='Digital Marketing' />
-      <PortfolioBox imageSrc={website} boxRottitle='Mobile App' />
-      <PortfolioBox imageSrc={website} boxRottitle='SEO' />
-      <PortfolioBox imageSrc={website} boxRottitle='SEO' />
-      <PortfolioBox imageSrc={website} boxRottitle='SEO' />
+<div className='container'>
+      <div className='portfolio-section  '>
+        <h1><span className='title-orange'>Portfolio</span></h1>
+        <p> <span className='title-blue'> Our design agency offers innovative solutions that captivate<br/>customers, drive engagement and get results.</span></p>
       </div>
-
-
+      <hr/>
+      </div>
+      <PortfolioBox/>
       <section className='footer-section'>
         <Footer />
       </section>        

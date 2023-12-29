@@ -67,7 +67,11 @@
 .service-link-points i{
     font-size: 35px;
     transform: rotate(-45deg);
-    transition: transform 0.5s ease;
+    transition: transform 0.4s ease;
+}
+.service-link-points a{
+    text-decoration: none;
+    color: inherit;
 }
 .service-link-points:hover{
     color: #f15c34;
@@ -76,7 +80,6 @@
     transform: rotate(0deg);
     color: #f15c34;
 }
-
 @media screen and (max-width:1000px){
     .form-services{
         flex-direction: column;

@@ -37,6 +37,16 @@
 .footer-copyright-section p{
     color: rgb(0, 0, 0);
 }
+.footer-section-contact{
+    margin-block-start: 8px;
+}
+
+.soc-med-i a{
+    color: inherit;
+}
+.soc-med-i a:hover{
+    color:blue;
+}
 
 /* media queries */
 

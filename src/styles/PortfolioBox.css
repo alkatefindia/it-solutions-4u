@@ -1,43 +1,62 @@
- .portfolio-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 50px;
- }
- .portfolio-box {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    text-align: center;
-    width: 400px;
-    height: 350px;
-    position: relative;
-    border-radius: 100px;
+
+.website-pro ,  .Mobile-pro, .SEO-pro , .Digital-pro  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  position: sticky;  
+  top: 0%;
+}
+.website-content , .Digital-content, .Mobile-content, .SEO-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 600px;
+  background:url(../images/itsolutions4u.jpg);  
+  filter: brightness(40%);
+  background-size: cover;
+  border: solid 1px;  
+}
+.porjects-title{
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.porjects-title p {
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  width: 50%;
+  text-align: center;
+}
+.Digital-content{
+  background:url(../images/digital-marketing.webp);
+  background-size: cover;
+}
+.Mobile-content{
+  background:url(../images/mobile\ app.webp); 
+  background-size: cover;
+}
+.SEO-content{ 
+  background:url(../images/searching-engine-optimizing.webp);  
+  background-size: cover;
+}
+
+  @media screen and (max-width:991px) {
+
+    .website-content , .Digital-content, .Mobile-content, .SEO-content {
+      height: 400px;
+      }
+      .porjects-title p {
+        display: none;
+    }
   }
-  .portfolio-img {
-   width: 100%;
-    height: 100%;
-    filter: brightness(50%);
-  }
-  .portfolio-img:hover {
-    filter: brightness(100%);
-  }
-  .portfolio-img img{
-   width: 100%;
-    height: 100%;
-      object-fit: cover;
-  }
-  .portfolio-title{
-   position: absolute;
-   z-index: 1;
-   color: white;
-   font-size: 25px;
-   font-weight: 600;
-   text-decoration: underline;
-  }
-  .portfolio-box:hover{
-   filter: brightness(100%);
-  }
+
 
 
 

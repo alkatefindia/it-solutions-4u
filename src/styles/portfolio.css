@@ -1,0 +1,30 @@
+.portfolio-section{
+    margin-block: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: end;
+}
+.portfolio-section h1{
+    font-size: 100px;
+}
+@media screen and (max-width:991px) {
+    .portfolio-section{
+        margin-block: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        text-align: center;
+    }
+    .portfolio-section br{
+        display: none;
+    }
+    .portfolio-section h1{
+        font-size: 50px;
+    }
+    .all-portfolio-box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+}

@@ -119,10 +119,16 @@ const Home2 = () => {
 
         <section className='container home-section'>
         <div className='main-home '>
+          
             <div className='left-main'>
+            <div className='left-services '>
+                    <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-2 mb-3 p-3' >It Solutions</h6></span>
+                    <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-2 mb-3 p-3' > Printer</h6></span>
+                    <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-2 mb-3 p-3' >Digital Marketing </h6></span>
+                    </div>
                 <div className='left-content  '>
-                    <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-5 mb-3' >Digital Startegy With Digital Peak </h6></span>
-                    <span className="title-blue mt-5 "><h1 className='mb-3' >WE SERVE YOU <br className='br-none'/> THE BEST SERVICE </h1></span>
+                 
+                    <span className="title-blue mt-5 "><h1 className='mb-3' >We Build UAE's Future with <span className='title-orange'> IT Solutions.</span> </h1></span>
                     <div className='right-main-2'>
                     <img className='mt-5' src={front} width={"100%"} height={"auto"} alt="digital marketing agency in Dubai" />
                    </div>
@@ -141,17 +147,17 @@ const Home2 = () => {
         {/* <div className='d-flex flex-column justify-content-center align-items-center'>
         <span className="title-blue mt-5 fs-1 text-center "><h1 className='mb-3' >WE SERVE YOU  THE BEST SERVICE </h1></span>
         <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-3 mb-3 p-2'style={{width:'340px'}} >Digital Startegy With Digital Peak </h6></span>
-        </div> */}
+        </div>
 
 
-        {/* <div className='d-flex justify-content-center align-items-center gap-3 w-100'> */}
+        <div className='d-flex justify-content-center align-items-center gap-3 w-100'> */}
         {/* <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" />
               <img className='mt-5' src={front} width={"55%"} height={"auto"} alt="digital marketing agency in Dubai" />
         <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" /> */}
-        {/* </div>
-        <FrontSlider/>
+        {/* </div> */}
+        {/* <FrontSlider/> */}
 
-              <div className='d-flex justify-content-center align-items-center flex-column'>
+              {/* <div className='d-flex justify-content-center align-items-center flex-column'>
                   <span className=" mt-5"><p className='mt-3 p-3' >Elevate your expectations with our commitment to  delivering the finest service. </p></span>
                     <span><button onClick={handleContact} className=' btn btn-primary  rounded-5'>Contact Us</button>&nbsp;&nbsp;&nbsp;&nbsp; <button onClick={handleServices} className='btn  btn-success  rounded-5'>View Services</button></span>
               </div> */}

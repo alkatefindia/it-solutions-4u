@@ -19,6 +19,7 @@ import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
 import ToolsLogoSlider from '../components/ToolsLogoSlider';
+import { Link } from 'react-router-dom';
 
 export default function Services() {
     return (
@@ -47,53 +48,53 @@ export default function Services() {
 
                     <div className="services-link">
                     <div className='service-link-points border-bottom mb-5'>
-                          <h3>IT Support </h3>
+                          <h3> <Link to="/it-service" > IT Support </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3> Rental Service </h3>
+                          <h3> <Link to="/rental-service"> Rental Service  </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5 '>
-                           <h3> Sales</h3>
+                           <h3><Link to=""> Sales </Link></h3>
+                          <i class="fa-solid fa-arrow-right" ></i>
+                        </div>
+                        <div className='service-link-points border-bottom mb-5'>
+                          <h3><Link to=""> Photocopying </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3> Photocopying</h3>
+                          <h3><Link to="/digital-marketing">Digital Marketing </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3>Digital Marketing</h3>
+                           <h3><Link to="/amc"> AMC  </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5'>
-                           <h3> AMC</h3>
+                          <h3> <Link to="">Troubleshooting and Repair  </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3> Troubleshooting and Repair </h3>
+                          <h3><Link to="">Networking Solutions </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3>Networking Solutions</h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                        <div className='service-link-points border-bottom mb-5'>
-                           <h3> Telecom Solutions</h3>
+                           <h3><Link to="/telecom-solutions"> Telecom Solutions </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3>Graphic Designing</h3>
+                          <h3><Link to="">Graphic Designing </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         <div className='service-link-points border-bottom mb-5'>
-                           <h3> Website Development</h3>
+                           <h3><Link to=""> Website Development </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                         
                         <div className='service-link-points border-bottom'>
-                          <h3>App Development</h3>
+                          <h3><Link to="">App Development </Link></h3>
                           <i class="fa-solid fa-arrow-right"></i>
                         </div>
                        

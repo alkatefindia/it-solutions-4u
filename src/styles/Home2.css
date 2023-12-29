@@ -31,6 +31,11 @@
     width: 55%;
 
 }
+.left-services{
+    display: flex;  
+    column-gap: 20px;
+
+}
 .left-content h6{
     padding: 10px;
     width: 350px;
@@ -154,6 +159,13 @@
     }
     .left-main , .right-main{
         width: 90%;
+    }
+    .left-services{
+        display: none; 
+        
+    }
+    .left-content{
+        margin-block-start: 50px;
     }
     .left-content h6{
         padding: 10px;
