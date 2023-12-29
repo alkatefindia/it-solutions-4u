@@ -176,7 +176,7 @@ const Home2 = () => {
             <ServicesBox img={q} title='Rental Service' alttxt='Rental Service' redirect="/rental-service" desc="Streamline your life with our effortless rental service, providing access to premium products without the long-term commitment" />
             <ServicesBox img={questionImg} title='Digital Marketing' alttxt='Digital Marketing' redirect="/digital-marketing" desc="Digital marketing is an essential part of many businesses marketing strategies, as it allows them to reach a larger audience" />
             {/* <ServicesBox img={Lease} title='Leasing' alttxt='Leasing'  desc="Leasing is our most popular and our most flexible services that involves renting of a product" /> */}
-            <ServicesBox img={Telecom} title='Telecom Solutions' redirect="/telecom-solutions" desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
+            <ServicesBox img={Telecom} title='Telecom Solutions'  desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
             <ServicesBox img={Maintenance} title='AMC' alttxt='AMC'  redirect="/amc" desc="We provide a yearly contract for printer /photocopier maintenance and repairs to streamline client operations." />
             <ServicesBox img={sales} title='SALES' alttxt='SALES' desc="Discover our diverse printers and copiers for your business needs, ensuring high-quality performance and reliability." />
             <ServicesBox img={network} title='NETWORK SOLUTIONS' alttxt='NETWORK SOLUTIONS' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
