@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import '../styles/Home.css';
 import { Link } from 'react-router-dom';
 import Logo from '../images/logo_white.png';
@@ -25,31 +25,16 @@ import StaffImg from '../images/why-choose-us-staffs.svg';
 import ReliableImg from '../images/why-choose-us-reliable.svg';
 import AwardImg from '../images/why-choose-us-award.svg';
 import Footer from '../components/Footer';
-import FormModal from '../components/FormModal';
-import { useEffect } from 'react';
+
 
 
 const Home = () => {
 
-  const [show, setShow] = useState(false);
 
-  const handleClose = () => setShow(false);
-  const handleShow = () => setShow(true);
-  
-  useEffect(() => {
-    const modalShownBefore = localStorage.getItem('modalShown');
-
-    if (!modalShownBefore) {
-      handleShow();
-
-      localStorage.setItem('modalShown', 'true');
-    }
-  }, []);
 
   return (
     
     <div className="home-container">
-      <FormModal handleClose={handleClose} handleShow={handleShow} show={show}/>
       <section className="banner-section">
         <nav class="navbar navbar-expand-lg navbar-home">
           <div class="nav-item-parent">

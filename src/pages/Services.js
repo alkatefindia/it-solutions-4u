@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import NavigationBar from '../components/Navbar';
 import '../styles/Services.css';
 // import ServiceLeft from '../components/ServicepageBoxleft';
@@ -20,8 +20,18 @@ import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
 import ToolsLogoSlider from '../components/ToolsLogoSlider';
 import { Link } from 'react-router-dom';
+import emailjs from '@emailjs/browser';
+
 
 export default function Services() {
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm('service_ii2tt4d', 'template_15qcyuv', form.current, 'iNEeKpL_mzTpIjCOh')
+    console.log("sending");
+    form.current.reset();
+    console.log("send");
+  };
     return (
         <div className='service-page-container'>
              <Whatsapp premsg="Hi, I'm interested in learning more about your services"/>
@@ -39,73 +49,92 @@ export default function Services() {
 
                 <div className="form-services">
 
-                    <div className="form-card">
+                    <form className="form-card"
+                       id="contactForm"
+                       action="sendemail.php"
+                       method="post"
+                       ref={form} 
+                       onSubmit={sendEmail}
+                       >
                         <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
-                        <input type="text" placeholder='Email'/>
-                        <input type="tel" placeholder='Number'/>
-                        <button className='btn'>Submit</button>
-                    </div>
+                        <input type="email" name='email' id='email' placeholder='Email' required/>
+                        <input type="tel" name='mobile' id='mobile' placeholder='Number' required/>
+                        <button className='btn' type="submit" value="Send">Submit</button>
+                    </form>
 
-                    <div className="services-link">
+                    <div className="services-link"> <Link to="/it-service" >
                     <div className='service-link-points border-bottom mb-5'>
-                          <h3> <Link to="/it-service" > IT Support </Link></h3>
+                          <h3> IT Support </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div></Link>
+                        <Link to="/rental-service">
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3> <Link to="/rental-service"> Rental Service  </Link></h3>
+                          <h3>  Rental Service  </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div></Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom mb-5 '>
-                           <h3><Link to=""> Sales </Link></h3>
+                           <h3> Sales </h3>
                           <i class="fa-solid fa-arrow-right" ></i>
-                        </div>
+                        </div></Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3><Link to=""> Photocopying </Link></h3>
+                          <h3> Photocopying </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div></Link>
+                        <Link to="/digital-marketing">
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3><Link to="/digital-marketing">Digital Marketing </Link></h3>
+                          <h3>Digital Marketing </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div></Link>
+                        <Link to="/amc"> 
                         <div className='service-link-points border-bottom mb-5'>
-                           <h3><Link to="/amc"> AMC  </Link></h3>
+                           <h3>AMC  </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div></Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3> <Link to="">Troubleshooting and Repair  </Link></h3>
+                          <h3> Troubleshooting and Repair </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div> </Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3><Link to="">Networking Solutions </Link></h3>
+                          <h3>Networking Solutions</h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div> </Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom mb-5'>
-                           <h3><Link to="/telecom-solutions"> Telecom Solutions </Link></h3>
+                           <h3> Telecom Solutions</h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                        
+                        </div> </Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom mb-5'>
-                          <h3><Link to="">Graphic Designing </Link></h3>
+                          <h3>Graphic Designing </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
+                        </div></Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom mb-5'>
-                           <h3><Link to=""> Website Development </Link></h3>
+                           <h3> Website Development </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                        
+                        </div></Link>
+                        <Link to="">
                         <div className='service-link-points border-bottom'>
-                          <h3><Link to="">App Development </Link></h3>
+                          <h3>App Development </h3>
                           <i class="fa-solid fa-arrow-right"></i>
-                        </div>
-                       
-                        
+                        </div></Link>
                     </div>
-                    <div className="form-card2">
+                    <form className="form-card2"
+                       id="contactForm"
+                       action="sendemail.php"
+                       method="post"
+                       ref={form} 
+                       onSubmit={sendEmail}
+                       >
                         <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
-                        <input type="text" placeholder='Email'/>
-                        <input type="tel" placeholder='Number'/>
-                        <button className='btn'>Submit</button>
-                    </div>
+                        <input type="email" name='email' id='email' placeholder='Email' required/>
+                        <input type="tel" name='mobile' id='mobile' placeholder='Number' required/>
+                        <button className='btn' type="submit" value="Send">Submit</button>
+                    </form>
 
                 </div>
 

@@ -36,6 +36,10 @@ import Amc from './pages/Amc';
 import CloudComputing from './pages/CloudComputing';
 import NetworkInfrstr from './pages/NetworkInfrstr';
 import ItConsulting from './pages/ItConsulting';
+import CyberSecurity from './pages/CyberSecurity';
+import DataManagement from './pages/DataManagement';
+import SoftwareDev from './pages/SoftwareDev';
+import BusinessIntlgnc from './pages/BusinessIntlgnc';
 
 function App() {
   return (
@@ -58,8 +62,12 @@ function App() {
         <Route path="/telecom-solutions" element={<Telecom />} />
         <Route path="/amc" element={<Amc />} />
         <Route path="/cloud-computing" element={<CloudComputing />} />
+        <Route path="/cybersecurity" element={<CyberSecurity />} />
         <Route path="/network-infrastructure" element={<NetworkInfrstr />} />
+        <Route path="/data-management" element={<DataManagement />} />
+        <Route path="/software-development" element={<SoftwareDev />} />
         <Route path="/it-consulting" element={<ItConsulting />} />
+        <Route path="/business-intelligence" element={<BusinessIntlgnc />} />
         <Route path="/digital-marketing-agency-dubai" element={<DigiMrktAgency />} />
         <Route path="/digital-marketing/search-engine" element={<SearchEngine />} />
         <Route path="/digital-marketing/social-media" element={<SocialMedia />} />

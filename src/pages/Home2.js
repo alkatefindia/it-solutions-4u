@@ -1,27 +1,19 @@
-import React, { useEffect, useState } from 'react'
+import React, {  useState } from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import Logo from '../images/logo_black.png';
 import Footer from '../components/Footer';
 import "../styles/Home2.css"
-// import "../styles/Home.css"
 import questionImg from "../images/questions.svg";
 import Websoln from '../images/ser_sec_web.svg';
-// import Lease from '../images/ser_sec_lease.svg';
 import Maintenance from '../images/maintenance.svg';
 import q from '../images/q.svg';
 import sales from '../images/sales.svg';
 import network from '../images/network.svg';
 import copying from '../images/copying.svg';
 import Telecom from '../images/telecom.svg';
-// import design from '../images/design.svg';
 import IT from '../images/IT.svg';
-// import App from '../images/App.svg';
-// import front from "../images/DM.png";
 import front from "../images/front.png";
-// import front1 from "../images/P.png";
-// import front2 from "../images/front3.jpg";
-
 import ServicesBox from '../components/ServicesBox';
 import LogoSlider from '../components/LogoSlider';
 import WhychooseBox from '../components/WhychooseBox';
@@ -32,9 +24,6 @@ import AwardImg from '../images/why-choose-us-award.svg';
 import Whatsapp from '../components/Whatsapp';
 import { useNavigate } from 'react-router-dom';
 import FormModal from '../components/FormModal';
-// import FrontSlider from '../components/FrontSlider';
-
-
 
 
 
@@ -45,15 +34,7 @@ const Home2 = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   
-  useEffect(() => {
-    const modalShownBefore = localStorage.getItem('modalShown');
 
-    if (!modalShownBefore) {
-      handleShow();
-
-      localStorage.setItem('modalShown', 'true');
-    }
-  }, []);
 
 
   const navigate = useNavigate();

@@ -11,7 +11,7 @@ const CloudComputing = () => {
     <div>
       <Helmet>
         <title>
-          Unleash Innovation: Top-Tier IT Solutions in Abu Dhabi | Al Katef{" "}
+          Unleash Innovation: Top-Tier IT Solutions in Abu Dhabi | Al Katef
         </title>
         <meta
           name="description"
@@ -24,7 +24,7 @@ const CloudComputing = () => {
 
       <div className="container cloud-computing-container">
         <h1 className="text-center">
-          <span className="title-blue">CLOUD</span>{" "}
+          <span className="title-blue">CLOUD</span>
           <span className="title-orange">COMPUTING</span>
         </h1>
         <div className="agency-content-img">
