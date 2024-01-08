@@ -1,7 +1,7 @@
 import React from 'react'
 import Whatsapp from '../components/Whatsapp'
 import NavigationBar from '../components/Navbar'
-import data_management from "../images/data-management.svg";
+import software from "../images/computer.svg";
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer';
 
@@ -23,7 +23,7 @@ const SoftwareDev = () => {
 
         <div className="agency-content-img">
           <img
-            src={data_management}
+            src={software}
             width={"55%"}
             height={"auto"}
             alt="digital marketing agency

@@ -25,13 +25,25 @@ import emailjs from '@emailjs/browser';
 
 export default function Services() {
   const form = useRef();
-  const sendEmail = (e) => {
+  const form1 = useRef();
+
+  const serviceId = 'service_ii2tt4d';
+  const templateId = 'template_wb2szsi';
+  const userId = 'iNEeKpL_mzTpIjCOh';
+
+  const sendEmail = (e, formRef) => {
     e.preventDefault();
-    emailjs.sendForm('service_ii2tt4d', 'template_15qcyuv', form.current, 'iNEeKpL_mzTpIjCOh')
-    console.log("sending");
-    form.current.reset();
-    console.log("send");
-  };
+    emailjs
+    .sendForm(serviceId, templateId, formRef.current, userId)
+    .then(function (response) {
+      console.log('Email sent successfully:', response);
+    })
+    .catch(function (error) {
+      console.error('Error sending email:', error);
+    });
+
+  formRef.current.reset();
+};
     return (
         <div className='service-page-container'>
              <Whatsapp premsg="Hi, I'm interested in learning more about your services"/>
@@ -47,96 +59,80 @@ export default function Services() {
             {/* /////////////////////////////////////////////////////////// */}
 
 
-                <div className="form-services">
+            <div className="form-services">
 
-                    <form className="form-card"
-                       id="contactForm"
-                       action="sendemail.php"
-                       method="post"
-                       ref={form} 
-                       onSubmit={sendEmail}
-                       >
-                        <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
-                        <input type="email" name='email' id='email' placeholder='Email' required/>
-                        <input type="tel" name='mobile' id='mobile' placeholder='Number' required/>
-                        <button className='btn' type="submit" value="Send">Submit</button>
-                    </form>
+<form className="form-card" ref={form} onSubmit={(e) => sendEmail(e, form)}>
+    <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
+    <input type="email" id="" name="ema"  placeholder='Email' required/>
+    <input  type="text" id="" name="mob" pattern='^\+(?:[0-9] ?){6,14}[0-9]$' title='Please enter your country code' placeholder='Mobile' required/>
+    <button className='btn' type='submit'>Submit</button>
+</form>
 
-                    <div className="services-link"> <Link to="/it-service" >
-                    <div className='service-link-points border-bottom mb-5'>
-                          <h3> IT Support </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                        <Link to="/rental-service">
-                        <div className='service-link-points border-bottom mb-5'>
-                          <h3>  Rental Service  </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom mb-5 '>
-                           <h3> Sales </h3>
-                          <i class="fa-solid fa-arrow-right" ></i>
-                        </div></Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom mb-5'>
-                          <h3> Photocopying </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                        <Link to="/digital-marketing">
-                        <div className='service-link-points border-bottom mb-5'>
-                          <h3>Digital Marketing </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                        <Link to="/amc"> 
-                        <div className='service-link-points border-bottom mb-5'>
-                           <h3>AMC  </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom mb-5'>
-                          <h3> Troubleshooting and Repair </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div> </Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom mb-5'>
-                          <h3>Networking Solutions</h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div> </Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom mb-5'>
-                           <h3> Telecom Solutions</h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div> </Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom mb-5'>
-                          <h3>Graphic Designing </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom mb-5'>
-                           <h3> Website Development </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                        <Link to="">
-                        <div className='service-link-points border-bottom'>
-                          <h3>App Development </h3>
-                          <i class="fa-solid fa-arrow-right"></i>
-                        </div></Link>
-                    </div>
-                    <form className="form-card2"
-                       id="contactForm"
-                       action="sendemail.php"
-                       method="post"
-                       ref={form} 
-                       onSubmit={sendEmail}
-                       >
-                        <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
-                        <input type="email" name='email' id='email' placeholder='Email' required/>
-                        <input type="tel" name='mobile' id='mobile' placeholder='Number' required/>
-                        <button className='btn' type="submit" value="Send">Submit</button>
-                    </form>
+<div className="services-link">       
+    
+   
+    <Link to="/digital-marketing">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Digital Marketing </h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
 
-                </div>
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+       <h3> Website Development </h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+
+    <Link to="">
+    <div className='service-link-points border-bottom  mb-5'>
+      <h3>App Development </h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+  
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Search Engine Optimization (SEO)</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+    
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Pay Per Click (PPC) Advertising</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Social Media Marketing</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Email Marketing </h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Content Marketing </h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+    <Link to="">
+    <div className='service-link-points border-bottom'>
+      <h3>Branding </h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+</div>
+
+<form className="form-card2" ref={form1}  onSubmit={(e) => sendEmail(e, form1)}>
+    <h2 className=' fw-bolder text-white mb-5'>Request a free <br/>consultaion</h2>
+    <input type="email" name="ema"  placeholder='Email' required/>
+    <input  type="text" name="mob" pattern='^\+(?:[0-9] ?){6,14}[0-9]$' title='Please enter your country code' placeholder='Number' required/>
+    <button className='btn' type="submit" value="Send">Submit</button>
+</form>
+
+</div>
 
 
 

@@ -24,6 +24,9 @@
 .row-box-content{
     width:50%
 }
+.row-box-content h2{
+    font-size: 25px;
+}
 @media screen and (max-width:991px) {
     .agency-content{
         display: flex;
