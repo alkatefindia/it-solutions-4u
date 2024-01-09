@@ -112,6 +112,10 @@
         height: 50px;
         width: 100%;
     }
+    .service-link-points h3{
+        font-weight: 600;
+        font-size: 20px;
+    }
    
     
 
