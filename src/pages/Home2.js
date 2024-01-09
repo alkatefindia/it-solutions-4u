@@ -13,7 +13,7 @@ import network from '../images/network.svg';
 import copying from '../images/copying.svg';
 import Telecom from '../images/telecom.svg';
 import IT from '../images/IT.svg';
-import front from "../images/front.png";
+import front from "../images/front.webp";
 import ServicesBox from '../components/ServicesBox';
 import LogoSlider from '../components/LogoSlider';
 import WhychooseBox from '../components/WhychooseBox';
