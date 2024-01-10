@@ -602,103 +602,7 @@
     margin-top: 20px;
   }
 
-  .service-boxes{
-    display: flex;
-    justify-content: space-between;
-    padding: 30px 180px;
-  }
-
-  .service-boxes-rotate{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 0 230px;
-    margin-top: 30px;
-  }
-
-  /* ----------- media queries -------------- */
-
-  @media (max-width: 1390px){
-    .service-boxes-rotate{
-      padding: 0 200px;
-    }
-  }
-
-  @media (max-width: 1330px){
-    .service-boxes-rotate{
-      padding: 0 160px;
-    }
-  }
-
-  @media (max-width: 1250px){
-    .service-boxes-rotate{
-      padding: 0 120px;
-    }
-  }
-
-  @media (max-width: 1215px){
-    .service-boxes{
-      padding: 30px 120px;
-    }
-  }
-
-  @media (max-width: 1170px){
-    .service-boxes-rotate{
-      padding: 0 100px;
-    }
-  }
-
-  @media (max-width: 1130px){
-    .service-boxes-rotate{
-      padding: 0 80px;
-    }
-  }
-
-  @media (max-width: 1090px){
-    .service-boxes{
-      padding: 30px 80px;
-    }
-
-    .service-boxes-rotate{
-      padding: 0 50px;
-    }
-  }
-
-  @media (max-width: 1030px){
-    .service-boxes{
-      padding: 30px 50px;
-    }
-
-    .service-boxes-rotate{
-      padding: 0 20px;
-    }
-  }
-
-  @media (max-width: 970px){
-    .service-boxes-rotate{
-      padding: 0 20px;
-      justify-content: center;
-    }
-  }
-
-  @media (max-width: 950px){
-    .service-boxes{
-      padding: 30px 20px;
-    }
-  }
-
-  @media (max-width: 890px){
-    .service-boxes{
-      padding: 30px 10px;
-    }
-  }
-
-  @media (max-width: 862px){
-    .service-boxes{
-      flex-wrap: wrap;
-      justify-content: space-around;
-    }
-  }
+ 
 
   /*--------------------- service sections ends -------------------*/
 
@@ -707,7 +611,6 @@
 
   .company-section{
     text-align: center;
-    margin-top: 30px;
   }
 
   /*--------------------- company sections ends -------------------*/
