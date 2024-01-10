@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, {  useState} from 'react'
 import { Helmet } from 'react-helmet'
 import { Link } from 'react-router-dom'
 import Logo from '../images/logo_black.png';
@@ -22,9 +22,8 @@ import StaffImg from '../images/why-choose-us-staffs.svg';
 import ReliableImg from '../images/why-choose-us-reliable.svg';
 import AwardImg from '../images/why-choose-us-award.svg';
 import Whatsapp from '../components/Whatsapp';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate} from 'react-router-dom';
 import FormModal from '../components/FormModal';
-
 
 
 const Home2 = () => {
@@ -34,9 +33,6 @@ const Home2 = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
   
-
-
-
   const navigate = useNavigate();
 
 

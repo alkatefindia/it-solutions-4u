@@ -87,7 +87,6 @@ function App() {
         <Route path="/maximizing-your-social-media-presence-tips-from-a-top-uae-agency" element={<Blog1 />} />
         <Route path="/product/:model" element={<ProductDetail products={products} />} />
         <Route path="/consumables/:consumableName" element={<ConsumableDetail consumables={consumables} />} />
-        <Route path="/consumables/:consumableName" element={<ConsumableDetail consumables={consumables} />} />
         <Route path="/sitemap" element={<Sitemap/>} />
       </Routes>
     </BrowserRouter>
