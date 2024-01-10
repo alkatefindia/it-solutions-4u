@@ -10,7 +10,6 @@ import Blog6 from '../images/blog_6.jpg'
 import Blog7 from '../images/blog_7.jpg'
 import Blog8 from '../images/blog_8.jpg'
 import Blog9 from '../images/blog_9.jpg'
-
 import Footer from '../components/Footer';
 
 function blog1() {

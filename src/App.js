@@ -1,7 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
-import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import Products from './pages/Products';
@@ -14,7 +13,7 @@ import Leasing from './pages/Leasing';
 import Terms from './pages/TermsCondition';
 import Privacy from './pages/PrivacyPolicy';
 import Printers from './products/Printer';
-import Offer from './pages/Offer';
+// import Offer from './pages/Offer';
 import ProductDetail from './products/ProductDetail';
 import { products } from './products/productData';
 import Consumables from './products/Consumables';
@@ -47,7 +46,6 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/nothing" element={<Home />} />
         <Route path="/" element={<Home2 />} />
         <Route path="/about" element={<About />} />
         <Route path="/services" element={<Services />} />
@@ -82,7 +80,7 @@ function App() {
         <Route path="/rental" element={<Printers />} />
         <Route path="/printer-rental" element={<PrinterRental />} />
         <Route path="/product/printer" element={<Printers />} />
-        <Route path="/offer" element={<Offer />} />
+        {/* <Route path="/offer" element={<Offer />} /> */}
         <Route path="/consumables" element={<Consumables />}/>
         <Route path="/maximizing-your-social-media-presence-tips-from-a-top-uae-agency" element={<Blog1 />} />
         <Route path="/product/:model" element={<ProductDetail products={products} />} />
