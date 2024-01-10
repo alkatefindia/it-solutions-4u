@@ -33,11 +33,7 @@ export default function Blogs() {
           <h5>Maximizing Your Social Media Presence Tips from a Top UAE Agency</h5>
           <p>Social media has become an integral part of our daily lives, and it's no secret...</p>
         </div>
-        <div className='blog-page-blog_section' onClick={() => window.location.href = '/maximizing-your-social-media-presence-tips-from-a-top-uae-agency'}>
-          <img src={Blog1} alt='err' />
-          <h5>Maximizing Your Social Media Presence Tips from a Top UAE Agency</h5>
-          <p>Social media has become an integral part of our daily lives, and it's no secret...</p>
-        </div>
+    
         </div>
 
       </div>
