@@ -155,9 +155,9 @@ const Home2 = () => {
             {/* <ServicesBox img={Lease} title='Leasing' alttxt='Leasing'  desc="Leasing is our most popular and our most flexible services that involves renting of a product" /> */}
             <ServicesBox img={Telecom} title='Telecom Solutions'  desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
             <ServicesBox img={Maintenance} title='AMC' alttxt='AMC'  redirect="/amc" desc="We provide a yearly contract for printer /photocopier maintenance and repairs to streamline client operations." />
-            <ServicesBox img={sales} title='SALES' alttxt='SALES' desc="Discover our diverse printers and copiers for your business needs, ensuring high-quality performance and reliability." />
-            <ServicesBox img={network} title='NETWORK SOLUTIONS' alttxt='NETWORK SOLUTIONS' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
-            <ServicesBox img={copying} title='PHOTOCOPYING' alttxt='PHOTOCOPYING' desc="Whether you need a copier for a day or a long-term, our expert team is here to provide you with personalized service and support." />
+            <ServicesBox img={sales} title='Sales' alttxt='SALES' desc="Discover our diverse printers and copiers for your business needs, ensuring high-quality performance and reliability." />
+            <ServicesBox img={network} title='Network Solutions' alttxt='NETWORK SOLUTIONS' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
+            <ServicesBox img={copying} title='Photocopying' alttxt='PHOTOCOPYING' desc="Whether you need a copier for a day or a long-term, our expert team is here to provide you with personalized service and support." />
             <ServicesBox img={Websoln} title='CCTV' redirect="/cctv" desc="Enhance security with our state-of-the-art CCTV solutions, providing vigilant surveillance for peace of mind in every corner." />
             {/* <ServicesBox img={design} title='GRAPHIC DESIGN' desc="We provide services to develop graphics incorporating texts and images to visually convey information." />
             <ServicesBox img={App} title='APP DEVELOPMENT' desc="Software applications to increase efficacy of your business and to interact with your clients on an easier platform." /> */}

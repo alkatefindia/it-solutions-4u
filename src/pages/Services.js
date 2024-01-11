@@ -68,12 +68,48 @@ export default function Services() {
     <button className='btn' type='submit'>Submit</button>
 </form>
 
-<div className="services-link">       
-    
+<div className="services-link"> 
+
+
+    <Link to="/it-service">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>IT Support</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link> 
+
+    <Link to="/rental-service">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Rental Service</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link> 
+
+    <Link to="/amc">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>AMC</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>  
+
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Telecom Solutions</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+
+    <Link to="">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>Network Solutions</h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
    
     <Link to="/digital-marketing">
     <div className='service-link-points border-bottom mb-5'>
       <h3>Digital Marketing </h3>
+      <i class="fa-solid fa-arrow-right"></i>
+    </div></Link>
+
+    <Link to="/cctv">
+    <div className='service-link-points border-bottom mb-5'>
+      <h3>CCTV</h3>
       <i class="fa-solid fa-arrow-right"></i>
     </div></Link>
 
@@ -88,36 +124,7 @@ export default function Services() {
       <h3>App Development </h3>
       <i class="fa-solid fa-arrow-right"></i>
     </div></Link>
-  
-    <Link to="">
-    <div className='service-link-points border-bottom mb-5'>
-      <h3>Search Engine Optimization (SEO)</h3>
-      <i class="fa-solid fa-arrow-right"></i>
-    </div></Link>
-    
-    <Link to="">
-    <div className='service-link-points border-bottom mb-5'>
-      <h3>Pay Per Click (PPC) Advertising</h3>
-      <i class="fa-solid fa-arrow-right"></i>
-    </div></Link>
 
-    <Link to="">
-    <div className='service-link-points border-bottom mb-5'>
-      <h3>Social Media Marketing</h3>
-      <i class="fa-solid fa-arrow-right"></i>
-    </div></Link>
-
-    <Link to="">
-    <div className='service-link-points border-bottom mb-5'>
-      <h3>Email Marketing </h3>
-      <i class="fa-solid fa-arrow-right"></i>
-    </div></Link>
-
-    <Link to="">
-    <div className='service-link-points border-bottom mb-5'>
-      <h3>Content Marketing </h3>
-      <i class="fa-solid fa-arrow-right"></i>
-    </div></Link>
     <Link to="">
     <div className='service-link-points border-bottom'>
       <h3>Branding </h3>
