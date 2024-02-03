@@ -118,28 +118,8 @@ const Home2 = () => {
             <img className='mt-5' src={front} width={"100%"} height={"auto"} alt="digital marketing agency in Dubai" />
             {/* //  <FrontSlider/> */}
              </div>
-
         </div>
-
-        {/* <div className='d-flex flex-column justify-content-center align-items-center'>
-        <span className="title-blue mt-5 fs-1 text-center "><h1 className='mb-3' >WE SERVE YOU  THE BEST SERVICE </h1></span>
-        <span className="title-orange"><h6 className=' bg-light rounded-4 text-center mt-3 mb-3 p-2'style={{width:'340px'}} >Digital Startegy With Digital Peak </h6></span>
-        </div>
-
-
-        <div className='d-flex justify-content-center align-items-center gap-3 w-100'> */}
-        {/* <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" />
-              <img className='mt-5' src={front} width={"55%"} height={"auto"} alt="digital marketing agency in Dubai" />
-        <img className='mt-5' src={front1} width={"30%"} height={"auto"} alt="digital marketing agency in Dubai" /> */}
-        {/* </div> */}
-        {/* <FrontSlider/> */}
-
-              {/* <div className='d-flex justify-content-center align-items-center flex-column'>
-                  <span className=" mt-5"><p className='mt-3 p-3' >Elevate your expectations with our commitment to  delivering the finest service. </p></span>
-                    <span><button onClick={handleContact} className=' btn btn-primary  rounded-5'>Contact Us</button>&nbsp;&nbsp;&nbsp;&nbsp; <button onClick={handleServices} className='btn  btn-success  rounded-5'>View Services</button></span>
-              </div> */}
-
-
+        
         </section>
 
         <section className='service-section'>
@@ -152,20 +132,15 @@ const Home2 = () => {
             <ServicesBox img={IT} title='IT Service' alttxt='IT Service' redirect="/it-service" desc="We offer a wide range of IT services in order to meet your customized requirements (IT products and services)." />
             <ServicesBox img={q} title='Rental Service' alttxt='Rental Service' redirect="/rental-service" desc="Streamline your life with our effortless rental service, providing access to premium products without the long-term commitment" />
             <ServicesBox img={questionImg} title='Digital Marketing' alttxt='Digital Marketing' redirect="/digital-marketing" desc="Digital marketing is an essential part of many businesses marketing strategies, as it allows them to reach a larger audience" />
-            {/* <ServicesBox img={Lease} title='Leasing' alttxt='Leasing'  desc="Leasing is our most popular and our most flexible services that involves renting of a product" /> */}
-            <ServicesBox img={Telecom} title='Telecom Solutions'  desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
+            <ServicesBox img={Telecom} title='Telecom Solutions' alttxt='Telecom Solutions' desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
             <ServicesBox img={Maintenance} title='AMC' alttxt='AMC'  redirect="/amc" desc="We provide a yearly contract for printer /photocopier maintenance and repairs to streamline client operations." />
-            <ServicesBox img={sales} title='Sales' alttxt='SALES' desc="Discover our diverse printers and copiers for your business needs, ensuring high-quality performance and reliability." />
-            <ServicesBox img={network} title='Network Solutions' alttxt='NETWORK SOLUTIONS' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
-            <ServicesBox img={copying} title='Photocopying' alttxt='PHOTOCOPYING' desc="Whether you need a copier for a day or a long-term, our expert team is here to provide you with personalized service and support." />
-            <ServicesBox img={Websoln} title='CCTV' redirect="/cctv" desc="Enhance security with our state-of-the-art CCTV solutions, providing vigilant surveillance for peace of mind in every corner." />
-            {/* <ServicesBox img={design} title='GRAPHIC DESIGN' desc="We provide services to develop graphics incorporating texts and images to visually convey information." />
-            <ServicesBox img={App} title='APP DEVELOPMENT' desc="Software applications to increase efficacy of your business and to interact with your clients on an easier platform." /> */}
+            <ServicesBox img={sales} title='Sales' alttxt='Sales' desc="Discover our diverse printers and copiers for your business needs, ensuring high-quality performance and reliability." />
+            <ServicesBox img={network} title='Network Solutions' alttxt='Network solutions' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
+            <ServicesBox img={copying} title='Photocopying' alttxt='Photocopying' desc="Whether you need a copier for a day or a long-term, our expert team is here to provide you with personalized service and support." />
+            <ServicesBox img={Websoln} title='CCTV' redirect="/cctv" alttxt='cctv' desc="Enhance security with our state-of-the-art CCTV solutions, providing vigilant surveillance for peace of mind in every corner." />
             </div>
-            {/* <div className='oval'></div> */}
-            {/* <div className='oval2'></div> */}
-
         </div>
+
         </section>
         
         <section className='company-section'>
