@@ -1,3 +1,4 @@
 # https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Sitemap: /sitemap.xml
+    User-agent: *
+    Disallow:
+ Sitemap: https://itsolutions4u.co/sitemap.xml
