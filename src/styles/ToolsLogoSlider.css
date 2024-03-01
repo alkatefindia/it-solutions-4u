@@ -10,7 +10,6 @@
     width: 100%;
     padding-bottom: 12px;
     white-space: nowrap;
-
 }
 .Tools-logo-slider{
     display: inline-block;
@@ -29,7 +28,6 @@
     width: 60px;
     height: 60px;
     margin-left:70px;
-
 }
 
 @keyframes moveRightToLeft {
@@ -48,5 +46,3 @@
         transform: translateX(0%);
     }
 }
-
-

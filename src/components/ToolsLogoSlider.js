@@ -63,10 +63,8 @@ const ToolsLogoSlider = () => {
       <img className="Tools-logo" src={Logo34} alt="Logo 4" />
       <img className="Tools-logo" src={Logo35} alt="Logo 4" />
       <img className="Tools-logo" src={Logo36} alt="Logo 4" />
-
-
-      
       </div>
+
       <div className='Tools-logo-slider'>
       <img className="Tools-logo" src={Logo1} alt="Logo 1" />
       <img className="Tools-logo" src={Logo2} alt="Logo 2" />
@@ -85,6 +83,7 @@ const ToolsLogoSlider = () => {
 
       </div>
     </div>
+    
     <div className="Tools-logo-section">
 
       <div className='Tools-logo-slider2'>
