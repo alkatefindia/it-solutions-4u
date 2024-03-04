@@ -19,7 +19,7 @@ function Footer() {
         <div className="footer-logo-section">
           <img src={LogoDark} alt="error" />
           <p>
-            Al Katef iTsolutions is a global IT solutions company based UAE,
+            Al Katef IT Solutions is a global IT solutions company based UAE,
             with over 20 years experience in IT service, printer service,
             digital marketing.
           </p>
