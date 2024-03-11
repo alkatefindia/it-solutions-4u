@@ -37,9 +37,7 @@ function Footer() {
             <p class="icons"><a href="https://twitter.com/alkatef_uae">
               <i class="fa-brands fa-x-twitter"></i></a>
             </p>
-            <p class="icons"><a href="https://www.reddit.com/user/Alkatef/">
-              <i class="fa-brands fa-reddit"></i></a>
-            </p>
+
           </div>
         </div>
 
