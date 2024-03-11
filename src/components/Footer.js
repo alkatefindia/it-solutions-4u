@@ -24,17 +24,17 @@ function Footer() {
             digital marketing.
           </p>
           <div class=" soc-med-i d-flex justify-content-between  fs-5 align-items-center">
-            <p class="icons"><a href="https://www.facebook.com/people/ITsolutions4uco/100086401916459/">
+            <p class="icons"><a href="https://www.facebook.com/alkatef.uae">
               <i class="fa-brands fa-facebook"></i></a>
             </p>
-            <p class="icons"><a href="https://www.instagram.com/alkatefitsolutions/">
+            <p class="icons"><a href="https://www.instagram.com/alkatef.uae/">
               <i class="fa-brands fa-instagram"></i></a>
             </p>
             <p class="icons">
-              <a href="https://www.linkedin.com/company/al-katef-it-solutions/">
+              <a href="https://www.linkedin.com/company/alkatefuae/">
               <i class="fa-brands fa-linkedin"></i></a>
             </p>
-            <p class="icons"><a href="https://twitter.com/alkatefit">
+            <p class="icons"><a href="https://twitter.com/alkatef_uae">
               <i class="fa-brands fa-x-twitter"></i></a>
             </p>
             <p class="icons"><a href="https://www.reddit.com/user/Alkatef/">
