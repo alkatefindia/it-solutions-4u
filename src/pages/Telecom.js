@@ -13,7 +13,7 @@ const Telecom = () => {
       <Whatsapp />
 
       <Helmet>
-        <title>Business Connectivity Transformed: Al Katef IT Solutions</title>
+        <title>Unleash the Power of ITSolutions4u's Telecom Services</title>
         <meta
           name="description"
           content="Meta Description: Experience seamless connectivity and cutting-edge solutions with ITSolutions4u's telecom services in Abu Dhabi. Secure networks, VoIP, cloud communication & more. Connect like never before! 🇦🇪"
@@ -23,10 +23,9 @@ const Telecom = () => {
 
       <div className="container telecom-container ">
         <h1 className="mt-5">
-          <span className="title-blue">Unlocking Success:</span>
+          <span className="title-blue">Business Connectivity Transformed:</span>
           <span className="title-orange">
-            Why The Best Digital Marketing Agency in Dubai Holds the Key to Your
-            Online Triumph
+           Al Katef IT Solutions
           </span>
         </h1>
 
