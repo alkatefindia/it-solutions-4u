@@ -1,7 +1,7 @@
 import React from "react";
 import NavigationBar from "../components/Navbar";
 import Footer from "../components/Footer";
-import printer from "../images/printer.svg";
+import printer from "../images/photocopy-printer.svg";
 import "../styles/PrinterRental.css";
 import { Helmet } from "react-helmet";
 import Whatsapp from "../components/Whatsapp";
