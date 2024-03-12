@@ -30,7 +30,7 @@ const Amc = () => {
         <div className="amc-img d-flex justify-content-center align-items-center">
          <img src={amc} className="object-fit-cover  " width={"55%"} height={"auto"} alt="AMC" />
         </div>
-        <p>Living in the tech-driven heart of UAE, unexpected gadget meltdowns can disrupt your life and drain your wallet. But worry not! [Your Company Name] offers premier AMC (Annual Maintenance Contract) services designed to shield you from the stress and expense of breakdowns. With customized plans to suit your needs and budget, we're your one-stop shop for worry-free electronics in UAE and Abu Dhabi.</p>
+        <p>Living in the tech-driven heart of UAE, unexpected gadget meltdowns can disrupt your life and drain your wallet. But worry not! Al Katef IT Solutions offers premier AMC (Annual Maintenance Contract) services designed to shield you from the stress and expense of breakdowns. With customized plans to suit your needs and budget, we're your one-stop shop for worry-free electronics in UAE and Abu Dhabi.</p>
 
         <h2 className="mt-5">
           <span className="title-blue"> Why Choose Our AMC Services in UAE & Abu Dhabi?</span>
