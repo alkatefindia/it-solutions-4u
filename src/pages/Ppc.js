@@ -26,7 +26,7 @@ const Ppc = () => {
                 <div className='web-soln-top-txt-container'>
                     <h1><span className='title-blue'>PAY-PER-CLICK (PPC)</span> <span className='title-orange'>ADVERTISING</span></h1>
                     <p>Precision and Impact: Transform Your Reach with Google Ads and Digital Advertising</p>
-                    <p>Explore new horizons and reach your target audience with pinpoint accuracy through our Google Ads and Digital Advertising services. At Al KAtef IT Solutions, we specialize in creating strategic campaigns that optimize ad spend, maximize ROI, and drive conversions.</p>
+                    <p>Explore new horizons and reach your target audience with pinpoint accuracy through our Google Ads and Digital Advertising services. At Al Katef IT Solutions, we specialize in creating strategic campaigns that optimize ad spend, maximize ROI, and drive conversions.</p>
                     <p>Targeted Google Ads campaigns for increased visibility</p>
                     <p>Comprehensive digital advertising strategies tailored to your business goals</p>
                     <p>Continuous monitoring and optimization for optimal performance</p>
