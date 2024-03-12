@@ -31,7 +31,7 @@ export default function About() {
           <div className='about-page-top-txt'>
             <h1><span className='title-blue page-titles'>ABOUT</span> <span className='title-orange page-titles'>US</span></h1>
             <p>Custom IT Solutions for Your Successful Business</p>
-            <p>AlKatef IT solutions is a newly developed innovative solution that was introduced to better merge with the advancing 21st century technology.</p>
+            <p>Al Katef IT solutions is a newly developed innovative solution that was introduced to better merge with the advancing 21st century technology.</p>
             <p>We have put together a number of strategies to evolve and provide dynamic formulas to our esteemed customers in order to help them work in ease and with assurance.</p>
             <div className='years-trust-section'>
               <div className='years-trust-section-child'>

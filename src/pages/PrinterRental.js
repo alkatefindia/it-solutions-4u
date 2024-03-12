@@ -17,16 +17,15 @@ const PrinterRental = () => {
           name="description"
           content="Get a KONICA MINOLTA printer rental with zero upfront investment, free machine cost, free toners, free parts, and free service in all Emirates."
         />
+         <link rel="canonical" href="https://itsolutions4u.co/printer-rental" />
       </Helmet>
 
       <NavigationBar />
 
       <div className="container w-100">
         <div className="rental-content mt-5">
-          <h1>
-            <span className="title-blue">
+          <h1 className="title-blue">
               Affordable Printer Rental in Abu Dhabi:
-            </span>
             <span className="title-orange">
               Get Quality Printing at Just 100 AED
             </span>

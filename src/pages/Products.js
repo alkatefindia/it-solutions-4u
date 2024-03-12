@@ -33,7 +33,7 @@ export default function Products() {
         </div>
         <div className='product-top-txt'>
           <h1><span className='title-blue'>OUR</span> <span className='title-orange'>PRODUCTS</span></h1>
-          <p>The proliferation of advanced devices are revolutionizing the way we approach productivity and streamline workflows</p>
+          <p>The proliferation of advanced devices are revolutionizing the way we approach productivity and streamline workflows.</p>
           <p>The surge in advanced devices is reshaping productivity and workflow approaches. By seamlessly integrating technology, we're fostering collaboration, creativity, and efficiency, propelling customers to the forefront of this transformative revolution.</p>
           <Button variant="primary">Explore Now</Button>
         </div>
