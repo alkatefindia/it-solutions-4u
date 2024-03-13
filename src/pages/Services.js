@@ -89,7 +89,7 @@ export default function Services() {
       <i class="fa-solid fa-arrow-right"></i>
     </div></Link>  
 
-    <Link to="">
+    <Link to="/telecom-solutions">
     <div className='service-link-points border-bottom mb-5'>
       <h3>Telecom Solutions</h3>
       <i class="fa-solid fa-arrow-right"></i>

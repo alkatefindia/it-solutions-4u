@@ -21,8 +21,6 @@ const RentalService = () => {
 
         <h2 className='fs-3'><span className='title-blue'>Maximized Efficiency, Minimized Costs</span></h2>
         <p>By selecting printer rental services, companies redirect resources to core activities, reducing downtime and enhancing overall efficiency. Transitioning from ownership to rental fosters a cost-effective approach without compromising access to superior printing technology such as Toshiba Services Dubai.</p>
-
-
         </div>
 
         
