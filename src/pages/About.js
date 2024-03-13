@@ -15,6 +15,7 @@ export default function About() {
       <Whatsapp premsg='Hi, I visited your About page and would like to learn more about your services.'/>
       <Helmet>
                 <title> Digital Marketing Agency in UAE | IT Solutions</title>
+                <meta property="og:title" content="Digital Marketing Agency in UAE | IT Solutions "/>
                 <meta name="description" content=  "With the help of our Abu Dhabi-based digital marketing agency, you may achieve outstanding results online. Boost your online visibility with professional methods and creative ideas made for the success of your brand"/>
 
             <link rel='canonical' href={window.location.href} ></link>
