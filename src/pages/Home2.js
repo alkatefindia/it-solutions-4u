@@ -45,11 +45,13 @@ const Home2 = () => {
 
   return (
     <div>
-            <FormModal handleClose={handleClose} handleShow={handleShow} show={show}/>
+      <FormModal handleClose={handleClose} handleShow={handleShow} show={show}/>
 
       <Whatsapp premsg='Hello, What service are you providing!'/>
       <Helmet>
       <title>UAE's Trusted IT Partner: Comprehensive Solutions for Every Business | Al Katef</title>
+      <meta property="og:title" content="UAE's Trusted IT Partner: Comprehensive Solutions for Every Business | Al Katef "/>
+
       <meta
       name="description"
       content="Elevate your business with Al Katef IT Solutions, the leading IT solutions provider in UAE. We offer customized IT solutions like Telecom Solutions, AMC, Digital Marketing, Rental Service etc. to empower your digital journey. Contact us today for a free consultation!"
