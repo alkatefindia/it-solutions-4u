@@ -41,6 +41,7 @@ import SoftwareDev from './pages/SoftwareDev';
 import BusinessIntlgnc from './pages/BusinessIntlgnc';
 import WebsiteAgency from './pages/WebsiteAgency';
 import Sitemap from './pages/Sitemap';
+import NetworkSolutions from './pages/NetworkSolutions';
 
 function App() {
   return (
@@ -59,6 +60,7 @@ function App() {
         <Route path="/rental-service" element={<RentalService />} />
         <Route path="/digital-marketing" element={<Digimrkt />} />
         <Route path="/telecom-solutions" element={<Telecom />} />
+        <Route path="/network-solutions" element={<NetworkSolutions />} />
         <Route path="/amc" element={<Amc />} />
         <Route path="/cloud-computing" element={<CloudComputing />} />
         <Route path="/cybersecurity" element={<CyberSecurity />} />
