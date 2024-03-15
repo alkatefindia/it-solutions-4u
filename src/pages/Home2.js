@@ -137,7 +137,7 @@ const Home2 = () => {
             <ServicesBox img={Telecom} title='Telecom Solutions' redirect="/telecom-solutions" alttxt='Telecom Solutions' desc="Optimize your work environment with our server solutions. Improve connectivity, data management, and performance." />
             <ServicesBox img={Maintenance} title='AMC' alttxt='AMC'  redirect="/amc" desc="We provide a yearly contract for printer /photocopier maintenance and repairs to streamline client operations." />
             <ServicesBox img={sales} title='Sales' alttxt='Sales' desc="Discover our diverse printers and copiers for your business needs, ensuring high-quality performance and reliability." />
-            <ServicesBox img={network} title='Network Solutions' alttxt='Network solutions' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
+            <ServicesBox img={network} title='Network Solutions' redirect="/network-solutions" alttxt='Network solutions' desc="We provide a multitude of products, all of which aims to run your business with ease and highest efficiency." />
             <ServicesBox img={copying} title='Photocopying' alttxt='Photocopying' desc="Whether you need a copier for a day or a long-term, our expert team is here to provide you with personalized service and support." />
             <ServicesBox img={Websoln} title='CCTV' redirect="/cctv" alttxt='cctv' desc="Enhance security with our state-of-the-art CCTV solutions, providing vigilant surveillance for peace of mind in every corner." />
             </div>

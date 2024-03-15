@@ -50,6 +50,8 @@ export default function Services() {
              <Helmet>
                 <title>best digital services in Dubai</title>
                 <meta name="description" content= "Delivering expert digital marketing services to boost online presence, drive engagement, and optimise results for businesses seeking growth and success."/>
+            <link rel='canonical' href={window.location.href} ></link>
+
             </Helmet>
             <NavigationBar />
             <div className='service-page-title'>
@@ -95,7 +97,7 @@ export default function Services() {
       <i class="fa-solid fa-arrow-right"></i>
     </div></Link>
 
-    <Link to="">
+    <Link to="/network-solutions">
     <div className='service-link-points border-bottom mb-5'>
       <h3>Network Solutions</h3>
       <i class="fa-solid fa-arrow-right"></i>

@@ -17,6 +17,8 @@ const Amc = () => {
   <meta
     name="description"
     content="Meta Description: Ditch repair woes & unexpected costs! Our comprehensive AMC services in UAE & Abu Dhabi keep your electronics humming. Customized plans, priority support, & cost savings. Protect your investments with [Your Company Name]. 🇦🇪 "/>
+  <link rel='canonical' href={window.location.href} ></link>
+
 </Helmet>
 <NavigationBar />
 

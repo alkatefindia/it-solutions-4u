@@ -11,6 +11,8 @@ const Cctv = () => {
         <Helmet>
                 <title>Top-Rated CCTV Security in Abu Dhabi | Protect Your Home & Business</title>
                 <meta name="description" content=  "Secure your Abu Dhabi premises with expert CCTV solutions! Advanced tech, custom designs & outstanding service. Get a FREE consultation today!"/>
+                <link rel='canonical' href={window.location.href} ></link>
+
             </Helmet>
 
         <div className='container mt-4'>

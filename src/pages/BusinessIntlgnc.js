@@ -13,6 +13,8 @@ const BusinessIntlgnc = () => {
             <Helmet>
                 <title>Top UAE Software Development: Build Your Dream App with AL KATEF!</title>
                 <meta name="description" content=  ""/>
+                <link rel='canonical' href={window.location.href} ></link>
+
             </Helmet>
 
             <div className='container business-container'>

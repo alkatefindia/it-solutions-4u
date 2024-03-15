@@ -17,6 +17,8 @@ const CloudComputing = () => {
           name="description"
           content="Elevate your business with powerful IT solutions in Abu Dhabi. From managed services to custom software, we empower your success.  Secure networks, cloud migration, AI & more! 🇦🇪"
         />
+        <link rel='canonical' href={window.location.href} ></link>
+
       </Helmet>
 
       <Whatsapp />

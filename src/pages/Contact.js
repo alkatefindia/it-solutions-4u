@@ -31,6 +31,8 @@ export default function Contact() {
       name="description"
       content="A leading Web Design Company in Abu Dhabi, we are also a Digital Marketing Agency that provides Social Media Services and Management, SEO  and Mobile App Development"
     />
+      <link rel='canonical' href={window.location.href} ></link>
+
         </Helmet>
       <Whatsapp/>
       <NavigationBar />

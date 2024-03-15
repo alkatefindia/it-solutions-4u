@@ -11,20 +11,21 @@ const NetworkSolutions = () => {
       <Whatsapp />
 
       <Helmet>
-        <title>Printer Rental In ABU DHABI 100/300 AED Per Month</title>
+        <title>Business Connectivity Empowered Across the UAE by Al Katef IT Solutions</title>
         <meta
           name="description"
-          content="Get a KONICA MINOLTA printer rental with zero upfront investment, free machine cost, free toners, free parts, and free service in all Emirates."
+          content="Tailored network solutions are offered to businesses throughout the UAE by Al Katef IT Solutions, headquartered in Abu Dhabi's Musaffah district. Experience seamless connectivity and robust network infrastructure customized to your needs. Contact us today."
         />
-        <link rel="canonical" href="https://itsolutions4u.co/printer-rental" />
+        <link rel="canonical" href="https://itsolutions4u.co/network-solutions"/>
+
       </Helmet>
 
       <NavigationBar />
       <div className="container">
-        <h1 className="title-blue">
-          Affordable Printer Rental in Abu Dhabi:
+        <h1 className="title-blue text-center mb-5">
+        Network Solutions: 
           <span className="title-orange">
-            Get Quality Printing at Just 100 AED
+          Optimizing Your Connectivity
           </span>
         </h1>
 

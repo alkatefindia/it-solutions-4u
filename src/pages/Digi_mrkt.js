@@ -27,6 +27,8 @@ function Digi_mrkt() {
             <Helmet>
                 <title>Maximize ROI: Effective Digital Marketing Strategies" / "Maximize ROI: Elevate Your Digital Marketing Impact</title>
                 <meta name="description" content=  "Explore key facets of digital marketing: SEO, SEM, social media, content marketing, email marketing, and analytics for online success."/>
+                <link rel='canonical' href={window.location.href} ></link>
+
             </Helmet>
             <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>
@@ -58,5 +60,4 @@ function Digi_mrkt() {
         </div>
     )
 }
-
 export default Digi_mrkt

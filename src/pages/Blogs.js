@@ -14,6 +14,8 @@ export default function Blogs() {
       <Helmet>
                 <title>Trends and Tips: Abu Dhabi's Digital Marketing Scene</title>
                 <meta name="description" content= "Explore the latest and hottest topics with our top trending blogs, offering insightful content and staying ahead of the curve in diverse subjects.' / 'Explore the latest trends, insights, and diverse topics with the top trending blogs. Stay informed and entertained with cutting-edge content."/>
+                <link rel='canonical' href={window.location.href} ></link>
+
             </Helmet>
       <NavigationBar />
       <div className='blog-page-conatiner'>
