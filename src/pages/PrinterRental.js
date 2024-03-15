@@ -18,7 +18,6 @@ const PrinterRental = () => {
           content="Get a KONICA MINOLTA printer rental with zero upfront investment, free machine cost, free toners, free parts, and free service in all Emirates."
         />
         <link rel="canonical" href="https://itsolutions4u.co/printer-rental" />
-        
       </Helmet>
 
       <NavigationBar />
@@ -28,7 +27,7 @@ const PrinterRental = () => {
           <h1 className="title-blue">
             Affordable Printer Rental in Abu Dhabi:
             <span className="title-orange">
-              Get Quality Printer at Just 100 AED
+              Get Quality Printer at Just 100/200 AED
             </span>
           </h1>
 
@@ -43,10 +42,10 @@ const PrinterRental = () => {
 
           <p className="mt-4">
             Looking for an affordable printer rental in Abu Dhabi? Look no
-            further! With our unbeatable offer, You can now avail quality
-            printing services for just 100 AED. Whether you need a printer for
-            your home or office for a short-term project, our reliable and
-            efficient printers are perfect for all your printing needs.
+            further! With our unbeatable offer, you can now get quality printer
+            rental services for just 100/200 AED. Whether you need a printer for
+            a long-term or short-term project, our reliable and efficient
+            printers are perfect for all your printing needs.
           </p>
           <p className="mt-4">
             At Al Katef , we understand the importance of having access to a
@@ -574,7 +573,7 @@ const PrinterRental = () => {
 
             <p>
               <b> Q: How long can I rent a printer for?</b> <br />
-              A: At Al Katef Printing, we offer flexible rental periods to suit
+              A: At Al Katef , we offer flexible rental periods to suit
               your needs. Whether you need a printer for a day, a week, or even
               a month, we've got you covered. Just let us know your
               requirements, and we'll provide you with a rental package that
