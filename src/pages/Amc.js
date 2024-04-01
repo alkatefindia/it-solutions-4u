@@ -1,6 +1,6 @@
 import React from 'react'
 import NavigationBar from '../components/Navbar'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 import Whatsapp from '../components/Whatsapp'
 import Footer from '../components/Footer'
 import amc from "../images/amc.webp"

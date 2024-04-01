@@ -1,5 +1,5 @@
 import React, {  useState} from 'react'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 import { Link } from 'react-router-dom'
 import Logo from '../images/logo_black.png';
 import Footer from '../components/Footer';
@@ -50,7 +50,7 @@ const Home2 = () => {
       <Whatsapp premsg='Hello, What service are you providing!'/>
       <Helmet>
       <title>UAE's Trusted IT Partner: Comprehensive Solutions for Every Business | Al Katef</title>
-      <meta property="og:title" content="UAE's Trusted IT Partner: Comprehensive Solutions for Every Business | Al Katef "/>
+      <link rel='canonical' href='/'/>
 
       <meta
       name="description"

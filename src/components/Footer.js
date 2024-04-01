@@ -44,8 +44,8 @@ function Footer() {
         <div className="footer-product-section">
           <p className="footer-section-title">PRODUCTS</p>
           <div className="footer-links-flex">
-            <Link className="footer-links-flex-link">Printer</Link>
-            <Link className="footer-links-flex-link">CCTV</Link>
+            <Link to={"/printer"} className="footer-links-flex-link">Printer</Link>
+            <Link to={"/cctv"} className="footer-links-flex-link">CCTV</Link>
             <Link className="footer-links-flex-link">PABX</Link>
             <Link className="footer-links-flex-link">Biometrics</Link>
             <Link className="footer-links-flex-link">Flat Panel</Link>

@@ -17,7 +17,7 @@ import '../styles/Services.css';
 // import Amcservice from '../images/AMC_service_page.jpg';
 import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async';
 import ToolsLogoSlider from '../components/ToolsLogoSlider';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';

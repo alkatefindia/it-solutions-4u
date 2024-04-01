@@ -68,7 +68,6 @@ const Telecom = () => {
           <span className="title-blue">Customized Telecom Infrastructure:</span>
         </h2>
         <p>
-          {" "}
           A thorough analysis of your requirements is conducted by our expert
           team to design and deploy customized solutions ensuring seamless
           communication experiences. From small-scale setups to enterprise-level
@@ -78,7 +77,6 @@ const Telecom = () => {
           <span className="title-blue">Unified Communication Platforms:</span>
         </h2>
         <p>
-          {" "}
           Communication across your organization is simplified with unified
           communication platforms. Voice, video, messaging, and conferencing are
           seamlessly integrated into a single, intuitive interface accessible
@@ -89,7 +87,6 @@ const Telecom = () => {
           <span className="title-blue">Secure Networking Solutions:</span>
         </h2>
         <p>
-          {" "}
           Prioritizing the protection of your data and privacy, comprehensive
           networking solutions including robust firewalls, intrusion detection
           systems, and encryption protocols are provided. Trust is ensured in
@@ -99,7 +96,6 @@ const Telecom = () => {
           <span className="title-blue">Scalable Cloud Solutions:</span>
         </h2>
         <p>
-          {" "}
           Leveraging the power of the cloud to drive agility and scalability in
           your IT infrastructure, flexibility and cost-effectiveness are
           offered. Resource scaling according to business needs, be it
@@ -110,7 +106,6 @@ const Telecom = () => {
           <span className="title-blue">Dedicated Support Across the UAE:</span>
         </h2>
         <p>
-          {" "}
           Exceptional customer support is provided to clients across the UAE,
           with the office strategically positioned in Abu Dhabi's Musaffah
           district. A dedicated support team is available 24/7 to address any
@@ -119,7 +114,7 @@ const Telecom = () => {
         </p>
 
         <CTA />
-      </div>
+        </div>
 
       <section className="footer-section">
         <Footer />

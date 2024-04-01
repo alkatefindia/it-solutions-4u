@@ -28,8 +28,8 @@ function Digi_mrkt() {
                 <title>Maximize ROI: Effective Digital Marketing Strategies" / "Maximize ROI: Elevate Your Digital Marketing Impact</title>
                 <meta name="description" content=  "Explore key facets of digital marketing: SEO, SEM, social media, content marketing, email marketing, and analytics for online success."/>
                 <link rel='canonical' href={window.location.href} ></link>
-
             </Helmet>
+            
             <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>
                     <img src={DigiImg} alt='err' />
@@ -54,6 +54,7 @@ function Digi_mrkt() {
                     <DigiBox digiimg={Digimrkt6} link={'/digital-marketing/content-marketing'} digititle='Content Marketing' alttxt='Content Marketing' dididesc='Content Marketing is the practice of creating and sharing valuable, relevant, and consistent content to attract and retain a clearly defined audience, with the ultimate goal of driving profitable customer action. Content marketing can include various types of content such as blog posts, videos, infographics, social media posts, and more' />
                 </div>
             </div>
+
             <section className='footer-section'>
                 <Footer />
             </section>

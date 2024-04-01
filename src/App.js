@@ -42,6 +42,7 @@ import BusinessIntlgnc from './pages/BusinessIntlgnc';
 import WebsiteAgency from './pages/WebsiteAgency';
 import Sitemap from './pages/Sitemap';
 import NetworkSolutions from './pages/NetworkSolutions';
+import PhotocopierPrinterRental from './pages/PhotocopierPrinterRental';
 
 function App() {
   return (
@@ -70,6 +71,7 @@ function App() {
         <Route path="/it-consulting" element={<ItConsulting />} />
         <Route path="/business-intelligence" element={<BusinessIntlgnc />} />
         <Route path="/digital-marketing-agency-dubai" element={<DigiMrktAgency />} />
+        <Route path="/photocopier-printer-rental-dubai" element={<PhotocopierPrinterRental />} />
         <Route path="/website-agency-uae" element={<WebsiteAgency />} />
         <Route path="/digital-marketing/search-engine" element={<SearchEngine />} />
         <Route path="/digital-marketing/social-media" element={<SocialMedia />} />
