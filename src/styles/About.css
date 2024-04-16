@@ -76,6 +76,13 @@
     width: 150px;
     height: 55px;
 }
+.businessfirm-certificate{
+    padding-block-start:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
 
 /* media queries */
 @media (max-width: 1484px){
