@@ -3,12 +3,21 @@ import NavigationBar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Whatsapp from "../components/Whatsapp";
 import CTA from "../components/CTA";
+import { Helmet } from 'react-helmet-async';
+
 
 const PhotocopierPrinterRental = () => {
   return (
     <div>
       <Whatsapp />
       <NavigationBar />
+
+      <Helmet>
+                <title>Reliable Photocopier & Printer Rentals in Dubai & UAE | Al Katef IT Solutions</title>
+                <meta name="description" content= "With over 20 years of experience, Al Katef IT Solutions offers reliable photocopier and printer rentals in Dubai and across the UAE. Choose from a wide range of equipment, flexible rental options, and unmatched service. Contact us today for your rental needs!"/>
+            <link rel='canonical' href={window.location.href} ></link>
+
+            </Helmet>
 
       <div className="container ">
         <h1 className="mt-5 title-blue">

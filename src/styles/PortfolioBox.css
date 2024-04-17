@@ -1,6 +1,6 @@
 
 .website-pro{
-  width: 600px;
+  width: 450px;
   height:auto;
   display: flex;
   flex-direction: column;
@@ -44,7 +44,7 @@
 }
 .title-btn button{
   border-radius: 100px;
-  width: 100px;
+  width: 125px;
   background-color: #182f66;
   border-color: #172e63;
 }

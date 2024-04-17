@@ -15,7 +15,7 @@ export default function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ii2tt4d', 'template_15qcyuv', form.current, 'iNEeKpL_mzTpIjCOh')
+    emailjs.sendForm('service_2swzphn', 'template_g8h71ep', form.current, '0f9IduTSqGe0ndFxP')
     setShowModal(true)
     form.current.reset();
   };

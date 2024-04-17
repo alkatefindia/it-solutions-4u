@@ -76,7 +76,7 @@ function Footer() {
         <div className="footer-contact-section">
           <p className="footer-section-title">CONTACT US</p>
           <div className="footer-section-contact">
-            <FontAwesomeIcon icon={faHouse} /> Mussafah, Abu Dhabi, UAE
+            <FontAwesomeIcon icon={faHouse} /> M-25 Mussafah, Abu Dhabi, UAE
           </div>
           <div className="footer-section-contact">
             <FontAwesomeIcon icon={faEnvelope} /> sales@itsolutions4u.co

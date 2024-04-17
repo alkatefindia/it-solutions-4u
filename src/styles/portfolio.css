@@ -4,7 +4,8 @@
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 50px;
+    padding-inline: 50px;
   }
 .cta-wrapper{
     margin-block-start: 100px;
@@ -29,6 +30,8 @@
 @media screen and (max-width:786px) {   
     .portfolio-content{
         flex-direction: column;
+        padding-inline: 20px;
+
       }
       .cta-wrapper{
         width: 95%; 
