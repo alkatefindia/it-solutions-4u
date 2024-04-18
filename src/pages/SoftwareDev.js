@@ -32,7 +32,7 @@ const SoftwareDev = () => {
         </div>
 
         <p>
-        Top Software development company in Abu Dhabi we provide a systematic
+        Top Software development company in UAE we provide a systematic
         process of creating, designing, coding, testing, and maintaining software
         applications and systems. There are several processes involved, from
         determining the needs of the user to implementing and managing the finished

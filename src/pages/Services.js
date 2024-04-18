@@ -27,9 +27,9 @@ export default function Services() {
   const form = useRef();
   const form1 = useRef();
 
-  const serviceId = 'service_ii2tt4d';
-  const templateId = 'template_wb2szsi';
-  const userId = 'iNEeKpL_mzTpIjCOh';
+  const serviceId = 'service_2swzphn';
+  const templateId = 'template_n3grqyf';
+  const userId = '0f9IduTSqGe0ndFxP';
 
   const sendEmail = (e, formRef) => {
     e.preventDefault();
@@ -50,8 +50,7 @@ export default function Services() {
              <Helmet>
                 <title>best digital services in Dubai</title>
                 <meta name="description" content= "Delivering expert digital marketing services to boost online presence, drive engagement, and optimise results for businesses seeking growth and success."/>
-            <link rel='canonical' href={window.location.href} ></link>
-
+            <link rel='canonical' href={window.location.href}/>
             </Helmet>
             <NavigationBar />
             <div className='service-page-title'>
