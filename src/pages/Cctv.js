@@ -9,18 +9,18 @@ const Cctv = () => {
     <div>
         <NavigationBar/>
         <Helmet>
-                <title>Top-Rated CCTV Security in Abu Dhabi | Protect Your Home & Business</title>
+                <title>Top-Rated CCTV Security in UAE | Protect Your Home & Business</title>
                 <meta name="description" content=  "Secure your Abu Dhabi premises with expert CCTV solutions! Advanced tech, custom designs & outstanding service. Get a FREE consultation today!"/>
                 <link rel='canonical' href={window.location.href} ></link>
 
             </Helmet>
 
         <div className='container mt-4'>
-        <h1><span className='title-blue'>Enhanced Security Through</span> <span className='title-orange'>Top-Rated CCTV Services in Abu Dhabi</span></h1>        
-        <p className=''>When it comes to safeguarding your home or business in Abu Dhabi, look no further than our top-rated CCTV service. In today's security-conscious environment, maximum protection is essential, and our cutting-edge CCTV systems are designed precisely for that purpose.</p>
+        <h1><span className='title-blue'>Enhanced Security Through</span> <span className='title-orange'>Top-Rated CCTV Services in UAE</span></h1>        
+        <p className=''>When it comes to safeguarding your home or business in UAE, look no further than our top-rated CCTV service. In today's security-conscious environment, maximum protection is essential, and our cutting-edge CCTV systems are designed precisely for that purpose.</p>
 
         <div>
-            <h2><span className='title-blue fs-4'>Why Our CCTV Service in Abu Dhabi Is Preferred:</span></h2>
+            <h2><span className='title-blue fs-4'>Why Our CCTV Service in UAE Is Preferred:</span></h2>
             <div className='cctv-service'>
                 <p> <b> Expert Solutions:</b> Tailored CCTV solutions are delivered by our team of seasoned experts who deeply understand the importance of your security needs.</p>
                 <p><b>Advanced Technology:</b> Access is granted to state-of-the-art technology that actively deters criminals and ensures round-the-clock property monitoring. Features such as night vision, motion detection, and remote viewing capabilities are embedded in our CCTV systems.</p>
@@ -30,7 +30,7 @@ const Cctv = () => {
             </div>
         <div>
             <h2><span className='title-blue fs-4'>Security Should Never Be Compromised</span></h2>
-            <p>Your security is non-negotiable. Discover the benefits of our top-rated CCTV services in Abu Dhabi and rest assured that your premises are safeguarded to the highest degree.</p>
+            <p>Your security is non-negotiable. Discover the benefits of our top-rated CCTV services in UAE and rest assured that your premises are safeguarded to the highest degree.</p>
             </div>
         <div>
             <h2><span className='title-blue fs-4'>Consult Us Today</span></h2>

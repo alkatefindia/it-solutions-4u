@@ -18,10 +18,10 @@ const FormModal = () => {
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs.sendForm(
-      "service_ii2tt4d",
-      "template_15qcyuv",
+      "service_2swzphn",
+      "template_g8h71ep",
       form.current,
-      "iNEeKpL_mzTpIjCOh"
+      "0f9IduTSqGe0ndFxP"
     );
     console.log("sending");
     form.current.reset();
