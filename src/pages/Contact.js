@@ -46,13 +46,12 @@ export default function Contact() {
       </div>
       <div className='icon-body'>
       <div class="icon"><i class="fa-solid fa-envelope-open-text fa-2x" aria-hidden="true"></i></div>
-      <h6>contact.itsolutions4u@gmail.com</h6>
+      <h6>sales@itsolutions4u.co</h6>
       </div>      
       <div className='icon-body'>
       <div class="icon"><i class="fa-solid fa-phone fa-2x" aria-hidden="true"></i></div>
       <h6>+971556449916</h6>
       </div>      
-
       </div>
 
       <ThanksNote handleClose={handleCloseModal} show={showModal}/>
