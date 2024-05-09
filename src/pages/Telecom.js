@@ -41,7 +41,7 @@ const Telecom = () => {
         <p>
           Al Katef IT Solutions welcomes you as your trusted partner in
           revolutionizing business connectivity across the UAE. Strategically
-          headquartered in Abu Dhabi's Musaffah district, clients throughout the
+          headquartered in Musaffah,Abu Dhabi clients throughout the
           Emirates are served with tailored IT solutions, meticulously designed
           to meet the diverse needs of modern enterprises.
         </p>
@@ -107,8 +107,7 @@ const Telecom = () => {
         </h2>
         <p>
           Exceptional customer support is provided to clients across the UAE,
-          with the office strategically positioned in Abu Dhabi's Musaffah
-          district. A dedicated support team is available 24/7 to address any
+          with the office strategically positioned in Abu Dhabi. A dedicated support team is available 24/7 to address any
           technical issues or concerns, ensuring uninterrupted operations for
           your business.
         </p>

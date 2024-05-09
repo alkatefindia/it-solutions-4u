@@ -34,7 +34,7 @@ const DataManagement = () => {
         </div>
 
         <p>
-        Al Katef provides data management services in Dubai. It helps businesses by
+        Al Katef provides data management services in Abu Dhabi. It helps businesses by
         guaranteeing well-organized, exact, and easily available data, facilitating
         well-informed decision-making. It builds a basis for company success by
         increasing productivity, decreasing errors, and promoting data security.
@@ -43,14 +43,14 @@ const DataManagement = () => {
         <p>
         To guarantee information accuracy and accessibility, data management entails
         carefully collecting, storing, and processing data. Ensuring data integrity and
-        making well-informed decisions are crucial for businesses. The Al Katef
-        company specializes in offering clients secure, dependable, and
+        making well-informed decisions are crucial for businesses. Al Katef
+         specializes in offering clients secure, dependable, and
         well-organized information management. It does this by providing
         comprehensive solutions for handling and optimizing data.
         </p>
 
         <p>
-        Al Katef Company in Dubai is a renowned provider of top-tier data
+        Al Katef  is a renowned provider of top-tier data
         management services. Specializing in optimizing data processes, With a focus
         on streamlining data procedures, we guarantee that businesses can fully
         utilize their data assets.
@@ -73,14 +73,7 @@ const DataManagement = () => {
         </p>
 
         <p>
-        As a top supplier of data management services in the UAE, our company
-        offers customized solutions to assist businesses in simplifying their data
-        operations, conforming to industry standards, and realizing the full value of
-        their data for strategic decision-making.
-        </p>
-
-        <p>
-        you can find the power of effective data management with Al Katef Company.
+        you can find the power of effective data management with Al Katef .
         Whether you're a startup or a large enterprise, our tailored solutions will
         empower your business to thrive in the data-driven world.
 

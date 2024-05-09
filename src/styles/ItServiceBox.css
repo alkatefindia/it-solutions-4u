@@ -7,6 +7,7 @@
     border: 1px  solid black;
     border-radius: 10px;
     color: rgb(0, 0, 0);
+    background-color: white;
     text-align: center;
     display: flex;
         flex-direction: column;
@@ -18,6 +19,11 @@
     width: 150px;
     display: none;
 }
+.services-points h4{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+}
 
 .services-points:hover h4{
     display: none;
@@ -25,31 +31,31 @@
 .services-points:hover button{
     display: block;
 }
- .i1:hover{
+ .i1{
     background-image: url('../images/Cloud-computing.webp');
     background-size: cover;
 }
- .i2:hover{
+ .i2{
     background-image: url('../images/cyber-security.webp');
     background-size: cover;
 }
- .i3:hover{
+ .i3{
     background-image: url('../images/network-infra.webp');
     background-size: cover;
 }
- .i4:hover{
+ .i4{
     background-image: url('../images/software-dev.webp');
     background-size: cover;
 }
- .i5:hover{
+ .i5{
     background-image: url('../images/data-management.webp');
     background-size: cover;
 }
- .i6:hover{
+ .i6{
     background-image: url('../images/business-intelligence.webp');
     background-size: cover;
 }
- .i7:hover{
+ .i7{
     background-image: url('../images/it-consulting.webp');
     background-size: cover;
 }

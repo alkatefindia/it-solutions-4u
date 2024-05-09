@@ -41,7 +41,7 @@ const NetworkSolutions = () => {
         <p>
           Al Katef IT Solutions welcomes you as your trusted partner in the
           revolution of network connectivity across the UAE. Strategically
-          headquartered in Abu Dhabi's Musaffah district, our services are
+          headquartered in Musaffah,Abu Dhabi ,  our services are
           proudly extended to businesses throughout the Emirates. At Al Katef,
           the pivotal role of robust network infrastructure in today's digital
           landscape is understood. With our comprehensive suite of services,
