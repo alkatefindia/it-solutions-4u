@@ -6,8 +6,18 @@ import RocketImg from '../images/rocket.png';
 import ofrimg1 from '../images/offerimg1.jpg';
 import ofrprntr from '../images/ofrPrinter.png';
 import Footer from '../components/Footer';
+import { useNavigate } from 'react-router-dom';
 
 function Offer() {
+    const navigate = useNavigate()
+
+    const handleContact=()=>{
+        navigate('/contact')
+    }
+    const handlehome=()=>{
+        navigate('/')
+    }
+    
     return (
         <div className='offer-top'>
       
@@ -23,8 +33,8 @@ function Offer() {
                     </div>
                     <p className='offer-top-p'>Experience the pinnacle of cost-effective efficiency with our exclusive printer rental offer, which includes not only the printer but also toner, spare parts, consumables, and full maintenance services, all for the incredible price of 100 AED. Elevate your workplace dynamics with our printers' dependability and performance, guaranteeing that every document is generated with precision and clarity while staying within your budget.</p>
                     <div className='offer-buttons'>
-                    <button className='offer-btn'>Contact</button>
-                    <button className='offer-btn'>Home Page</button>
+                    <button className='offer-btn' onClick={handleContact}>Contact</button>
+                    <button className='offer-btn' onClick={handlehome}>Home Page</button>
                     </div>
                 </div>
                 <div className='offer-content-right'>
