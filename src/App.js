@@ -13,7 +13,6 @@ import Leasing from './pages/Leasing';
 import Terms from './pages/TermsCondition';
 import Privacy from './pages/PrivacyPolicy';
 import Printers from './products/Printer';
-// import Offer from './pages/Offer';
 import ProductDetail from './products/ProductDetail';
 import { products } from './products/productData';
 import Consumables from './products/Consumables';
@@ -43,6 +42,7 @@ import WebsiteAgency from './pages/WebsiteAgency';
 import Sitemap from './pages/Sitemap';
 import NetworkSolutions from './pages/NetworkSolutions';
 import PhotocopierPrinterRental from './pages/PhotocopierPrinterRental';
+import Offer from './pages/Offer';
 
 function App() {
   return (
@@ -84,7 +84,7 @@ function App() {
         <Route path="/rental" element={<Printers />} />
         <Route path="/printer-rental" element={<PrinterRental />} />
         <Route path="/product/printer" element={<Printers />} />
-        {/* <Route path="/offer" element={<Offer />} /> */}
+        <Route path="/offer" element={<Offer />} />
         <Route path="/consumables" element={<Consumables />}/>
         <Route path="/maximizing-your-social-media-presence-tips-from-a-top-uae-agency" element={<Blog1 />} />
         <Route path="/product/:model" element={<ProductDetail products={products} />} />
