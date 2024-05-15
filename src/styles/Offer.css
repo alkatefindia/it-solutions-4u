@@ -2,6 +2,7 @@
     background-color: #131347;
     height: 100vh;
     position: relative;
+    overflow-x: hidden;
   }
   
   .offer-top-img-container {
@@ -99,7 +100,7 @@
     justify-content: center;
   }
   .monthly-sale img{
-    position: fixed;
+    position: absolute;
     object-fit: cover;
     transform: rotate(-20deg);
     z-index: -1;
@@ -178,6 +179,7 @@
   .offer-top-right-box{
     width: 350px;
     height: 350px;
+    margin-block-start: 150px;
     
   }
   .offer-top {

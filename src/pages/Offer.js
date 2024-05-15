@@ -51,16 +51,6 @@ function Offer() {
             <div className='offer-top-img-container'>
                 <img src={TopWave} alt='err' />
             </div>
-{/* 
-            <div className='offer-img'>
-            <img src={ofrimg1} alt='ofr' />
-            <h1 className='offer-content'>special offer</h1>
-
-            </div> */}
-
-            {/* <section className='footer-section'>
-        <Footer />
-      </section> */}
         </div>
     );
 }
