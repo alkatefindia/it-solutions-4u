@@ -42,7 +42,7 @@ export default function Contact() {
 <div className='full-icon'>
   <div className='icon-body'>
       <div class="icon"><i class="fa-solid fa-location-dot fa-2x" aria-hidden="true"></i></div>
-      <h6>Abudhabi, UAE</h6>
+      <h6>UAE</h6>
       </div>
       <div className='icon-body'>
       <div class="icon"><i class="fa-solid fa-envelope-open-text fa-2x" aria-hidden="true"></i></div>
