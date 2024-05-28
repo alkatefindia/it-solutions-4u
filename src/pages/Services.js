@@ -21,6 +21,7 @@ import { Helmet } from 'react-helmet-async';
 import ToolsLogoSlider from '../components/ToolsLogoSlider';
 import { Link } from 'react-router-dom';
 import emailjs from '@emailjs/browser';
+import Navbar2 from '../components/Navbar2';
 
 
 export default function Services() {
@@ -52,7 +53,9 @@ export default function Services() {
                 <meta name="description" content= "Delivering expert digital marketing services to boost online presence, drive engagement, and optimise results for businesses seeking growth and success."/>
             <link rel='canonical' href={window.location.href}/>
             </Helmet>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+            <Navbar2/>
+
             <div className='service-page-title'>
                 <h1 id='service-section'><span className='title-blue'>Our</span> <span className='title-orange'>Services</span></h1>
                 <p>Custom IT Solutions for Your Successful Business</p>

@@ -7,6 +7,7 @@ import emailjs from '@emailjs/browser';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
 import ThanksNote from '../components/ThanksNote';
+import Navbar2 from '../components/Navbar2';
 
 export default function Contact() {
   const form = useRef();
@@ -35,7 +36,9 @@ export default function Contact() {
 
         </Helmet>
       <Whatsapp/>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
       <div className='contact-contents'>
       <h2 className='text-center mt-5 mb-5'>Get in touch with us 👋</h2>
 

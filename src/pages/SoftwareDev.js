@@ -4,12 +4,15 @@ import NavigationBar from '../components/Navbar'
 import software from "../images/computer.svg";
 import { Helmet } from 'react-helmet'
 import Footer from '../components/Footer';
+import Navbar2 from '../components/Navbar2';
 
 const SoftwareDev = () => {
   return (
     <div>
         <Whatsapp premsg="Hi there! 👋 I'm interested in learning more about your Cybersecurity services"/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+             <Navbar2/>
+
             <Helmet>
                 <title>Top UAE Software Development: Build Your Dream App with AL KATEF!</title>
                 <meta name="description" content=  ""/>

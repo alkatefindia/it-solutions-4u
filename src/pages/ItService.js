@@ -9,6 +9,7 @@ import IT from "../images/it-service.svg"
 import { useNavigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 import ItServiceBox from './ItServiceBox'
+import Navbar2 from '../components/Navbar2'
 
 const ItService = () => {
     const navigate=useNavigate()
@@ -28,7 +29,9 @@ const ItService = () => {
         </Helmet>
 
         <Whatsapp/>
-            <NavigationBar/>
+            {/* <NavigationBar/> */}
+      <Navbar2/>
+
 
 
             <div className='container mt-4'>

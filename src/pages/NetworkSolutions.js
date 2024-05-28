@@ -4,6 +4,7 @@ import { Helmet } from "react-helmet";
 import printer from "../images/17852.jpg";
 import NavigationBar from "../components/Navbar";
 import Footer from "../components/Footer";
+import Navbar2 from "../components/Navbar2";
 
 const NetworkSolutions = () => {
   return (
@@ -20,7 +21,9 @@ const NetworkSolutions = () => {
 
       </Helmet>
 
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
       <div className="container">
         <h1 className="title-blue text-center mb-5">
         Network Solutions: 

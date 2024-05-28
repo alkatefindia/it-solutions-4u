@@ -4,12 +4,15 @@ import NavigationBar from '../components/Navbar'
 import Whatsapp from '../components/Whatsapp'
 import { Helmet } from 'react-helmet'
 import consulting from "../images/It consulting.svg"
+import Navbar2 from '../components/Navbar2'
 
 function ItConsulting() {
   return (
     <div>
          <Whatsapp premsg="Hi there! 👋 I'm interested in learning more about your digital marketing services"/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+            <Navbar2/>
+
             <Helmet>
                 <title></title>
                 <meta name="description" content=  " "/>

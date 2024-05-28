@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import amc from "../images/amc.webp"
 import "../styles/Amc.css"
 import CTA from '../components/CTA'
+import Navbar2 from '../components/Navbar2'
 
 const Amc = () => {
   return (
@@ -20,7 +21,9 @@ const Amc = () => {
   <link rel='canonical' href={window.location.href} ></link>
 
 </Helmet>
-<NavigationBar />
+{/* <NavigationBar /> */}
+<Navbar2/>
+
 
     <div  className='container amc-container'>
     <h1 className="mt-5">

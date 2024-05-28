@@ -11,6 +11,7 @@ import { Helmet } from 'react-helmet';
 import responsive from "../images/responsive.svg";
 import choosing from "../images/choosing.svg";
 import service from "../images/service.svg"
+import Navbar2 from '../components/Navbar2';
 
 
 
@@ -18,7 +19,9 @@ function web_soln() {
     return (
         <div>
             <Whatsapp/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+      <Navbar2/>
+
             <Helmet>
                 <title>website solutions we provide as a Web Design Company In Abu Dhabi</title>
                 <meta name="description" content=  "Use our professional web design services in Abu Dhabi to improve your online visibility. custom websites that inspire, grab attention, and promote success. Come with us as we create your digital masterpiece."/>

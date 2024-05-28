@@ -5,6 +5,7 @@ import printer from "../images/photocopy-printer.svg";
 import "../styles/PrinterRental.css";
 import { Helmet } from "react-helmet";
 import Whatsapp from "../components/Whatsapp";
+import Navbar2 from "../components/Navbar2";
 
 const PrinterRental = () => {
   return (
@@ -20,7 +21,9 @@ const PrinterRental = () => {
         <link rel="canonical" href="https://itsolutions4u.co/printer-rental" />
       </Helmet>
 
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
 
       <div className="container w-100">
         <div className="rental-content mt-5">

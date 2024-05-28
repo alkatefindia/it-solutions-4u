@@ -15,6 +15,7 @@ import Telecom from '../images/pabx.jpg';
 import Footer from '../components/Footer.js';
 import Whatsapp from '../components/Whatsapp.js';
 import { Helmet } from 'react-helmet';
+import Navbar2 from '../components/Navbar2.js';
 
 export default function Products() {
   return (
@@ -24,7 +25,9 @@ export default function Products() {
                 <title> Top-Rated Printer Providers in Dubai, UAE</title>
                 <meta name="description" content="Providing excellent printers to ensure the best possible printing experience each and every time, as well as outstanding output and high-quality printing. Select excellence"/>
             </Helmet>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
       <div className='product-top-container'>
         <div className='product-top-img-container'>
           <div className='product-top-grey'>

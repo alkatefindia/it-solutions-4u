@@ -4,13 +4,16 @@ import Footer from "../components/Footer";
 import Whatsapp from "../components/Whatsapp";
 import CTA from "../components/CTA";
 import { Helmet } from 'react-helmet-async';
+import Navbar2 from "../components/Navbar2";
 
 
 const PhotocopierPrinterRental = () => {
   return (
     <div>
       <Whatsapp />
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
 
       <Helmet>
                 <title>Reliable Photocopier & Printer Rentals in Dubai & UAE | Al Katef IT Solutions</title>

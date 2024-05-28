@@ -5,6 +5,7 @@ import Footer from '../components/Footer'
 import { Button } from 'react-bootstrap'
 import ppc from '../images/ppc.png';
 import Whatsapp from '../components/Whatsapp'
+import Navbar2 from '../components/Navbar2'
 
 
 const Ppc = () => {
@@ -18,7 +19,9 @@ const Ppc = () => {
                 <title>PPC agency in Dubai, google ads services in UAE.</title>
                 <meta name="description" content= "Deliver targeted results and maximize online visibility with our expert PPC services. Drive quality traffic and achieve your business goals effectively." />
             </Helmet>
-             <NavigationBar />
+             {/* <NavigationBar /> */}
+              <Navbar2/>
+
         <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>
                     <img src={ppc} alt='err' />

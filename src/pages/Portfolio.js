@@ -7,6 +7,7 @@ import { useNavigate } from 'react-router-dom'
 import dynnite from "../images/dynnite ss.png"
 import alghad from "../images/algahd.png"
 import forU from "../images/itsolutions.png"
+import Navbar2 from '../components/Navbar2'
 
 
 
@@ -18,7 +19,9 @@ const Portfolio = () => {
 
   return (
     <div>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
 <div className='container mb-5'>
         <h1 className='text-center mt-5 '><span className='title-orange '>Portfolio</span></h1>
         <p className='text-center '>This space serves as a window into our world of creativity, innovation, and dedication to delivering outstanding results.</p>

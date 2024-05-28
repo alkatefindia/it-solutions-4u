@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
 import {useNavigate} from 'react-router-dom'
+import Navbar2 from '../components/Navbar2';
 
 function Leasing() {
     const navigate =useNavigate()
@@ -22,7 +23,9 @@ function Leasing() {
                 <meta name="description" content=  " Abu Dhabi's premier digital solutions – lease state-of-the-art printers,plotters, and tablets with flexible plans for optimal business efficiency and productivity"/>
             </Helmet>
 
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+                 <Navbar2/>
+
             <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>
                     <img src={LeaseImg} alt='rental services' />

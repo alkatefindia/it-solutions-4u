@@ -4,12 +4,15 @@ import NavigationBar from '../components/Navbar'
 import { Helmet } from 'react-helmet'
 import business from "../images/business-inteelligence.svg";
 import Footer from '../components/Footer'
+import Navbar2 from '../components/Navbar2';
 
 const BusinessIntlgnc = () => {
   return (
     <div>
         <Whatsapp premsg="Hi there! 👋 I'm interested in learning more about your Cybersecurity services"/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+      <Navbar2/>
+
             <Helmet>
                 <title>Top UAE Software Development: Build Your Dream App with AL KATEF!</title>
                 <meta name="description" content=  ""/>

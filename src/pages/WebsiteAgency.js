@@ -4,6 +4,7 @@ import Whatsapp from "../components/Whatsapp";
 import NavigationBar from "../components/Navbar";
 import website from "../images/web-agency.svg";
 import Footer from "../components/Footer";
+import Navbar2 from "../components/Navbar2";
 
 const WebsiteAgency = () => {
   return (
@@ -19,7 +20,9 @@ const WebsiteAgency = () => {
         />
       </Helmet>
       <Whatsapp />
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
 
       <div className="container wesite-container">
         <h1>

@@ -13,6 +13,7 @@ import DigiBox from '../components/DigimrktBox';
 import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
+import Navbar2 from '../components/Navbar2';
 
 function Digi_mrkt() {
 
@@ -23,7 +24,9 @@ function Digi_mrkt() {
     return (
         <div>
             <Whatsapp premsg="Hi there! 👋 I'm interested in learning more about your digital marketing services"/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+                <Navbar2/>
+
             <Helmet>
                 <title>Maximize ROI: Effective Digital Marketing Strategies" / "Maximize ROI: Elevate Your Digital Marketing Impact</title>
                 <meta name="description" content=  "Explore key facets of digital marketing: SEO, SEM, social media, content marketing, email marketing, and analytics for online success."/>

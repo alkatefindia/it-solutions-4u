@@ -4,12 +4,15 @@ import NavigationBar from '../components/Navbar'
 import { Helmet } from 'react-helmet'
 import cybersecurity from "../images/cybersecurity.svg";
 import Footer from '../components/Footer'
+import Navbar2 from '../components/Navbar2';
 
 const CyberSecurity = () => {
   return (
     <div>
         <Whatsapp premsg="Hi there! 👋 I'm interested in learning more about your Cybersecurity services"/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+            <Navbar2/>
+
             <Helmet>
                 <title></title>
                 <meta name="description" content=  ""/>

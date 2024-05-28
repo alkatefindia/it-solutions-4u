@@ -5,6 +5,7 @@ import { Button } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet';
 import Whatsapp from '../components/Whatsapp';
+import Navbar2 from '../components/Navbar2';
 
 
 const SearchEngine = () => {
@@ -19,7 +20,9 @@ const SearchEngine = () => {
                 <title>Abu Dhabi's Top SEO Agency - Drive Results with Digital Marketing</title>
                 <meta name="description" content= "Increase online presence and search engine ranks with professional SEO services. Our techniques improve a website's organic traffic and digital visibility by making it more search-engine friendly." />
             </Helmet>
-        <NavigationBar />
+        {/* <NavigationBar /> */}
+      <Navbar2/>
+
         <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>
                     <img src={SerImg} alt='err' />

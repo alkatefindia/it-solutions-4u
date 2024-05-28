@@ -2,11 +2,14 @@ import React from 'react'
 import NavigationBar from '../components/Navbar'
 import Footer from '../components/Footer'
 import rental from "../images/Leasing_page.png"
+import Navbar2 from '../components/Navbar2'
 
 const RentalService = () => {
   return (
     <div>
-        <NavigationBar/>
+        {/* <NavigationBar/> */}
+      <Navbar2/>
+
 
         <div className='container'>
 

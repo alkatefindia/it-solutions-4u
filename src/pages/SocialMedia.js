@@ -5,6 +5,7 @@ import { Button } from 'react-bootstrap';
 import Footer from '../components/Footer';
 import { Helmet } from 'react-helmet';
 import Whatsapp from '../components/Whatsapp';
+import Navbar2 from '../components/Navbar2';
 
 const SocialMedia = () => {
   const handlebtn=()=>{
@@ -18,7 +19,9 @@ const SocialMedia = () => {
                 <title>best social media marketing services in Abu Dhabi.</title>
                 <meta name="description" content= "Get the best social media marketing services in Abu Dhabi to grow your brand. Professional techniques designed to achieve success. Boost your internet visibility right now!" />
             </Helmet>
-             <NavigationBar />
+             {/* <NavigationBar /> */}
+              <Navbar2/>
+
         <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>
                     <img src={SocialImg} alt='err' />

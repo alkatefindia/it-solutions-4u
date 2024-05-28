@@ -3,11 +3,14 @@ import NavigationBar from '../components/Navbar'
 import Footer from '../components/Footer'
 import { Helmet } from 'react-helmet'
 import "../styles/Cctv.css"
+import Navbar2 from '../components/Navbar2'
 
 const Cctv = () => {
   return (
     <div>
-        <NavigationBar/>
+        {/* <NavigationBar/> */}
+            <Navbar2/>
+
         <Helmet>
                 <title>Top-Rated CCTV Security in UAE | Protect Your Home & Business</title>
                 <meta name="description" content=  "Secure your Abu Dhabi premises with expert CCTV solutions! Advanced tech, custom designs & outstanding service. Get a FREE consultation today!"/>

@@ -2,12 +2,15 @@ import React from 'react';
 import NavigationBar from '../components/Navbar';
 import '../styles/terms.css'
 import Whatsapp from '../components/Whatsapp';
+import Navbar2 from '../components/Navbar2';
 
 function TermsCondition() {
     return (
         <div>
             <Whatsapp/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+      <Navbar2/>
+
             <div className='terms-container'>
                 <h5>Terms and Contions</h5>
                 <p>AL KATEF IT SOLUTIONS - SOLE

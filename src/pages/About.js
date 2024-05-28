@@ -8,6 +8,7 @@ import Telecom from "../images/ser_rot_telecom.webp";
 import Footer from "../components/Footer";
 import Whatsapp from "../components/Whatsapp";
 import { Helmet } from "react-helmet";
+import Navbar2 from "../components/Navbar2";
 
 export default function About() {
   return (
@@ -26,7 +27,9 @@ export default function About() {
 
         <link rel="canonical" href={window.location.href}></link>
       </Helmet>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+     
       <div className="about-page-container">
         <div className="about-page-top">
           <div className="about-page-top-img">

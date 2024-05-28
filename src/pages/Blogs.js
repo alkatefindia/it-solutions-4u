@@ -5,6 +5,7 @@ import Blog1 from '../images/blog_1.jpg'
 import Footer from '../components/Footer';
 import Whatsapp from '../components/Whatsapp';
 import { Helmet } from 'react-helmet';
+import Navbar2 from '../components/Navbar2';
 
 
 export default function Blogs() {
@@ -17,7 +18,9 @@ export default function Blogs() {
                 <link rel='canonical' href={window.location.href} ></link>
 
             </Helmet>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
       <div className='blog-page-conatiner'>
         <div className='blog-page-top'>
           <h1><span className='text-white'>Our Blogs</span></h1>

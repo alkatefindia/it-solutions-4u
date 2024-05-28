@@ -14,6 +14,7 @@ import cost from "../images/cost.svg";
 import { Link } from "react-router-dom";
 import Whatsapp from "../components/Whatsapp";
 import { Helmet } from "react-helmet";
+import Navbar2 from "../components/Navbar2";
 
 const Digi_mrkt_agency = () => {
   return (
@@ -23,7 +24,9 @@ const Digi_mrkt_agency = () => {
                 <meta name="description" content=  "Increase your brand's visibility by working with Dubai's top digital marketing agency. Our expert methods create excellent results by maximizing online visibility with the power of creative solutions. Reimagine your digital journey by working with us today."/>
             </Helmet>
             <Whatsapp/>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
 
       <div className="container w-100">
         <div className="agency-content mt-5">

@@ -5,6 +5,7 @@ import { Button } from 'react-bootstrap'
 import Footer from '../components/Footer'
 import ppc from '../images/content-mrkt.png';
 import Whatsapp from '../components/Whatsapp'
+import Navbar2 from '../components/Navbar2'
 
 
 const Contentmrkt = () => {
@@ -20,7 +21,9 @@ const Contentmrkt = () => {
                 <title>Abu Dhabi's Premier Digital Content Services</title>
                 <meta name="description" content=  "Unlock unparalleled digital content services in Abu Dhabi. Elevate your brand with our premier solutions. Quality, innovation, and success await."/>
             </Helmet>
-             <NavigationBar />
+             {/* <NavigationBar /> */}
+      <Navbar2/>
+
         <div className='web-soln-top'>
                 <div className='web-soln-top-img-container'>
                     <img src={ppc} alt='err' />

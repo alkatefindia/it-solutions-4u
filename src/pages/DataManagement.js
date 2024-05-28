@@ -6,12 +6,15 @@ import data_management from "../images/data-management.svg";
 
 import Footer from '../components/Footer'
 import CTA from '../components/CTA';
+import Navbar2 from '../components/Navbar2';
 
 const DataManagement = () => {
   return (
     <div>
         <Whatsapp premsg="Hi there! 👋 I'm interested in learning more about your Cybersecurity services"/>
-            <NavigationBar />
+            {/* <NavigationBar /> */}
+            <Navbar2/>
+
             <Helmet>
                 <title></title>
                 <meta name="description" content=  ""/>

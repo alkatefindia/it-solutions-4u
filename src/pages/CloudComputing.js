@@ -5,6 +5,7 @@ import Whatsapp from "../components/Whatsapp";
 import Footer from "../components/Footer";
 import cloud from "../images/cloud.webp";
 import "../styles/CloudComputing.css";
+import Navbar2 from "../components/Navbar2";
 
 const CloudComputing = () => {
   return (
@@ -22,7 +23,9 @@ const CloudComputing = () => {
       </Helmet>
 
       <Whatsapp />
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
 
       <div className="container cloud-computing-container">
         <h1 className="text-center">

@@ -6,6 +6,7 @@ import Footer from "../components/Footer";
 import telecom from "../images/telecom.webp";
 import "../styles/Telecom.css";
 import CTA from "../components/CTA";
+import Navbar2 from "../components/Navbar2";
 
 const Telecom = () => {
   return (
@@ -19,7 +20,9 @@ const Telecom = () => {
           content="Meta Description: Experience seamless connectivity and cutting-edge solutions with ITSolutions4u's telecom services in Abu Dhabi. Secure networks, VoIP, cloud communication & more. Connect like never before! 🇦🇪"
         />
       </Helmet>
-      <NavigationBar />
+      {/* <NavigationBar /> */}
+      <Navbar2/>
+
 
       <div className="container telecom-container ">
         <h1 className="mt-5">
